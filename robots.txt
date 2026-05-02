@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: imsresearch.github.io/sitemap-index.xml
