@@ -2,18 +2,22 @@
 <html>
     <head>
         <script type="text/javascript">
-            // Single Page Apps for GitHub Pages
-            // https://github.com/rafgraph/spa-github-pages
-            var pathSegmentsToKeep = 1; // Set to 1 if hosting a project page (e.g. github.io/repo-name)
+        // 1. We determine the repository name from the path to keep segments clean.
+        // For "imsresearch.github.io/publish-with-us", pathSegmentsToKeep is 1.
+        var pathSegmentsToKeep = 1;
 
-            var l = window.location;
+        var l = window.location;
+        
+        // Prevent infinite loops by checking if we are already inside a redirected URL state
+        if (l.search.indexOf('~/') === -1) {
             l.replace(
-                l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-                l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-                l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-                (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-                l.hash // <-- Crucial: This preserves the hash!
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
             );
+        }
         </script>
         <meta charset="utf-8">
         <script>
