@@ -256,7 +256,7 @@ export default function ArticlesIndex() {
 
 
                     <a
-                        href="https://github.com/imsresearch/imsresearch.github.io/tree/main/database"
+                        href="https://github.com/imsresearch/imsresearch.github.io/tree/main/public/database"
                         target="_blank"
                     >
                         <button className="accessButton">
