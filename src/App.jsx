@@ -51,6 +51,16 @@ function ScrollToHash() {
     return null;
 }
 
+import { useLocation } from "react-router-dom";
+
+function Debug() {
+    const location = useLocation();
+
+    console.log(location.pathname);
+
+    return null;
+}
+
 export default function App() {
 
     const redirect = sessionStorage.getItem("redirect");
@@ -64,6 +74,7 @@ export default function App() {
         <Router>
             <GlobalStyles />
             <ScrollToHash />
+            <Debug />
 
             <Switch>
                 <Route exact path="/" component={Index} />
