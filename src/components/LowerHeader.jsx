@@ -33,7 +33,7 @@ export default function LowerHeader() {
               Latest Issue
             </a>
 
-            <a href="/journal/index">
+            <a href="/journal/imsj-index">
               Articles index
             </a>
 

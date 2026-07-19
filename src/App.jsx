@@ -76,14 +76,13 @@ export default function App() {
 
             <Switch>
                 <Route exact path="/" component={Index} />
-                <Route exact path="/index" component={Index} />
                 <Route exact path="/about-us" component={AboutUs} />
                 <Route exact path="/journal" component={Journal} />
                 <Route exact path="/publish-with-us" component={PublishWithUs} />
                 <Route exact path="/publish-with-us/style-guide" component={StyleGuide} />
                 <Route exact path="/sitemap" component={SiteMap} />
                 <Route exact path="/systems-event" component={SystemsEvent} />
-                <Route exact path="/journal/index" component={ArticlesIndex} />
+                <Route exact path="/journal/imsj-index" component={ArticlesIndex} />
                 <Route exact path="/publish-with-us/your-rights" component={GDPR} />
 
                 <Route component={NotFound} />

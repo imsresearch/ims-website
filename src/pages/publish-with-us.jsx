@@ -58,7 +58,7 @@ export default function PublishWithUs() {
                         <br />
 
                         Publishing means that your article will be indexed{" "}
-                        <a href="/journal/index">here</a>.
+                        <a href="/journal/imsj-index">here</a>.
 
                         <br />
                         

@@ -7,7 +7,7 @@ const routes = [
     "/index",
     "/about-us",
     "/journal",
-    "/journal/index",
+    "/journal/imsj-index",
     "/publish-with-us",
     "/publish-with-us/style-guide",
     "/publish-with-us/your-rights",
