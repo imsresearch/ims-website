@@ -198,6 +198,7 @@ export default function StyleGuide() {
                         <br />
                         <div class="ref-box">
                             e.g. [1] matcha_tea. 2026. “Raid Farms: A symbol of resistance”, IMS Journal. Vol. 1
+                            <br />
                             e.g. [2] Rev, Turtle. 2026. “The tyranny of the unemployed”, IMS Draft Manuscript.
                             <br />
                             <br />
