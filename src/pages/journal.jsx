@@ -26,7 +26,7 @@ export default function Journal() {
       {/* journal viewer */}
       <section className="journal-section">
         <div className="journal-viewer">
-            <iframe title="Current Edition Journal" src="https://raw.githubusercontent.com/imsresearch/imsresearch.github.io/a0a684c439dff7cb95b43c168883b250527722c8/public/database/published/journal/first-edition/First-Edition.pdf"/>
+            <iframe title="Current Edition Journal" src="/database/published/journal/first-edition/First-Edition.pdf"/>
         </div>
 
         <div className="journal-download">
