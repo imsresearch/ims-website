@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "DejaVu Sans", sans-serif;
+    background: white;
+}
+
+/*main content box*/
+.systems-box{
+    text-align: center;
+    padding: 2rem 0 0 0;
+    border-bottom: 0.1rem solid black;
+    background: #dfdfd5;
+}
+
+.systems-box-inner p{
+    font-family: "DejaVu Sans", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 6.5rem;
+
+    background: linear-gradient(to right, rgb(255, 0, 102) 0%, rgb(255, 102, 0) 100%);
+    background-clip: text;
+    color: transparent;
+    
+    margin: 0;
+}
+
+/*index svgs*/
+.svgs{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.desktop-only{
+    display: flex;
+}
+
+.mobile-only{
+    display: none;
+}
+
+/*svg hexagons*/
+.hex{
+    width: 217px;
+    height: 217px;
+}
+
+.hex text{
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+/*poly colours*/
+.green polygon{ fill: #2E7D32; stroke: #1b5e20; stroke-width: 0.15rem;}
+.gold polygon{ fill: #E0B76A; stroke: #b0894a; stroke-width: 0.15rem;}
+.blue polygon{ fill: #CFE8FF; stroke: #7fb3d5; stroke-width: 0.15rem;}
+.purple polygon{ fill: #6C3EC1; stroke: #3f1f7a; stroke-width: 0.15rem;}
+
+/*links*/
+.link-box{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.read-more{
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: italic;
+    border-width: 0 0 0.2rem 0;
+    border-style: solid;
+    padding: 0 0 0.5rem 0;
+    color: black;
+}
+
+.join-systems{
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: underline;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+/*video embed*/
+.video-section{
+    background: #202264;
+    color: white;
+    padding: 2rem 2rem 0 2rem;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.video.full{
+    width: 100vw;
+    height: 100vh;
+    aspect-ratio: 16/9;
+}
+
+.video{
+    width: 50%;
+    aspect-ratio: 16/9;
+}
+
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.video-title{
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    width: 50%;
+}
+
+.video-controls{
+    margin: 0.5rem 0 0.5rem 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%
+}
+
+.video-controls.fullscreen{
+    width: 100%;
+    margin: 0.5rem 0
+}
+
+.video-controls p{
+    margin: 0;
+}
+
+.video-controls a{
+    text-decoration: underline;
+    color: white;
+}
+
+/*article boxees*/
+.latest-article{
+    border: 0.3rem orangered ridge;
+}
+
+.article-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    font-family: "DejaVu Sans", sans-serif;
+    margin: 0 auto;
+    padding: 0 5vw;
+}
+
+.article-linkbox{
+    border-bottom: 0.2rem solid #000;
+    text-decoration: none;
+    color: black;
+    padding: 1.5rem 2rem;
+}   
+
+.article-title{
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 1rem 0
+}
+
+@media (max-width: 768px){
+    .systems-box-inner p{
+        font-size: 3.5rem;
+        padding-bottom: 0;
+    }
+
+    .desktop-only{
+        display: none;
+    }
+
+    .mobile-only{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.5rem;
+
+        transform: scale(0.7);
+
+        margin: 0;
+
+        place-items: center;
+    }
+
+    .mobile-only svg{
+        display: block;
+        width: 100%;
+        max-width: 45vw;
+    }
+
+    .read-more{
+        font-size: 2rem;
+    }
+
+    .join-systems{
+        font-size: 1.4rem;
+    }
+
+    .article-box{
+        grid-template-columns: 1fr
+    }
+
+    .video-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 2rem;
+    }
+
+    .video-title{
+        width: 100%;
+        margin: 0 0 2rem 0;
+        text-align: center;
+    }
+
+    .video{
+        width: 100%;
+    }
+
+    .video-controls{
+        display: none;
+    }
+}
