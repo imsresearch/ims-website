@@ -9,16 +9,16 @@ import {
 
 import { createGlobalStyle } from "styled-components";
 
-import Index from "./pages/main";
-import AboutUs from "./pages/about-us";
-import Journal from "./pages/journal";
-import PublishWithUs from "./pages/publish-with-us";
-import StyleGuide from "./pages/style-guide";
-import SiteMap from "./pages/sitemap";
-import SystemsEvent from "./pages/systems-event";
-import NotFound from "./pages/404";
-import ArticlesIndex from "./pages/articles-index";
-import GDPR from "./pages/privacy";
+import Index from "./pages/main.jsx";
+import AboutUs from "./pages/about-us.jsx";
+import Journal from "./pages/journal.jsx";
+import PublishWithUs from "./pages/publish-with-us.jsx";
+import StyleGuide from "./pages/style-guide.jsx";
+import SiteMap from "./pages/sitemap.jsx";
+import SystemsEvent from "./pages/systems-event.jsx";
+import NotFound from "./pages/404.jsx";
+import ArticlesIndex from "./pages/articles-index.jsx";
+import GDPR from "./pages/privacy.jsx";
 
 const GlobalStyles = createGlobalStyle`
     body {
