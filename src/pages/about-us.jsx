@@ -81,7 +81,7 @@ export default function AboutUs() {
                 <div className="mission-viewer">
                     <iframe
                         title="IMS Mission Statement"
-                        src="https://docs.google.com/gview?embedded=true&url=https://raw.githubusercontent.com/imsresearch/imsresearch.github.io/main/database/non-published/IMS-mission.pdf"
+                        src="https://raw.githubusercontent.com/imsresearch/imsresearch.github.io/a0a684c439dff7cb95b43c168883b250527722c8/public/database/non-published/IMS-mission.pdf"
                         style={{
                             width: "100%",
                             height: "85vh",

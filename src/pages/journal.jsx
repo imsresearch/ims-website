@@ -26,12 +26,12 @@ export default function Journal() {
       {/* journal viewer */}
       <section className="journal-section">
         <div className="journal-viewer">
-            <iframe title="Current Edition Journal" src="https://docs.google.com/gview?embedded=true&amp;url=https://raw.githubusercontent.com/imsresearch/imsresearch.github.io/main/database/published/journal/first-edition/First-Edition.pdf"/>
+            <iframe title="Current Edition Journal" src="https://raw.githubusercontent.com/imsresearch/imsresearch.github.io/a0a684c439dff7cb95b43c168883b250527722c8/public/database/published/journal/first-edition/First-Edition.pdf"/>
         </div>
 
         <div className="journal-download">
           <a
-            href="https://raw.githubusercontent.com/imsresearch/imsresearch.github.io/main/assets/First-Edition_FINAL.pdf"
+            href="https://raw.githubusercontent.com/imsresearch/imsresearch.github.io/a0a684c439dff7cb95b43c168883b250527722c8/public/database/published/journal/first-edition/First-Edition.pdf"
             target="_blank"
             rel="noreferrer"
           >
