@@ -17,7 +17,7 @@ import StyleGuide from "./pages/style-guide";
 import SiteMap from "./pages/sitemap";
 import SystemsEvent from "./pages/systems-event";
 import NotFound from "./pages/404";
-import ArticleIndex from "./pages/articles-index";
+import ArticlesIndex from "./pages/articles-index";
 import GDPR from "./pages/privacy";
 
 const GlobalStyles = createGlobalStyle`
@@ -74,7 +74,7 @@ export default function App() {
                 <Route exact path="/publish-with-us/style-guide" component={StyleGuide} />
                 <Route exact path="/sitemap" component={SiteMap} />
                 <Route exact path="/systems-event" component={SystemsEvent} />
-                <Route exact path="/journal/index" component={ArticleIndex} />
+                <Route exact path="/journal/index" component={ArticlesIndex} />
                 <Route exact path="/publish-with-us/your-rights" component={GDPR} />
 
                 <Route component={NotFound} />

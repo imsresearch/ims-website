@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function NotFound() {
-    return(
+    return (
         <div
             style={{
                 minHeight: "100vh",
@@ -10,11 +10,11 @@ export default function NotFound() {
                 alignItems: "center",
                 flexDirection: "column",
                 background: "#111",
-                color: "white"
+                color: "white",
             }}
         >
             <h1>Page not found! :d</h1>
-			<a href="https://imsresearch.pages.dev">Return to imsresearch.pages.dev</a>
+            <a href="/">Return to home</a>
             <p>:3 wwwrrrruffff</p>
         </div>
     );

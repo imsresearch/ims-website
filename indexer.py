@@ -1,6 +1,7 @@
 import fitz, os, json, re
 
 PDF_PATHS = "./public/database" #get path
+OUT_PATH = "public/search_index.json"
 
 docs = []
 doc_id = 0
@@ -29,5 +30,7 @@ for root, dirs, files in os.walk(PDF_PATHS):
             
             doc_id += 1 #++ doc id
         
-out = open("public/search_index.json", "w")
+out = open(OUT_PATH, "w")
 json.dump(docs, out, indent=4)
+
+print(f"index made at {OUT_PATH}")
