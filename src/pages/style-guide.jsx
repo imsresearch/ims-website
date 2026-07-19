@@ -194,42 +194,43 @@ export default function StyleGuide() {
                                 and videos:
                             </li>
                         </ul>
-                        <mark>Author name, Year of publication. [“Paper title”, Journal title. | “Video name”.] [Vol. volume number.]</mark>
+                        <mark>Author name, Author 2 name. Year of publication. [“Paper title”, Journal title. | “Video name”.] [Vol. volume number.]</mark>
                         <br />
                         <div class="ref-box">
-                            e.g. [1] matcha_tea, 2026. “Raid Farms: A symbol of resistance”, IMS Journal. Vol. 1
+                            e.g. [1] matcha_tea. 2026. “Raid Farms: A symbol of resistance”, IMS Journal. Vol. 1
+                            e.g. [2] Rev, Turtle. 2026. “The tyranny of the unemployed”, IMS Draft Manuscript.
                             <br />
                             <br />
-                            e.g. [2] KingGame2000, 2026a. “Why Minecraft SMP Server Types DO NOT Exist (Well Kind of)”. www.youtube.com/...
+                            e.g. [3] KingGame2000. 2026a. “Why Minecraft SMP Server Types DO NOT Exist (Well Kind of)”. www.youtube.com/...
                             <br />
-                            e.g. [3] KingGame2000, 2026b. “Minecraft Server Theory”. www.youtube.com/...
+                            e.g. [4] KingGame2000. 2026b. “Minecraft Server Theory”. www.youtube.com/...
                         </div>
                         <ul>
                             <li>For Discord messages or other online materials:</li>
                         </ul>
                         <mark>
-                            Author name, Month Year of retrieval (with suffixed letter for multiple citations). [“Server title” Discord Server. | “Source title”.] <i>[First 20 words of message.]</i>{" "}
+                            Author name. Month Year of retrieval (with suffixed letter for multiple citations). [“Server title” Discord Server. | “Source title”.] <i>[First 20 words of message.]</i>{" "}
                             [Link to material | Image of message]
                         </mark>
                         <br />
                         <div class="ref-box">
-                            e.g. [1] Intell, July 2026. “Raid Farms” Discord Server. <i>unironically, if i had the choice between being a 30 year old comfortable in life who doesn't have to work</i>
+                            e.g. [1] Intell. July 2026. “Raid Farms” Discord Server. <i>unironically, if i had the choice between being a 30 year old comfortable in life who doesn't have to work</i>
                             . www.discord.com/...
                             <br />
-                            e.g. [2] am(amxtrnl), July 2026a. “Raid Farms” Discord Server. <i>Servers full of chuds and bums 💔</i>
+                            e.g. [2] am(amxtrnl). July 2026a. “Raid Farms” Discord Server. <i>Servers full of chuds and bums 💔</i>
                             . www.discord.com/...
                             <br />
-                            e.g. [3] am(amxtrnl), July 2026b. “Raid Farms” Discord Server. <i>Biggest larp of the year</i>
+                            e.g. [3] am(amxtrnl). July 2026b. “Raid Farms” Discord Server. <i>Biggest larp of the year</i>
                             . www.discord.com/...
                             <br />
-                            e.g. [4] duck tape, December 2025. “Raid Farms” Discord Server.
+                            e.g. [4] duck tape. December 2025. “Raid Farms” Discord Server.
                             <br />
                             (screenshot of message)
                             <br />
                             www.discord.com/...
                             <br />
                             <br />
-                            e.g. [5] John Article, 2026. “Minecon 2026 is real?” www.example.com/...
+                            e.g. [5] John Article. 2026. “Minecon 2026 is real?” www.example.com/...
                         </div>
                         <ul>
                             <li>For real-life works, e.g. academic papers:</li>
@@ -243,12 +244,14 @@ export default function StyleGuide() {
                         <ul>
                             <li>Author-date citations:</li>
                         </ul>
-                        <mark>Author name, Year of publication (with letter if multiple are referenced)</mark>
+                        <mark>Author name, author 2 name. Year of publication (with letter if multiple are referenced)</mark>
                         <br />
                         <div class="ref-box">
-                            e.g. (matcha_tea, 2026)
+                            e.g. (matcha_tea. 2026)
                             <br />
-                            e.g. (matcha_tea, 2026a, 2026b)
+                            e.g. (matcha_tea. 2026a, 2026b)
+                            <br />
+                            e.g. (Rev, Turtle. 2026)
                         </div>
                         <ul>
                             <li>Numeric citations:</li>
