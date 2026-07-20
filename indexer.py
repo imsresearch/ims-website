@@ -1,7 +1,7 @@
 import fitz, os, json, re
 
 PDF_PATHS = "./public/database" #get path
-OUT_PATH = "public/search_index.json"
+OUT_PATH = "public/assets/search_index.json"
 
 docs = []
 doc_id = 0
