@@ -107,7 +107,13 @@ export default function Main() {
 
 		{/*articles box - create new <section> for each row of 3*/}
 		<section className="article-box" id="articles">
-            <a className="latest-article article-linkbox" href="https://imsresearch.substack.com/p/anarchy-without-ruin-minecraft-bloodlines">
+            <a className="latest-article article-linkbox" href="https://imsresearch.substack.com/p/the-consequences-of-poor-design-a">
+				<p className="article-title">The Consequences of Poor Design: A Critique of the Systems Experiment</p>
+				<p>By Harlow: Being a part of the first ever event of the IMS as a player and organiser gave her a wide field of vision about what went right - and what went wrong.</p>
+				<small>21 July · Opinion</small>
+			</a>
+
+            <a className="article-linkbox" href="https://imsresearch.substack.com/p/anarchy-without-ruin-minecraft-bloodlines">
 				<p className="article-title">Anarchy Without Ruin: Minecraft Bloodlines as a Case Study in Effective Server Design</p>
 				<p>By Miimuu: The IMS has long been theorising about the perfect server - is MCB it?</p>
 				<small>03 July · Essay</small>
@@ -118,15 +124,15 @@ export default function Main() {
 				<p>By Harlow: Some suggest that a return to the past would solve the issues that plague contemporary Minecraft servers and their players — however, is this at all true?</p>
 				<small>10 June · Essay</small>
 			</a>
+		</section>
 
+		<section className="article-box">
             <a className="article-linkbox" href="https://imsresearch.substack.com/p/two-teams-two-theories-of-power">
 				<p className="article-title">Two Teams, Two Theories of Power</p>
 				<p>By Rev, IMS columnist and reviewer, investigating what's been going on behind the scenes for the upcoming <a href="/systems-event">Systems Event</a></p>
 				<small>09 June · Opinion</small>
-			</a>		
-		</section>
+			</a>	
 
-		<section className="article-box">
             <a className="article-linkbox" href="https://imsresearch.substack.com/p/a-short-rant-about-minecraft-youtube">
 				<p className="article-title">A short rant about Minecraft YouTube</p>
 				<p>matcha_tea talks about her transphobic comments on her latest video; what do we do about it?</p>
@@ -138,15 +144,15 @@ export default function Main() {
 				<p>The logo created by @scorevon marks a new chapter for the IMS; I interviewed the designer. What does this mean for the org?</p>
 				<small>11 May · Opinion</small>
 			</a>
+		</section>
 
+        <section className="article-box">
             <a className="article-linkbox" href="https://imsresearch.substack.com/p/summer-event-announced-with-ongoing">
 				<p className="article-title">Summer event announced with ongoing votes</p>
 				<p>"The idea of the event is that each player would choose and operate a specific system within a single Minecraft survival server...Players would interact with the systems that their team creates to test them and create real dynamics."</p>
 				<small>15 Apr · News</small>
 			</a>
-		</section>
 
-        <section className="article-box">
             <a className="article-linkbox" href="https://discord.gg/yzfQzaqyPR">
             <p className="article-title">To be written...</p>
             <p>Contact us by clicking "publish with us" on the top bar, or click this box</p>
