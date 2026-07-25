@@ -12,6 +12,7 @@ import { createGlobalStyle } from "styled-components";
 import Index from "./pages/main.jsx";
 import AboutUs from "./pages/about-us.jsx";
 import Journal from "./pages/journal.jsx";
+import LatestIssue from "./pages/latest-issue.jsx";
 import PublishWithUs from "./pages/publish-with-us.jsx";
 import StyleGuide from "./pages/style-guide.jsx";
 import SiteMap from "./pages/sitemap.jsx";
@@ -24,7 +25,7 @@ const GlobalStyles = createGlobalStyle`
     body {
         margin: 0;
         padding: 0;
-        font-family: sans-serif;
+        font-family: "DejaVu Sans", sans-serif;
     }
 `;
 
@@ -75,17 +76,23 @@ export default function App() {
             <Debug />
 
             <Switch>
-                <Route exact path="/" component={Index} />
-                <Route exact path="/about-us" component={AboutUs} />
-                <Route exact path="/journal" component={Journal} />
-                <Route exact path="/publish-with-us" component={PublishWithUs} />
-                <Route exact path="/publish-with-us/style-guide" component={StyleGuide} />
-                <Route exact path="/sitemap" component={SiteMap} />
-                <Route exact path="/systems-event" component={SystemsEvent} />
-                <Route exact path="/journal/imsj-index" component={ArticlesIndex} />
-                <Route exact path="/publish-with-us/your-rights" component={GDPR} />
+                <Route exact path="/" component={Index}/>
+                <Route exact path="/about-us" component={AboutUs}/>
+                <Route exact path="/journal" component={Journal}/>
 
-                <Route component={NotFound} />
+                <Route exact path="/journal/latest-issue" component={LatestIssue}/>
+                <Route exact path="/journal/imsj-index" component={ArticlesIndex}/>
+
+                <Route exact path="/publish-with-us" component={PublishWithUs}/>
+                <Route exact path="/publish-with-us/style-guide" component={StyleGuide}/>
+
+                <Route exact path="/sitemap" component={SiteMap}/>
+
+                <Route exact path="/systems-event" component={SystemsEvent}/>
+
+                <Route exact path="/publish-with-us/your-rights" component={GDPR}/>
+
+                <Route component={NotFound}/>
             </Switch>
         </Router>
     );

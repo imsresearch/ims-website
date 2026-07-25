@@ -1,0 +1,40 @@
+.journal-page {
+    font-family: DejaVu Sans, sans-serif;
+}
+
+.journal-section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.journal-viewer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 0.2rem solid #000;
+}
+
+.journal-viewer iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+
+.journal-download {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.journal-download a {
+    color: #00f;
+    font-family: DejaVu Sans, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .journal-download a {
+        font-size: 1.2rem;
+    }
+}

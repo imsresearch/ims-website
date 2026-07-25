@@ -16,33 +16,17 @@ export default function ArticlesIndex() {
     const [searchIMSC, setSearchIMSC] = useState(false);
     const [visibleCount, setVisibleCount] = useState(20);
 
-    const suggestions = [
-        "raid farms",
-        "server",
-        "player",
-        "behaviour",
-        "people",
-        "solution",
-        "social",
-    ];
+    const suggestions = ["raid farms", "server", "player", "behaviour", "people", "solution", "social"];
 
     useEffect(() => {
         fetch("/assets/search_index.json")
-            .then(res => res.json())
-            .then(data => {
+            .then((res) => res.json())
+            .then((data) => {
                 const miniSearch = new MiniSearch({
                     fields: ["imsc", "content"],
-                    storeFields: [
-                        "imsc",
-                        "file",
-                        "page",
-                        "content",
-                        "path"
-                    ],
+                    storeFields: ["imsc", "file", "page", "content", "path"],
                     searchOptions: {
-                        boost: searchIMSC
-                            ? { content: 1000, fuzzy: 0 }
-                            : { content: 5 },
+                        boost: searchIMSC ? { content: 1000, fuzzy: 0 } : { content: 5 },
                         prefix: !searchIMSC,
                     },
                 });
@@ -51,11 +35,8 @@ export default function ArticlesIndex() {
                 setSearchIndex(miniSearch);
             });
 
-        setSuggestion(
-            suggestions[Math.floor(Math.random() * suggestions.length)]
-        );
+        setSuggestion(suggestions[Math.floor(Math.random() * suggestions.length)]);
     }, []);
-
 
     useEffect(() => {
         if (!searchIndex) return;
@@ -63,64 +44,42 @@ export default function ArticlesIndex() {
         if (!query || query.length < 2) {
             setResults([]);
             setVisibleCount(20);
-            setSuggestion(
-                suggestions[Math.floor(Math.random() * suggestions.length)]
-            );
+            setSuggestion(suggestions[Math.floor(Math.random() * suggestions.length)]);
             return;
         }
 
         const found = searchIndex.search(query, {
-            boost: searchIMSC
-                ? { content: 1000, fuzzy: 0 }
-                : { content: 5 },
+            boost: searchIMSC ? { content: 1000, fuzzy: 0 } : { content: 5 },
             prefix: !searchIMSC,
         });
 
-        const exact = found.filter(
-            x => x.imsc?.toLowerCase() === query.toLowerCase()
-        );
+        const exact = found.filter((x) => x.imsc?.toLowerCase() === query.toLowerCase());
 
-        const others = found.filter(
-            x => x.imsc?.toLowerCase() !== query.toLowerCase()
-        );
+        const others = found.filter((x) => x.imsc?.toLowerCase() !== query.toLowerCase());
 
         setResults(
-            [...exact, ...others].map(item => ({
+            [...exact, ...others].map((item) => ({
                 ...item,
-                snippet: makeSnippet(item.content, query)
+                snippet: makeSnippet(item.content, query),
             }))
         );
 
         setVisibleCount(20);
-
     }, [query, searchIndex, searchIMSC]);
-
 
     useEffect(() => {
         function handleScroll() {
             if (results.length === 0) return;
 
-            if (
-                window.scrollY + window.innerHeight >=
-                document.documentElement.scrollHeight - 300
-            ) {
-                setVisibleCount(v =>
-                    Math.min(v + 20, results.length)
-                );
+            if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 300) {
+                setVisibleCount((v) => Math.min(v + 20, results.length));
             }
         }
 
-        window.addEventListener(
-            "scroll",
-            handleScroll,
-            { passive: true }
-        );
+        window.addEventListener("scroll", handleScroll, { passive: true });
 
-        return () =>
-            window.removeEventListener("scroll", handleScroll);
-
+        return () => window.removeEventListener("scroll", handleScroll);
     }, [results]);
-
 
     function makeSnippet(text, query, distance = 15) {
         const words = text.split(" ");
@@ -128,7 +87,6 @@ export default function ArticlesIndex() {
         const positions = [];
 
         for (let i = 0; i < words.length; i++) {
-
             if (
                 terms.length > 1 &&
                 words
@@ -147,188 +105,92 @@ export default function ArticlesIndex() {
             }
         }
 
-        if (positions.length === 0)
-            return text.slice(0, 200);
+        if (positions.length === 0) return text.slice(0, 200);
 
-        const centre =
-            positions[Math.floor(positions.length / 2)];
+        const centre = positions[Math.floor(positions.length / 2)];
 
-        return words
-            .slice(
-                Math.max(0, centre - distance),
-                Math.min(words.length, centre + distance + 1)
-            )
-            .join(" ");
+        return words.slice(Math.max(0, centre - distance), Math.min(words.length, centre + distance + 1)).join(" ");
     }
-
 
     function highlight(text, query) {
         if (!text) return "";
 
-        const escaped =
-            query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-        return text.replace(
-            new RegExp(`(${escaped})`, "gi"),
-            "<mark>$1</mark>"
-        );
+        return text.replace(new RegExp(`(${escaped})`, "gi"), "<mark>$1</mark>");
     }
-
 
     const displayedResults = results.slice(0, visibleCount);
 
-
     return (
         <>
-
-            <Helmet>
-                <meta
-                    name="viewport"
-                    content="width=device-width, initial-scale=1.0"
-                />
-                <title>IMS - Journal Index</title>
-                <meta
-                    name="description"
-                    content="IMS - The home of Minecraft Theories"
-                />
-                <link
-                    rel="shortcut icon"
-                    href="/assets/favicon.png"
-                />
-            </Helmet>
-
-
             <TopHeader />
             <LowerHeader />
 
-
             <div className="header">
-
                 <h1>
                     IMS Articles Index
-
                     <p className="pub-q">
-                        <a href="/publish-with-us">
-                            Want your article to be indexed? Click here!
-                        </a>
+                        <a href="/publish-with-us">Want your article to be indexed? Click here!</a>
                     </p>
-
                 </h1>
 
-
                 <p>
-                    This is an index of all{" "}
-                    <a
-                        href="https://github.com/imsresearch/imsresearch.github.io/tree/main/database"
-                    >
-                        articles published by the IMS.
-                    </a>
+                    This is an index of all <a href="https://github.com/imsresearch/imsresearch.github.io/tree/main/database">articles published by the IMS.</a>
                 </p>
-
-
             </div>
 
-
             <div className="search-box">
-
                 <input
                     className="input-box"
                     placeholder="Tip: If you can't find what you want, use the 'View all indexed articles' button below"
                     value={query}
-                    onChange={e => setQuery(e.target.value)}
+                    onChange={(e) => setQuery(e.target.value)}
                 />
 
-
                 <div className="underButtons">
-
-                    <button
-                        className={
-                            searchIMSC
-                            ? "searchIMSCButton pressedIMSC"
-                            : "searchIMSCButton unpressedIMSC"
-                        }
-                        onClick={() =>
-                            setSearchIMSC(!searchIMSC)
-                        }
-                    >
+                    <button className={searchIMSC ? "searchIMSCButton pressedIMSC" : "searchIMSCButton unpressedIMSC"} onClick={() => setSearchIMSC(!searchIMSC)}>
                         Search for IMSC
                     </button>
 
-
-                    <a
-                        href="https://github.com/imsresearch/imsresearch.github.io/tree/main/public/database"
-                        target="_blank"
-                    >
-                        <button className="accessButton">
-                            View all indexed articles
-                        </button>
+                    <a href="https://github.com/imsresearch/imsresearch.github.io/tree/main/public/database" target="_blank">
+                        <button className="accessButton">View all indexed articles</button>
                     </a>
-
                 </div>
-
 
                 <div className="number-results">
-
-                    {
-                    !query && !searchIMSC
-                    ?
-                    <>
-                        Why not try searching for <i>{suggestion}</i>
-                    </>
-                    :
-                    searchIMSC && !query
-                    ?
-                    <>Searching for IMSCs...</>
-                    :
-                    `${results.length} results for ${query}`
-                    }
-
+                    {!query && !searchIMSC ? (
+                        <>
+                            Why not try searching for <i>{suggestion}</i>
+                        </>
+                    ) : searchIMSC && !query ? (
+                        <>Searching for IMSCs...</>
+                    ) : (
+                        `${results.length} results for ${query}`
+                    )}
                 </div>
-
             </div>
 
-
             <div className="results-div">
-
                 {displayedResults.map((item, index) => (
-
                     <div className="result" key={index}>
-
                         <p className="result-title">
-
-                            <a
-                                href={`/database/${item.path}#page=${item.page}`}
-                                target="_blank"
-                            >
-                                {item.file.slice(0,-4)},
-                                Page {item.page}
+                            <a href={`/database/${item.path}#page=${item.page}`} target="_blank">
+                                {item.file.slice(0, -4)}, Page {item.page}
                             </a>
-
                         </p>
-
 
                         <div
                             className="result-context"
                             dangerouslySetInnerHTML={{
-                                __html:
-                                    "..." +
-                                    highlight(
-                                        item.snippet,
-                                        query
-                                    ) +
-                                    "..."
+                                __html: "..." + highlight(item.snippet, query) + "...",
                             }}
                         />
-
                     </div>
-
                 ))}
-
             </div>
 
-
             <JournalFooter />
-
         </>
     );
 }

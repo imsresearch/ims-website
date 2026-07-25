@@ -11,20 +11,16 @@ body{
 /*main content box*/
 .systems-box{
     text-align: center;
-    padding: 2rem 0 0 0;
+    padding-bottom: 1rem;
     border-bottom: 0.1rem solid black;
     background: #dfdfd5;
 }
 
-.systems-box-inner p{
+.systems-box-title h1{
     font-family: "DejaVu Sans", sans-serif;
     font-style: italic;
     font-weight: 600;
-    font-size: 6.5rem;
-
-    background: linear-gradient(to right, rgb(255, 0, 102) 0%, rgb(255, 102, 0) 100%);
-    background-clip: text;
-    color: transparent;
+    font-size: 3rem;
     
     margin: 0;
 }
@@ -74,7 +70,7 @@ body{
 
 .read-more{
     font-family: "DejaVu Sans", sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 600;
     font-style: italic;
     border-width: 0 0 0.2rem 0;
@@ -85,7 +81,7 @@ body{
 
 .join-systems{
     font-family: "DejaVu Sans", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: underline;
     margin: 0.5rem 0 0.5rem 0;
@@ -162,23 +158,31 @@ body{
     padding: 0 5vw;
 }
 
+.article-box p{
+    font-size: 1rem;
+}
+
 .article-linkbox{
     border-bottom: 0.2rem solid #000;
     text-decoration: none;
     color: black;
     padding: 1.5rem 2rem;
-}   
+}
 
 .article-title{
     font-family: "DejaVu Sans", sans-serif;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     font-weight: 600;
     text-align: left;
-    margin: 1rem 0
+    margin: 1rem 0;
+}
+
+small{
+    font-size: 0.7rem;
 }
 
 @media (max-width: 768px){
-    .systems-box-inner p{
+    .systems-box-title h1{
         font-size: 3.5rem;
         padding-bottom: 0;
     }
@@ -214,8 +218,24 @@ body{
     }
 
     .article-box{
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
     }
+
+    .article-linkbox{
+        padding: 5vw;
+        width: 50vw;
+    }
+
+    .article-box p{
+        font-size: 0.8rem;
+    }
+
+    .article-title{
+        font-size: 1.5rem;
+    }
+
+    
 
     .video-section{
         display: grid;

@@ -11,15 +11,6 @@ import "../styles/style-guide.css";
 export default function StyleGuide() {
     return (
         <div className="page">
-            <Helmet>
-                <title>IMS - Style guide</title>
-                <meta name="application-name" content="Institute of Minecraft Studies (IMS) Website" />
-                <meta name="author" content="matcha_tea" />
-                <meta name="description" content="IMS - The home of Minecraft Theories" />
-                <meta name="keywords" content="IMS, Minecraft theory, MST, MT" />
-                <link rel="shortcut icon" href="/assets/favicon.png" />
-            </Helmet>
-
             <TopHeader />
             <LowerHeader />
 

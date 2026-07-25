@@ -19,10 +19,10 @@ export default function Main() {
 		<section className="systems-box">
 			<div className="systems-box-title">
 				<h1 className="systems-title">
-					The Systems Experiment has closed
+					Apply for <br /> The Systems Experiment now!
 				</h1>
 			</div>
-			{/* desktop SVGs
+			{/* desktop SVGs */}
 			<div className="svgs desktop-only">
 			<svg viewBox="0 0 217 217" className="hex green">
 				<polygon points="108,5 212,108 108,212 5,108" />
@@ -43,9 +43,9 @@ export default function Main() {
 				<polygon points="108,5 212,108 108,212 5,108" />
 				<text x="108" y="108">Theorise</text>
 			</svg>
-			</div> */}
+			</div>
 
-			{/* mobile SVGs
+			{/* mobile SVGs */}
 			<div className="svgs mobile-only">
 				<svg viewBox="0 0 217 217" className="hex green small">
 					<polygon points="108,5 212,108 108,212 5,108" />
@@ -63,9 +63,10 @@ export default function Main() {
 					<polygon points="108,5 212,108 108,212 5,108" />
 					<text x="108" y="108">Theorise</text>
 				</svg>
-			</div> */}
+			</div>
 
-			<a className="link-box read-more" href="/systems-event">Read the announcement ⇛</a>
+			<a className="link-box read-more" href="/systems-event">Read more ⇛</a>
+			<a className="link-box join-systems" href="https://discord.gg/tdaVBJskhk">Join the event server</a>
 		</section>
 
 		{/*video embed*/}
@@ -139,9 +140,9 @@ export default function Main() {
 			</a>
 
             <a className="article-linkbox" href="https://discord.gg/yzfQzaqyPR">
-                <h3 className="article-title">To be written...</h3>
-                <p>Contact us by clicking "publish with us" on the top bar, or click this box</p>
-                <small>30 Apr · Information</small>
+            <p className="article-title">To be written...</p>
+            <p>Contact us by clicking "publish with us" on the top bar, or click this box</p>
+            <small>30 Apr · Information</small>
 			</a>
         </main>
 

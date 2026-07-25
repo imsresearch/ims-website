@@ -11,24 +11,6 @@ import "../styles/publish-with-us.css";
 export default function PublishWithUs() {
     return (
         <div className="publish-page">
-            <Helmet>
-                <title>IMS - Publish with us</title>
-                <meta
-                    name="application-name"
-                    content="Institute of Minecraft Studies (IMS) Website"
-                />
-                <meta name="author" content="matcha_tea" />
-                <meta
-                    name="description"
-                    content="IMS - The home of Minecraft Theories"
-                />
-                <meta
-                    name="keywords"
-                    content="IMS, Institute of Minecraft Studies, Minecraft theory, MST, MT, Minecraft Server Theory"
-                />
-                <link rel="shortcut icon" href="/assets/favicon.png" />
-            </Helmet>
-
             <TopHeader />
             <LowerHeader />
 

@@ -10,35 +10,10 @@ import "../styles/privacy.css";
 export default function YourRights() {
     return (
         <div className="journal-page">
-            <Helmet>
-                <title>IMS - GDPR for authors</title>
-                <meta
-                    name="application-name"
-                    content="Institute of Minecraft Studies (IMS) Website"
-                />
-                <meta
-                    name="author"
-                    content="Institute of Minecraft Studies"
-                />
-                <meta
-                    name="description"
-                    content="IMS - The home of Minecraft Theories"
-                />
-                <meta
-                    name="keywords"
-                    content="IMS, Institute of Minecraft Studies, Minecraft theory, MST, MT, Minecraft Server Theory, Minecraft Theory, Theory Events"
-                />
-                <link
-                    rel="shortcut icon"
-                    href="/assets/favicon.png"
-                    type="image/x-icon"
-                />
-            </Helmet>
-
             <TopHeader />
             <LowerHeader />
 
-            <section className="privacy-section">
+            <main className="privacy-section">
                 <div className="privacy-container">
                     <h1>Your rights as an author publishing with the IMS</h1>
 
@@ -84,7 +59,7 @@ export default function YourRights() {
                         @Editor-in-chief.
                     </p>
                 </div>
-            </section>
+            </main>
 
             <JournalFooter />
         </div>

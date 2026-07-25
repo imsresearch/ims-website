@@ -8,36 +8,10 @@ import "../styles/about-us.css"
 export default function AboutUs() {
     return (
         <div className="page">
-            <Helmet>
-                <title>IMS - About us</title>
-
-                <meta
-                    name="application-name"
-                    content="Institute of Minecraft Studies (IMS) Website"
-                />
-                <meta
-                    name="author"
-                    content="Institute of Minecraft Studies"
-                />
-                <meta
-                    name="description"
-                    content="IMS - The home of Minecraft Theories"
-                />
-                <meta
-                    name="keywords"
-                    content="IMS, Institute of Minecraft Studies, Minecraft theory, MST, MT, Minecraft Server Theory, Minecraft Theory, Theory Events"
-                />
-                <link
-                    rel="shortcut icon"
-                    href="/assets/favicon.png"
-                    type="image/x-icon"
-                />
-            </Helmet>
-
             <TopHeader />
             <LowerHeader />
 
-            <section className="about-section">
+            <main className="about-section">
                 <div className="about-container">
                     <h1>About us</h1>
 
@@ -73,7 +47,7 @@ export default function AboutUs() {
                         theory.
                     </p>
                 </div>
-            </section>
+            </main>
 
             <section className="mission-section">
                 <h2>Read more from our mission statement:</h2>

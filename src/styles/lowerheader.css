@@ -1,4 +1,4 @@
-hr{
+hr {
     margin-bottom: 0;
     color: #d3d3d3;
 }
@@ -12,6 +12,11 @@ hr{
     display: flex;
 }
 
+.section_link {
+    text-decoration: none;
+    color: black;
+}
+
 .lowerheader_group {
     flex-wrap: wrap;
     align-items: center;
@@ -20,18 +25,32 @@ hr{
 }
 
 .lowerheader_link {
-    color: #000;
+    color: black;
     border: 0.2rem;
     padding: 0 1rem;
-    font-family: DejaVu Sans, sans-serif;
+    font-family:
+        DejaVu Sans,
+        sans-serif;
     font-size: 1.3rem;
     text-decoration: none;
 }
 
+@keyframes TSE {
+    0% {
+        border: 0.2rem red dashed;
+    }
+    50% {
+        border: 0.2rem #fdd dashed;
+    }
+    100% {
+        border: 0.2rem red dashed;
+    }
+}
+
 .lowerheader_event {
-    color: #ff0;
-    background: linear-gradient(90deg, #f06 0%, #f60 100%);
-    border-style: dashed;
+    animation-name: TSE;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .lowerheader_external-img {
@@ -50,7 +69,9 @@ hr{
     background: transparent;
     border: none;
     padding: 0 1rem;
-    font-family: DejaVu Sans, sans-serif;
+    font-family:
+        DejaVu Sans,
+        sans-serif;
     font-size: 1.3rem;
 }
 
@@ -83,6 +104,41 @@ hr{
     background: #f3f3f3;
 }
 
+.rolling {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    border-bottom: 0.1rem solid #000;
+
+    margin-bottom: 2rem;
+}
+
+.rolling-container {
+    display: flex;
+    width: max-content;
+    animation: headlines 15s linear infinite;
+}
+
+.rolling-content {
+    display: flex;
+    align-items: center;
+    
+    padding-right: 3rem; 
+}
+
+.rolling span {
+    font-size: 0.8rem;
+}
+
+@keyframes headlines {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-25%);
+    }
+}
 
 @media (width <= 768px) {
     .lowerheader {
