@@ -121,6 +121,8 @@ export default function SystemsEvent() {
                             Again, thank you so much for your support and time. The experiment taught us many things for whatever we do next and strengthened our community. I look forward to working
                             with all of you on the vid!
                         </p>
+
+                        <p>[attached pdf, see announcement in the Discord server]</p>
                     </div>
                     <hr />
                 </main>
