@@ -89,6 +89,7 @@ export default function LowerHeader() {
                     </div>
                 </div>
             </div>
+            <hr/>
         </>
     );
 }

@@ -52,9 +52,7 @@ export default function TopHeader() {
                 </div>
             </header>
 
-            <div className="divider">
-                <hr />
-            </div>
+            <hr/>
         </>
     );
 }
