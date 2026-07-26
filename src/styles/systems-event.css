@@ -1,25 +1,25 @@
-.announcement h1{
+.systems-announcement h1{
     text-align: center;
     font-size: 1.8rem;
 }
 
-.announcement p{
+.systems-announcement p{
     padding: 0 5vw;
     margin-bottom: 0;
 }
 
-.content{
+.systems-content{
     background: #dfdfd5;
     padding-bottom: 2rem;
     padding: 0 5vw;
 }
 
-.message-box{
+.systems-message-box{
     border: 1px solid black;
     margin-bottom: 1rem;
 }
 
-.join{
+.systems-join{
     padding: 1rem 0;
     margin: 0
 }

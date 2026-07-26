@@ -1,14 +1,20 @@
-.content{
+.nf-content{
     background: white;
 }
 
-.content h1{
+.nf-content h1{
     padding-left: 20vw;
     margin-top: 16px;
     font-size: 2.5rem;
 }
 
-.content p{
+.nf-content p{
     padding-left: 20vw;
     font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .nf-content h1, .nf-content p{
+        padding-left: 10vw;
+    }
 }

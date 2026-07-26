@@ -17,7 +17,7 @@ export default function SystemsEvent() {
         <>
             <TopHeader />
             <LowerHeader />
-            <div className="content">
+            <div className="systems-content">
                 <section className="systems-title">
                     <div className="systems-title-inner">
                         <h1>
@@ -90,9 +90,9 @@ export default function SystemsEvent() {
                 </div>
             </main>*/}
 
-                <main className="announcement">
+                <main className="systems-announcement">
                     <h1>Read the announcement by Turtle, Lead Organiser of TSE:</h1>
-                    <div className="message-box">
+                    <div className="systems-message-box">
                         <p>I want to start by thanking those who participated for their hard efforts to make this experiment work, and in many ways it certainly did.</p>
 
                         <p>
@@ -126,7 +126,7 @@ export default function SystemsEvent() {
                     </div>
                     <hr />
                 </main>
-                <p className="join">
+                <p className="systems-join">
                     <a href="https://discord.gg/tdaVBJskhk">Join the Systems Experiment server</a>
                 </p>
             </div>
