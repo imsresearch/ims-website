@@ -3,44 +3,40 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://imsresearch.github.io/</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://imsresearch.pages.dev/</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.github.io/index</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://imsresearch.pages.dev/about-us</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.github.io/about-us</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://imsresearch.pages.dev/journal</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.github.io/journal</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://imsresearch.pages.dev/journal/latest-issue</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.github.io/journal/imsj-index</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://imsresearch.pages.dev/journal/imsj-index</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.github.io/publish-with-us</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://imsresearch.pages.dev/publish-with-us</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.github.io/publish-with-us/style-guide</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://imsresearch.pages.dev/publish-with-us/style-guide</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.github.io/publish-with-us/your-rights</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://imsresearch.pages.dev/publish-with-us/your-rights</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.github.io/systems-event</loc>
-    <lastmod>2026-07-19</lastmod>
-  </url>
-  <url>
-    <loc>https://imsresearch.github.io/sitemap</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://imsresearch.pages.dev/systems-event</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
 
 </urlset>

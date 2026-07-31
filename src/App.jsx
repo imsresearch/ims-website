@@ -85,12 +85,9 @@ export default function App() {
 
                 <Route exact path="/publish-with-us" component={PublishWithUs}/>
                 <Route exact path="/publish-with-us/style-guide" component={StyleGuide}/>
-
-                <Route exact path="/sitemap" component={SiteMap}/>
+                <Route exact path="/publish-with-us/your-rights" component={GDPR}/>
 
                 <Route exact path="/systems-event" component={SystemsEvent}/>
-
-                <Route exact path="/publish-with-us/your-rights" component={GDPR}/>
 
                 <Route component={NotFound}/>
             </Switch>

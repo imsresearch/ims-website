@@ -1,18 +1,20 @@
 import fs from "fs";
 
-const baseUrl = "https://imsresearch.github.io";
+const baseUrl = "https://imsresearch.pages.dev";
 
 const routes = [
     "/",
-    "/index",
     "/about-us",
     "/journal",
+
+    "/journal/latest-issue",
     "/journal/imsj-index",
+
     "/publish-with-us",
     "/publish-with-us/style-guide",
     "/publish-with-us/your-rights",
+
     "/systems-event",
-    "/sitemap",
 ];
 
 const today = new Date().toISOString().split("T")[0];
@@ -36,3 +38,5 @@ ${routes
 fs.writeFileSync("./public/sitemap.xml", xml);
 
 console.log("Sitemap generated");
+
+// npm run sitemap
