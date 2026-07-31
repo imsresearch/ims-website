@@ -15,7 +15,6 @@ import Journal from "./pages/journal.jsx";
 import LatestIssue from "./pages/latest-issue.jsx";
 import PublishWithUs from "./pages/publish-with-us.jsx";
 import StyleGuide from "./pages/style-guide.jsx";
-import SiteMap from "./pages/sitemap.jsx";
 import SystemsEvent from "./pages/systems-event.jsx";
 import NotFound from "./pages/404.jsx";
 import ArticlesIndex from "./pages/articles-index.jsx";
