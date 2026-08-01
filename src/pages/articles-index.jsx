@@ -125,16 +125,14 @@ export default function ArticlesIndex() {
     return (
         <>
             <Helmet>
-                <head>
-                    <title>Articles Index | IMS</title>
-                    <meta name="application-name" content="Articles index | IMS" />
-                    <meta name="description" content="Index of articles published by the IMS Journal." />
+                <title>Articles Index | IMS</title>
+                <meta name="application-name" content="Articles index | IMS" />
+                <meta name="description" content="Index of articles published by the IMS Journal." />
 
-                    <meta property="og:title" content="Articles index | IMS" />
-                    <meta property="og:description" content=
-                        "Index of articles published by the IMS Journal."
-                    />
-                </head>
+                <meta property="og:title" content="Articles index | IMS" />
+                <meta property="og:description" content=
+                    "Index of articles published by the IMS Journal."
+                />
             </Helmet>
 
             <TopHeader />

@@ -16,16 +16,14 @@ export default function SystemsEvent() {
     return (
         <>
             <Helmet>
-                <head>
-                    <title>Systems Experiment | IMS</title>
-                    <meta name="application-name" content="Systems Experiment | IMS" />
-                    <meta name="description" content="The webpage for IMS: The Systems Experiment." />
+                <title>Systems Experiment | IMS</title>
+                <meta name="application-name" content="Systems Experiment | IMS" />
+                <meta name="description" content="The webpage for IMS: The Systems Experiment." />
 
-                    <meta property="og:title" content="Systems Experiment | IMS" />
-                    <meta property="og:description" content=
-                        "The webpage for IMS: The Systems Experiment."
-                    />
-                </head>
+                <meta property="og:title" content="Systems Experiment | IMS" />
+                <meta property="og:description" content=
+                    "The webpage for IMS: The Systems Experiment."
+                />
             </Helmet>
 
             <TopHeader />

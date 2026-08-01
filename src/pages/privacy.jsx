@@ -11,16 +11,14 @@ export default function YourRights() {
     return (
         <div className="privacy-page">
             <Helmet>
-                <head>
-                    <title>Privacy for authors | IMS</title>
-                    <meta name="application-name" content="Privacy for authors | IMS" />
-                    <meta name="description" content="Information about publishing authors' privacy and rights." />
+                <title>Privacy for authors | IMS</title>
+                <meta name="application-name" content="Privacy for authors | IMS" />
+                <meta name="description" content="Information about publishing authors' privacy and rights." />
 
-                    <meta property="og:title" content="Privacy for authors | IMS" />
-                    <meta property="og:description" content=
-                        "Information about publishing authors' privacy and rights."
-                    />
-                </head>
+                <meta property="og:title" content="Privacy for authors | IMS" />
+                <meta property="og:description" content=
+                    "Information about publishing authors' privacy and rights."
+                />
             </Helmet>
 
             <TopHeader />

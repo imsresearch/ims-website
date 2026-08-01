@@ -9,16 +9,14 @@ export default function AboutUs() {
     return (
         <div className="page">
             <Helmet>
-                <head>
-                    <title>About Us | IMS</title>
-                    <meta name="application-name" content="About us | IMS" />
-                    <meta name="description" content="About the Institute of Minecraft Studies. Read about our mission, purpose, and values." />
+                <title>About Us | IMS</title>
+                <meta name="application-name" content="About us | IMS" />
+                <meta name="description" content="About the Institute of Minecraft Studies. Read about our mission, purpose, and values." />
 
-                    <meta property="og:title" content="About us | IMS" />
-                    <meta property="og:description" content=
-                        "About the Institute of Minecraft Studies. Read about our mission, purpose, and values."
-                    />
-                </head>
+                <meta property="og:title" content="About us | IMS" />
+                <meta property="og:description" content=
+                    "About the Institute of Minecraft Studies. Read about our mission, purpose, and values."
+                />
             </Helmet>
 
             <TopHeader />
