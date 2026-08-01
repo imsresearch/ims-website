@@ -15,7 +15,7 @@ export default function LowerHeader() {
                     </a>
 
                     <a className="lowerheader_event lowerheader_link" href="/systems-event">
-                        The Systems Event
+                        IMS: The Systems Experiment
                     </a>
                 </div>
 
@@ -28,7 +28,7 @@ export default function LowerHeader() {
 
                     {journalOpen && (
                         <div className="dropdown_menu">
-                            <a href="/journal/latest-issue">Latest Issue</a>
+                            <a href="/journal/latest-issue">Latest issue</a>
 
                             <a href="/journal/imsj-index">Articles index</a>
 

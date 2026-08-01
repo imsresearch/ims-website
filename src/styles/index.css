@@ -181,9 +181,9 @@ small{
     font-size: 0.7rem;
 }
 
-@media (max-width: 768px){
+@media (max-width: 850px){
     .systems-box-title h1{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         padding-bottom: 0;
     }
 
@@ -210,7 +210,7 @@ small{
     }
 
     .read-more{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .join-systems{
@@ -223,7 +223,7 @@ small{
     }
 
     .article-linkbox{
-        padding: 5vw;
+        padding: 5vw 2vw;
         width: 50vw;
     }
 
@@ -235,8 +235,6 @@ small{
         font-size: 1.5rem;
     }
 
-    
-
     .video-section{
         display: grid;
         grid-template-columns: 1fr;
@@ -247,6 +245,7 @@ small{
         width: 100%;
         margin: 0 0 2rem 0;
         text-align: center;
+        font-size: 2rem;
     }
 
     .video{

@@ -149,7 +149,7 @@
     font-style: italic;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px){
     .systems-svgs {
         display: grid;
         grid-template-columns: 1fr 1fr;

@@ -15,13 +15,24 @@ export default function SystemsEvent() {
 
     return (
         <>
+            <head>
+                <title>Systems Experiment | IMS</title>
+                <meta name="application-name" content="Systems Experiment | IMS" />
+                <meta name="description" content="The webpage for IMS: The Systems Experiment." />
+
+                <meta property="og:title" content="Systems Experiment | IMS" />
+                <meta property="og:description" content=
+                    "The webpage for IMS: The Systems Experiment."
+                />
+            </head>
+
             <TopHeader />
             <LowerHeader />
             <div className="systems-content">
                 <section className="systems-title">
                     <div className="systems-title-inner">
                         <h1>
-                            IMS: The Systems Event
+                            IMS: The Systems Experiment
                             <br />
                             has ended
                         </h1>

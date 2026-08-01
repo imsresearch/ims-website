@@ -1,4 +1,4 @@
-.journal-page {
+.latest-issue-page {
     font-family: DejaVu Sans, sans-serif;
 }
 
@@ -33,7 +33,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px){
     .journal-download a {
         font-size: 1.2rem;
     }

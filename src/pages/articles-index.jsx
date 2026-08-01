@@ -124,6 +124,17 @@ export default function ArticlesIndex() {
 
     return (
         <>
+            <head>
+                <title>Articles Index | IMS</title>
+                <meta name="application-name" content="Articles index | IMS" />
+                <meta name="description" content="Index of articles published by the IMS Journal." />
+
+                <meta property="og:title" content="Articles index | IMS" />
+                <meta property="og:description" content=
+                    "Index of articles published by the IMS Journal."
+                />
+            </head>
+
             <TopHeader />
             <LowerHeader />
 
