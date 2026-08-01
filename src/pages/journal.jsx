@@ -10,16 +10,19 @@ import "../styles/journal.css";
 export default function Journal() {
     return (
         <div className="journal-page">
-            <head>
-                <title>Journal Department | IMS</title>
-                <meta name="application-name" content="Journal department | IMS" />
-                <meta name="description" content="Home page for the Journal department of the Institute of Minecraft Studies." />
+            <Helmet>
+                <head>
+                    <title>Journal Department | IMS</title>
+                    <meta name="application-name" content="Journal department | IMS" />
+                    <meta name="description" content="Home page for the Journal department of the Institute of Minecraft Studies." />
 
-                <meta property="og:title" content="Journal department | IMS" />
-                <meta property="og:description" content=
-                    "Home page for the Journal department of the Institute of Minecraft Studies."
-                />
-            </head>
+                    <meta property="og:title" content="Journal department | IMS" />
+                    <meta property="og:description" content=
+                        "Home page for the Journal department of the Institute of Minecraft Studies."
+                    />
+                </head>
+            </Helmet>
+
             <TopHeader />
             <LowerHeader />
 

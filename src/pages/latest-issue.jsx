@@ -10,16 +10,18 @@ import "../styles/latest-issue.css";
 export default function LatestIssue() {
     return (
         <div className="latest-issue-page">
-            <head>
-                <title>Latest Issue | IMS</title>
-                <meta name="application-name" content="Latest issue | IMS" />
-                <meta name="description" content="Read the latest issue of the IMS journal." />
+            <Helmet>
+                <head>
+                    <title>Latest Issue | IMS</title>
+                    <meta name="application-name" content="Latest issue | IMS" />
+                    <meta name="description" content="Read the latest issue of the IMS journal." />
 
-                <meta property="og:title" content="Latest issue | IMS" />
-                <meta property="og:description" content=
-                    "Read the latest issue of the IMS journal."
-                />
-            </head>
+                    <meta property="og:title" content="Latest issue | IMS" />
+                    <meta property="og:description" content=
+                        "Read the latest issue of the IMS journal."
+                    />
+                </head>
+            </Helmet>
 
             <TopHeader />
             <LowerHeader />

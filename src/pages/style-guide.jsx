@@ -11,16 +11,18 @@ import "../styles/style-guide.css";
 export default function StyleGuide() {
     return (
         <div className="page">
-            <head>
-                <title>Style guide | IMS</title>
-                <meta name="application-name" content="Style guide | IMS" />
-                <meta name="description" content="The style guide of the IMS Journal." />
+            <Helmet>
+                <head>
+                    <title>Style guide | IMS</title>
+                    <meta name="application-name" content="Style guide | IMS" />
+                    <meta name="description" content="The style guide of the IMS Journal." />
 
-                <meta property="og:title" content="Style guide | IMS" />
-                <meta property="og:description" content=
-                    "The style guide of the IMS Journal."
-                />
-            </head>
+                    <meta property="og:title" content="Style guide | IMS" />
+                    <meta property="og:description" content=
+                        "The style guide of the IMS Journal."
+                    />
+                </head>
+            </Helmet>
 
             <TopHeader />
             <LowerHeader />

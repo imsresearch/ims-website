@@ -9,16 +9,18 @@ import "../styles/404.css";
 export default function NotFound() {
     return (
         <div className="nf-page">
-            <head>
-                <title>404 | IMS</title>
-                <meta name="application-name" content="404 | IMS" />
-                <meta name="description" content="404 Page not found on the Institute of Minecraft Studies website" />
+            <Helmet>
+                <head>
+                    <title>404 | IMS</title>
+                    <meta name="application-name" content="404 | IMS" />
+                    <meta name="description" content="404 Page not found on the Institute of Minecraft Studies website" />
 
-                <meta property="og:title" content="404 | IMS" />
-                <meta property="og:description" content=
-                    "404 Page not found on the Institute of Minecraft Studies website"
-                />
-            </head>
+                    <meta property="og:title" content="404 | IMS" />
+                    <meta property="og:description" content=
+                        "404 Page not found on the Institute of Minecraft Studies website"
+                    />
+                </head>
+            </Helmet>
 
             <TopHeader />
             <LowerHeader />
