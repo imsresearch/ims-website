@@ -50,7 +50,11 @@ export default function LowerHeader() {
                 </div>
 
                 <div className="dropdown" onMouseEnter={() => setSubstackOpen(true)} onMouseLeave={() => setSubstackOpen(false)}>
-                    <button className="dropdown_trigger">Substack ▾</button>
+                    <button className="dropdown_trigger">
+                        <a href="https://imsresearch.substack.com/" className="section_link">
+                            Substack ▾
+                        </a>
+                    </button>
 
                     <img className="lowerheader_external-img" src="/assets/external_icon.png" alt="" />
 
