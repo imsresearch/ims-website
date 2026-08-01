@@ -23,7 +23,6 @@ export default function NotFound() {
             <TopHeader />
             <LowerHeader />
 
-            {/* journal viewer */}
             <main className="nf-section">
                 <div className="nf-content">
                     <h1>Page not found</h1>
