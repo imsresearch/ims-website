@@ -14,11 +14,6 @@ export default function LatestIssue() {
                 <title>Latest issue | IMS</title>
                 <meta name="application-name" content="Latest issue | IMS" />
                 <meta name="description" content="Read the latest issue of the IMS journal." />
-
-                <meta property="og:title" content="Latest issue | IMS" />
-                <meta property="og:description" content=
-                    "Read the latest issue of the IMS journal."
-                />
             </Helmet>
 
             <TopHeader />

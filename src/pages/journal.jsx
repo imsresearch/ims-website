@@ -14,11 +14,6 @@ export default function Journal() {
                 <title>Journal department | IMS</title>
                 <meta name="application-name" content="Journal department | IMS" />
                 <meta name="description" content="Home page for the Journal department of the Institute of Minecraft Studies." />
-
-                <meta property="og:title" content="Journal department | IMS" />
-                <meta property="og:description" content=
-                    "Home page for the Journal department of the Institute of Minecraft Studies."
-                />
             </Helmet>
 
             <TopHeader />
