@@ -11,7 +11,7 @@ export default function Journal() {
     return (
         <div className="journal-page">
             <Helmet>
-                <title>Journal Department | IMS</title>
+                <title>Journal department | IMS</title>
                 <meta name="application-name" content="Journal department | IMS" />
                 <meta name="description" content="Home page for the Journal department of the Institute of Minecraft Studies." />
 

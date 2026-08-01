@@ -11,7 +11,7 @@ export default function LatestIssue() {
     return (
         <div className="latest-issue-page">
             <Helmet>
-                <title>Latest Issue | IMS</title>
+                <title>Latest issue | IMS</title>
                 <meta name="application-name" content="Latest issue | IMS" />
                 <meta name="description" content="Read the latest issue of the IMS journal." />
 
