@@ -16,11 +16,6 @@ export default function Main() {
             <title>Institute of Minecraft Studies</title>
             <meta name="application-name" content="Institute of Minecraft Studies" />
             <meta name="description" content="This is the IMS - The home of Minecraft Theories. We are an inclusive, vibrant, and friendly community with many opportunites: including in the Journal department, playing in events, writing theories about Minecraft, and having lively debates!" />
-
-            <meta property="og:title" content="Institute of Minecraft Studies" />
-            <meta property="og:description" content=
-                "This is the IMS - The home of Minecraft Theories. We are an inclusive, vibrant, and friendly community with many opportunites: including in the Journal department, playing in events, writing theories about Minecraft, and having lively debates!"
-            />
         </Helmet>
 
 		<TopHeader/>

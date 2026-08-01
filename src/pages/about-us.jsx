@@ -12,11 +12,6 @@ export default function AboutUs() {
                 <title>About us | IMS</title>
                 <meta name="application-name" content="About us | IMS" />
                 <meta name="description" content="About the Institute of Minecraft Studies. Read about our mission, purpose, and values." />
-
-                <meta property="og:title" content="About us | IMS" />
-                <meta property="og:description" content=
-                    "About the Institute of Minecraft Studies. Read about our mission, purpose, and values."
-                />
             </Helmet>
 
             <TopHeader />

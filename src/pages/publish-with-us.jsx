@@ -15,11 +15,6 @@ export default function PublishWithUs() {
                 <title>Publish with us | IMS</title>
                 <meta name="application-name" content="Publish with us | IMS" />
                 <meta name="description" content="Information about how to publish with the IMS Journal." />
-
-                <meta property="og:title" content="Publish with us | IMS" />
-                <meta property="og:description" content=
-                    "Information about how to publish with the IMS Journal."
-                />
             </Helmet>
 
             <TopHeader />

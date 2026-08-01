@@ -14,11 +14,6 @@ export default function YourRights() {
                 <title>Privacy for authors | IMS</title>
                 <meta name="application-name" content="Privacy for authors | IMS" />
                 <meta name="description" content="Information about publishing authors' privacy and rights." />
-
-                <meta property="og:title" content="Privacy for authors | IMS" />
-                <meta property="og:description" content=
-                    "Information about publishing authors' privacy and rights."
-                />
             </Helmet>
 
             <TopHeader />
