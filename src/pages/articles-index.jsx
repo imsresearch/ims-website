@@ -49,7 +49,7 @@ export default function ArticlesIndex() {
         }
 
         const found = searchIndex.search(query, {
-            boost: searchIMSC ? { content: 1000, fuzzy: 0 } : { content: 5 },
+            boost: searchIMSC ? { content: 9999, fuzzy: 0 } : { content: 5 },
             prefix: !searchIMSC,
         });
 
@@ -142,7 +142,7 @@ export default function ArticlesIndex() {
                 </h1>
 
                 <p>
-                    This is an index of all <a href="https://github.com/imsresearch/imsresearch.github.io/tree/main/database">articles published by the IMS.</a>
+                    This is an index of all articles published by the IMS.
                 </p>
             </div>
 
