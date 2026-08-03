@@ -182,6 +182,10 @@ small{
 }
 
 @media (max-width: 850px){
+    .rolling span{
+        font-size: 0.5rem;
+    }
+    
     .systems-box-title h1{
         font-size: 2.5rem;
         padding-bottom: 0;
