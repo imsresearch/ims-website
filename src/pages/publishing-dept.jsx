@@ -38,7 +38,7 @@ export default function PubDep() {
                         Read and download the latest issue of the IMS Journal
                     </p>
                     <h3>
-                        <a href="/pubdep/imspd-index">Articles Index</a> • /pubdep/imsj-index
+                        <a href="/pubdep/imspd-index">Articles Index</a> • /pubdep/imspd-index
                     </h3>
                     <p>
                         Use the official IMSPD Index to find articles for research or reading
