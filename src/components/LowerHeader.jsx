@@ -22,7 +22,7 @@ export default function LowerHeader() {
                 <div className="dropdown" onMouseEnter={() => setJournalOpen(true)} onMouseLeave={() => setJournalOpen(false)}>
                     <button className="dropdown_trigger">
                         <a href="/pubdep" className="section_link">
-                            Journal ▾
+                            Publishing Department ▾
                         </a>
                     </button>
 
