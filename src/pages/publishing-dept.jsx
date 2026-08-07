@@ -48,19 +48,19 @@ export default function PubDep() {
                         <a href="/publish-with-us">Publish with us</a> • /publish-with-us
                     </h3>
                     <p>
-                        Guidance for authors on how to publish with the IMSJ
+                        Guidance for authors on how to publish with the IMSPD
                     </p>
                     <h3>
                         <a href="/publish-with-us/style-guide">Style guide</a> • /publish-with-us/style-guide
                     </h3>
                     <p>
-                        The official style guide used by IMSJ editors and reviewers
+                        The official style guide used by IMSPD editors and reviewers
                     </p>
                     <h3>
                         <a href="/publish-with-us/your-rights">Your rights as an author</a> • /publish-with-us/your-rights
                     </h3>
                     <p>
-                        Read the author's rights to privacy when publishing with the IMSJ
+                        Read the author's rights to privacy when publishing with the IMSPD
                     </p>
                 </div>
 
@@ -75,7 +75,7 @@ export default function PubDep() {
                         <a href="https://imsresearch.substack.com">Substack</a> • imsresearch.substack.com
                     </h3>
                     <small>
-                        The IMSJ does not have any other social media accounts
+                        The IMSPD does not have any other social media accounts
                     </small>
                 </div>
 
@@ -100,7 +100,7 @@ export default function PubDep() {
                         Publishing Department Discord:
                     </h3>
                     <p>
-                        <a href="https://discord.gg/yzfQzaqyPR">IMSJ Discord Server</a> • yzfQzaqyPR
+                        <a href="https://discord.gg/yzfQzaqyPR">IMSPD Discord Server</a> • yzfQzaqyPR
                     </p>
                     <small>
                         Discord server
