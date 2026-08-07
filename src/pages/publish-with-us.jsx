@@ -14,7 +14,7 @@ export default function PublishWithUs() {
             <Helmet>
                 <title>Publish with us | IMS</title>
                 <meta name="application-name" content="Publish with us | IMS" />
-                <meta name="description" content="Information about how to publish with the IMS Journal." />
+                <meta name="description" content="Information about how to publish with the IMS Publishing Department." />
             </Helmet>
 
             <TopHeader />
@@ -35,8 +35,8 @@ export default function PublishWithUs() {
                     <p>
                         The sections below will tell authors what to do in order
                         to publish with the{" "}
-                        <a href="/journal">
-                            <i>IMS Journal</i>
+                        <a href="/pubdep">
+                            IMS Journal
                         </a>{" "}
                         or{" "}
                         <a href="https://imsresearch.substack.com">
@@ -46,7 +46,7 @@ export default function PublishWithUs() {
                         <br />
 
                         Publishing means that your article will be indexed{" "}
-                        <a href="/journal/imsj-index">here</a>.
+                        <a href="/pubdep/imspd-index">here</a>.
 
                         <br />
                         
@@ -68,7 +68,7 @@ export default function PublishWithUs() {
                     <p>
                         The{" "}
                         <b>
-                            <i>IMS Journal</i>
+                            IMS Journal
                         </b>{" "}
                         and <b>IMS Substack</b> are different places where a
                         manuscript can be published. Publishing to one does not
@@ -89,7 +89,7 @@ export default function PublishWithUs() {
                         <li>
                             <b>Before</b> starting to write, join the{" "}
                             <a href="https://discord.gg/yzfQzaqyPR">
-                                <i>IMS Journal</i> Discord server
+                                IMS Publishing Department Discord server
                             </a>{" "}
                             and follow the instructions in the <u>#readme</u>{" "}
                             channel
@@ -108,7 +108,7 @@ export default function PublishWithUs() {
                         <li>
                             Join the{" "}
                             <a href="https://discord.gg/yzfQzaqyPR">
-                                <i>IMS Journal</i> Discord server
+                                IMS Publishing Department Discord server
                             </a>{" "}
                             and follow the instructions in the <u>#readme</u>{" "}
                             channel
@@ -137,7 +137,7 @@ export default function PublishWithUs() {
                     <Tooltip id="style-guide-tooltip"/>
 
                     <p>
-                        Read the <i>IMS Journal</i> style guide{" "}
+                        Read the IMS Publishing Department style guide{" "}
                         <a href="/publish-with-us/style-guide">here</a>
                     </p>
 
@@ -163,13 +163,13 @@ export default function PublishWithUs() {
                         redistribute this ad to promote the publication.
                         <br />
                         <br />
-                        Works published to the IMS Journal can be found on the{" "}
+                        Works published with the IMS Publishing Department can be found on the{" "}
                         <a href="https://github.com/imsresearch/ims-database">
                             IMS database
                         </a>{" "}
                         if it is not on the latest issue. If the work was
                         published on the latest issue, it will be found{" "}
-                        <a href="/journal">here</a>.
+                        <a href="/pubdep/latest-issue">here</a>.
                         <br />
                     </p>
                 </main>

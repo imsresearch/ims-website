@@ -11,7 +11,7 @@ import { createGlobalStyle } from "styled-components";
 
 import Index from "./pages/main.jsx";
 import AboutUs from "./pages/about-us.jsx";
-import Journal from "./pages/journal.jsx";
+import PubDep from "./pages/publishing-dept.jsx";
 import LatestIssue from "./pages/latest-issue.jsx";
 import PublishWithUs from "./pages/publish-with-us.jsx";
 import StyleGuide from "./pages/style-guide.jsx";
@@ -77,10 +77,10 @@ export default function App() {
             <Switch>
                 <Route exact path="/" component={Index}/>
                 <Route exact path="/about-us" component={AboutUs}/>
-                <Route exact path="/journal" component={Journal}/>
+                <Route exact path="/pubdep" component={PubDep}/>
 
-                <Route exact path="/journal/latest-issue" component={LatestIssue}/>
-                <Route exact path="/journal/imsj-index" component={ArticlesIndex}/>
+                <Route exact path="/pubdep/latest-issue" component={LatestIssue}/>
+                <Route exact path="/pubdep/imspd-index" component={ArticlesIndex}/>
 
                 <Route exact path="/publish-with-us" component={PublishWithUs}/>
                 <Route exact path="/publish-with-us/style-guide" component={StyleGuide}/>

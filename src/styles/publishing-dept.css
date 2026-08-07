@@ -5,8 +5,10 @@
 .journal-page h1{
     text-align: center;
     margin: 0;
-    padding-top: 4rem;
+
     font-size: 3rem;
+
+    padding: 4rem 8vw 0 8vw;
 }
 
 .journal-page h3 p small{

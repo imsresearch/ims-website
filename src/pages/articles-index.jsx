@@ -127,7 +127,7 @@ export default function ArticlesIndex() {
             <Helmet>
                 <title>Articles index | IMS</title>
                 <meta name="application-name" content="Articles index | IMS" />
-                <meta name="description" content="Index of articles published by the IMS Journal." />
+                <meta name="description" content="Index of articles published by the IMS Publishing Department." />
             </Helmet>
 
             <TopHeader />
@@ -142,7 +142,7 @@ export default function ArticlesIndex() {
                 </h1>
 
                 <p>
-                    This is an index of all articles published by the IMS.
+                    This is an index of all articles published by the IMS Publishing Department.
                 </p>
             </div>
 

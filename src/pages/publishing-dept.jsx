@@ -5,15 +5,15 @@ import TopHeader from "../components/TopHeader";
 import LowerHeader from "../components/LowerHeader";
 import JournalFooter from "../components/JournalFooter";
 
-import "../styles/journal.css";
+import "../styles/publishing-dept.css";
 
-export default function Journal() {
+export default function PubDep() {
     return (
         <div className="journal-page">
             <Helmet>
-                <title>Journal department | IMS</title>
-                <meta name="application-name" content="Journal department | IMS" />
-                <meta name="description" content="Home page for the Journal department of the Institute of Minecraft Studies." />
+                <title>Publishing department | IMS</title>
+                <meta name="application-name" content="Publishing department | IMS" />
+                <meta name="description" content="Home page for the Publishing department of the Institute of Minecraft Studies." />
             </Helmet>
 
             <TopHeader />
@@ -21,27 +21,27 @@ export default function Journal() {
 
             <div className="title-box">
                 <h1>
-                    Institute of Minecraft Studies Journal (IMSJ)
+                    Institute of Minecraft Studies Publishing Department (IMSPD)
                 </h1>
             </div>
 
             <main className="content-box">
-                <div className="pages-box">
+                <div className="pages-box" id="pages">
                     <h2>
                         Pages
                     </h2>
                     <hr className="small-hr"/>
                     <h3>
-                        <a href="/journal/latest-issue">Latest issue</a> • /journal/latest-issue
+                        <a href="/pubdep/latest-issue">Latest issue</a> • /pubdep/latest-issue
                     </h3>
                     <p>
                         Read and download the latest issue of the IMS Journal
                     </p>
                     <h3>
-                        <a href="/journal/imsj-index">Articles Index</a> • /journal/imsj-index
+                        <a href="/pubdep/imspd-index">Articles Index</a> • /pubdep/imsj-index
                     </h3>
                     <p>
-                        Use the official IMSJ Index to find articles for research or reading
+                        Use the official IMSPD Index to find articles for research or reading
                     </p>
                     <hr className="small-hr"/>
                     <h3>
@@ -66,7 +66,7 @@ export default function Journal() {
 
                 <hr className="big-hr"/>
 
-                <div className="socials-box">
+                <div className="socials-box" id="socials">
                     <h2>
                         Social medias
                     </h2>
@@ -81,7 +81,7 @@ export default function Journal() {
 
                 <hr className="big-hr"/>
 
-                <div className="contact-box">
+                <div className="contact-box" id="contact-us">
                     <h2>
                         Contact us
                     </h2>
@@ -97,7 +97,7 @@ export default function Journal() {
                     </small>
 
                     <h3>
-                        Editorial Board:
+                        Publishing Department Discord:
                     </h3>
                     <p>
                         <a href="https://discord.gg/yzfQzaqyPR">IMSJ Discord Server</a> • yzfQzaqyPR
@@ -105,6 +105,24 @@ export default function Journal() {
                     <small>
                         Discord server
                     </small>
+                </div>
+
+                <hr className="big-hr"/>
+
+                <div className="policies" id="policies">
+                    <h2>
+                        Constitution, policies, and other official documents
+                    </h2>
+                    <hr className="small-hr"/>
+                    <h3>
+                        Constitution
+                    </h3>
+                    <p><a href="/database/non-published/pubdep/Constitution of the IMSPD.pdf">Download here</a></p>
+                    <h3>
+                        Transparency reports
+                    </h3>
+                    <p><a href="database\non-published\pubdep\transparency-report-june26.pdf">June</a></p>
+                    <p><a href="database\non-published\pubdep\transparency-report-july26.pdf">July</a></p>
                 </div>
             </main>
 

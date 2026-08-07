@@ -37,16 +37,16 @@ export default function StyleGuide() {
 
                 {/*preamble*/}
                 <div className="preamble-div">
-                    <h1 id="main">IMS Journal Style Guide</h1>
+                    <h1 id="main">IMS Publishing Department Style Guide</h1>
 
                     <p className="preamble">
                         All papers will be published according to this guide.
                         <br />
                         Manuscripts and drafts do not need to be formatted as such, but it is highly encouraged authors adhere to the guide as much as possible to ensure efficient review.
                         <br />
-                        If there is any ambiguity in any of the instructions, first see examples from <a href="/journal">the latest journal</a>, then contact an editor or the editor-in-chief in the{" "}
-                        <a href="/publish-with-us#how-what">
-                            <i>IMS Journal</i> Discord server
+                        If there is any ambiguity in any of the instructions, first see examples from <a href="/pubdep">the latest journal</a>, then contact an editor or the editor-in-chief in the{" "}
+                        <a href="/pubdep#contact-us">
+                            IMS Publishing Department Discord server
                         </a>
                         .
                     </p>
@@ -125,9 +125,9 @@ export default function StyleGuide() {
                         <li>Authors may use American, Commonwealth, or any other formal spelling conventions</li>
                         <li>Exaggerative language such as “brilliant”, “magnificent”, “groundbreaking”, or “one-of-its-kind” should be avoided</li>
                         <li>
-                            Acronyms must be defined upon first use, unless they are in the <a href="/glossary">official glossary</a>
+                            Acronyms must be defined upon first use, unless they are in the <a>official glossary</a>
                             <br />
-                            <small>The glossary has not been set up yet — please ask in the Journal server if you are unsure.</small>
+                            <small>The glossary has not been set up yet — please ask in the Publishing Department server if you are unsure.</small>
                         </li>
                         <li>Newly introduced terms should (but do not need to) be italicised</li>
                         <li>Authors should be attentive to a reader’s ease of reading, for example by taking care of excessively long run-on sentences</li>
@@ -187,7 +187,7 @@ export default function StyleGuide() {
                         </small>
                         <ul>
                             <li>
-                                For manuscripts (ones posted to the <u>#draft-manuscripts</u> channel) or published works (papers officially published by the IMS in the Substack <b>or</b> journal),
+                                For manuscripts (ones posted to the <u>#draft-manuscripts</u> channel) or published works (papers officially published by the IMS Publishing Department),
                                 and videos:
                             </li>
                         </ul>
