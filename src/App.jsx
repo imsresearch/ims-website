@@ -19,6 +19,7 @@ import SystemsEvent from "./pages/systems-event.jsx";
 import NotFound from "./pages/404.jsx";
 import ArticlesIndex from "./pages/articles-index.jsx";
 import GDPR from "./pages/privacy.jsx";
+import PubDepApplications from "./pages/pubdep-applications.jsx";
 
 const GlobalStyles = createGlobalStyle`
     body {
@@ -81,6 +82,7 @@ export default function App() {
 
                 <Route exact path="/pubdep/latest-issue" component={LatestIssue}/>
                 <Route exact path="/pubdep/imspd-index" component={ArticlesIndex}/>
+                <Route exact path="/pubdep/applications" component={PubDepApplications}/>
 
                 <Route exact path="/publish-with-us" component={PublishWithUs}/>
                 <Route exact path="/publish-with-us/style-guide" component={StyleGuide}/>

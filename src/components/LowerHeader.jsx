@@ -32,6 +32,8 @@ export default function LowerHeader() {
 
                             <a href="/pubdep/imspd-index">Articles index</a>
 
+                            <a href="/pubdep/applications">Apply for a job</a>
+
                             <div className="dropdown" onMouseEnter={() => setPublishingOpen(true)} onMouseLeave={() => setPublishingOpen(false)}>
                                 <button className="dropdown_trigger dropdown_trigger_small">Publishing ▾</button>
 

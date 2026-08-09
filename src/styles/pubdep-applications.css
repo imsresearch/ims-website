@@ -1,0 +1,14 @@
+.pubdep-apps-viewer{
+    padding: 2rem 0;
+}
+
+.pubdep-apps-viewer iframe{
+    display: block;
+
+    width: 80vw;
+    height: 100vh;
+
+    margin: 0 auto;
+
+    border: 2px solid black;
+}
