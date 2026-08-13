@@ -267,8 +267,7 @@ export default function StyleGuide() {
                             <li>
                                 For citations citing drafts in the #draft-manuscripts channel, cite the journal as <i>IMS Draft Manuscript</i>.
                             </li>
-                            <li>There is no word limit to acknowledgements, however:</li>
-                            <li>Acknowledgements must not be excessively long and/or irrelevant.</li>
+                            <li>Acknowledgements should be used to state the roles of different people involved with the paper. However, please obtain explicit consent from the people you name.</li>
                         </ul>
                     </div>
                     <br />
