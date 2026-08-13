@@ -191,10 +191,10 @@ export default function StyleGuide() {
                                 and videos:
                             </li>
                         </ul>
-                        <mark>Author name, Author 2 name. Year of publication. [“Paper title”, Journal title. | “Video name”.] [Vol. volume number.]</mark>
+                        <mark>Author name, Author 2 name. Month Year of publication. [“Paper title”, Journal title. | “Video name”.] [Vol. volume number.]</mark>
                         <br />
                         <div class="ref-box">
-                            e.g. [1] matcha_tea. 2026. “Raid Farms: A symbol of resistance”, IMS Journal. Vol. 1
+                            e.g. [1] matcha_tea. May 2026. “Raid Farms: A symbol of resistance”, IMS Journal. Vol. 1
                             <br />
                             e.g. [2] Rev, Turtle. 2026. “The tyranny of the unemployed”, IMS Draft Manuscript.
                             <br />
