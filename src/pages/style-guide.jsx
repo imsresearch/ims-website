@@ -125,7 +125,7 @@ export default function StyleGuide() {
                         <li>Authors may use American, Commonwealth, or any other formal spelling conventions</li>
                         <li>Exaggerative language such as “brilliant”, “magnificent”, “groundbreaking”, or “one-of-its-kind” should be avoided</li>
                         <li>
-                            Acronyms must be defined upon first use, unless they are in the <a>official glossary</a>
+                            Acronyms must be defined upon first use, except if they are in the <a>official glossary</a>
                             <br />
                             <small>The glossary has not been set up yet — please ask in the Publishing Department server if you are unsure.</small>
                         </li>
