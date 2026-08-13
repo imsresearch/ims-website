@@ -44,7 +44,7 @@ export default function StyleGuide() {
                         <br />
                         Manuscripts and drafts do not need to be formatted as such, but it is highly encouraged authors adhere to the guide as much as possible to ensure efficient review.
                         <br />
-                        If there is any ambiguity in any of the instructions, first see examples from <a href="/pubdep">the latest journal</a>, then contact an editor or the editor-in-chief in the{" "}
+                        If there is any ambiguity in any of the instructions, first see examples from <a href="/pubdep">the latest journal</a>, then contact your editor, a sub-department co-ordinator, or the editor-in-chief in the{" "}
                         <a href="/pubdep#contact-us">
                             IMS Publishing Department Discord server
                         </a>
