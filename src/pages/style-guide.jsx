@@ -308,7 +308,7 @@ export default function StyleGuide() {
 
                     <h2 id="imsc">
                         <span data-tooltip-id="imsc-tooltip" data-tooltip-content="#imsc">
-                            IMSC format <a href="#imsc">(top)</a>
+                            IMSC format <a href="#sidebar">(top)</a>
                         </span>
                     </h2>
                     <Tooltip id="imsc-tooltip" />
