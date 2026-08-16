@@ -11,7 +11,7 @@ import "../../styles/articles-index.css";
 export default function ArticlesIndex() {
     const [searchIndex, setSearchIndex] = useState(null);
     const [results, setResults] = useState([]);
-    const [query, setQuery] = useState("");
+    var [query, setQuery] = useState("");
     const [suggestion, setSuggestion] = useState("");
     const [searchIMSC, setSearchIMSC] = useState(false);
     const [visibleCount, setVisibleCount] = useState(20);
@@ -81,6 +81,15 @@ export default function ArticlesIndex() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, [results]);
 
+    useEffect(() => {
+        const params = new URLSearchParams(window.location.search)
+        const search = params.get("search")
+        query = search
+
+        setQuery(query)
+        console.log(query)
+    }, []);
+
     function makeSnippet(text, query, distance = 15) {
         const words = text.split(" ");
         const terms = query.toLowerCase().split(" ");
@@ -141,9 +150,7 @@ export default function ArticlesIndex() {
                     </p>
                 </h1>
 
-                <p>
-                    This is an index of all articles published by the IMS Publishing Department.
-                </p>
+                <p>This is an index of all articles published by the IMS Publishing Department.</p>
             </div>
 
             <div className="search-box">
