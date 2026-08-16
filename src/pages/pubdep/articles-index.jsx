@@ -13,7 +13,7 @@ export default function ArticlesIndex() {
     const [results, setResults] = useState([]);
     var [query, setQuery] = useState("");
     const [suggestion, setSuggestion] = useState("");
-    const [searchIMSC, setSearchIMSC] = useState(false);
+    var [searchIMSC, setSearchIMSC] = useState(false);
     const [visibleCount, setVisibleCount] = useState(20);
 
     const suggestions = ["raid farms", "server", "player", "behaviour", "people", "solution", "social"];
@@ -82,13 +82,34 @@ export default function ArticlesIndex() {
     }, [results]);
 
     useEffect(() => {
-        const params = new URLSearchParams(window.location.search)
-        const search = params.get("search")
-        query = search
+        const params = new URLSearchParams(window.location.search);
 
-        setQuery(query)
-        console.log(query)
+        const search = params.get("search") || "";
+        const withIMSC = params.get("IMSC") === "true";
+
+        setQuery(search);
+        setSearchIMSC(withIMSC);
     }, []);
+
+    useEffect(() => {
+        const timeout = setTimeout(() => {
+            const params = new URLSearchParams(window.location.search);
+
+            if (query) {
+                params.set("search", query);
+            } else {
+                params.delete("search");
+            }
+
+            params.set("IMSC", searchIMSC);
+
+            window.history.replaceState({}, "", `?${params.toString()}`);
+
+            console.log("run this code!");
+        }, 500);
+
+        return () => clearTimeout(timeout);
+    }, [query, searchIMSC]);
 
     function makeSnippet(text, query, distance = 15) {
         const words = text.split(" ");
