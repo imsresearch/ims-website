@@ -53,7 +53,13 @@ export default function Main() {
 
 		{/*articles box*/}
 		<main className="article-box" id="articles">
-            <a className="latest-article article-linkbox" href="https://imsresearch.substack.com/p/the-consequences-of-poor-design-a">
+            <a className="latest-article article-linkbox" href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">
+				<h3 className="article-title">The Arena vs. The Idea</h3>
+				<p>The Fundamental Toxicity of Overly Gamified Minecraft Communities - By Turtle2770</p>
+				<small>16 August · Opinion</small>
+			</a>
+
+            <a className="article-linkbox" href="https://imsresearch.substack.com/p/the-consequences-of-poor-design-a">
 				<h3 className="article-title">The Consequences of Poor Design: A Critique of the Systems Experiment</h3>
 				<p>By Harlow: Being a part of the first ever event of the IMS as a player and organiser gave her a wide field of vision about what went right - and what went wrong.</p>
 				<small>21 July · Opinion</small>
