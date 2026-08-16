@@ -118,11 +118,25 @@ export default function PubDep() {
                         Constitution
                     </h3>
                     <p><a href="/database/non-published/pubdep/Constitution of the IMSPD.pdf">Download here</a></p>
+
+                    <hr className="small-hr"/>
+
+                    <h3>
+                        Policies
+                    </h3>
+                    <p><a href="/database/non-published/pubdep/ethics.pdf">Publishing Policy</a></p>
+                    <p><a href="/database/non-published/pubdep/inter-departmental.pdf">Inter-departmental Relations Policy</a></p>
+                    <p><a href="/database/non-published/pubdep/publishing.pdf">Publishing Policy</a></p>
+                    <p><a href="/database/non-published/pubdep/staff-activity.pdf">Staff Activity Requirements Policy</a></p>
+                    <p><a href="/database/non-published/pubdep/staff-hiring.pdf">Staff Hiring Policy</a></p>
+
+                    <hr className="small-hr"/>
+
                     <h3>
                         Transparency reports
                     </h3>
-                    <p><a href="database\non-published\pubdep\transparency-report-june26.pdf">June</a></p>
-                    <p><a href="database\non-published\pubdep\transparency-report-july26.pdf">July</a></p>
+                    <p><a href="database\non-published\pubdep\transparency-report-july26.pdf">July 2026</a></p>
+                    <p><a href="database\non-published\pubdep\transparency-report-june26.pdf">June 2026</a></p>
                 </div>
             </main>
 
