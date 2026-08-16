@@ -122,6 +122,9 @@ body{
 /*article boxees*/
 .latest-article{
     border: 0.3rem orangered ridge;
+    text-decoration: none;
+    color: black;
+    padding: 1.5rem 2rem;
 }
 
 .article-box{

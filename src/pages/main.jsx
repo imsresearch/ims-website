@@ -53,7 +53,7 @@ export default function Main() {
 
 		{/*articles box*/}
 		<main className="article-box" id="articles">
-            <a className="latest-article article-linkbox" href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">
+            <a className="latest-article" href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">
 				<h3 className="article-title">The Arena vs. The Idea</h3>
 				<p>The Fundamental Toxicity of Overly Gamified Minecraft Communities - By Turtle2770</p>
 				<small>16 August · Opinion</small>
