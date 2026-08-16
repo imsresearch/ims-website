@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
-import TopHeader from "../components/TopHeader";
-import LowerHeader from "../components/LowerHeader";
-import Footer from "../components/Footer";
+import TopHeader from "../../components/TopHeader";
+import LowerHeader from "../../components/LowerHeader";
+import Footer from "../../components/Footer";
 
 import "../styles/systems-event.css";
 

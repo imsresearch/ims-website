@@ -8,23 +8,6 @@ body{
     background: white;
 }
 
-/*main content box*/
-.systems-box{
-    text-align: center;
-    padding-bottom: 1rem;
-    border-bottom: 0.1rem solid black;
-    background: #dfdfd5;
-}
-
-.systems-box-title h1{
-    font-family: "DejaVu Sans", sans-serif;
-    font-style: italic;
-    font-weight: 600;
-    font-size: 3rem;
-    
-    margin: 0;
-}
-
 /*index svgs*/
 .svgs{
     display: flex;
@@ -77,14 +60,6 @@ body{
     border-style: solid;
     padding: 0 0 0.5rem 0;
     color: black;
-}
-
-.join-systems{
-    font-family: "DejaVu Sans", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-decoration: underline;
-    margin: 0.5rem 0 0.5rem 0;
 }
 
 /*video embed*/
@@ -182,45 +157,6 @@ small{
 }
 
 @media (max-width: 850px){
-    .rolling span{
-        font-size: 0.5rem;
-    }
-    
-    .systems-box-title h1{
-        font-size: 2.5rem;
-        padding-bottom: 0;
-    }
-
-    .desktop-only{
-        display: none;
-    }
-
-    .mobile-only{
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 0.5rem;
-
-        transform: scale(0.7);
-
-        margin: 0;
-
-        place-items: center;
-    }
-
-    .mobile-only svg{
-        display: block;
-        width: 100%;
-        max-width: 45vw;
-    }
-
-    .read-more{
-        font-size: 1.4rem;
-    }
-
-    .join-systems{
-        font-size: 1.4rem;
-    }
-
     .article-box{
         grid-template-columns: 1fr 1fr;
         padding: 0;

@@ -1,0 +1,61 @@
+.TSE-page h1{
+    text-align: center;
+    margin: 0;
+
+    font-size: 3rem;
+
+    padding: 4rem 8vw 0 8vw;
+}
+
+.TSE-page h3 p small{
+    padding-left: 2rem;
+}
+
+.small-hr{
+    border: 1px solid gray;
+}
+
+.big-hr{
+    border: 1.5px solid black;
+    margin: 2rem 5vw;
+}
+
+.TSE-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.TSE-description{
+    grid-column: span 7;
+
+    font-size: 1.4rem;
+    text-justify: auto;
+
+    padding: 2rem;
+}
+
+.TSE-media{
+    grid-column: span 3;
+    padding: 2rem;
+}
+
+.TSE-media img, video{
+    border: 2px solid black;
+    width: 100%
+}
+
+.big-hr{
+    border: 1.5px solid black;
+    margin: 2rem 5vw;
+}
+
+.TSE-lower-media{
+    padding: 0 15vw;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.TSE-lower-media img, video{
+    width: 100%
+}

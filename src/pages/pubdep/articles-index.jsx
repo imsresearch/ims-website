@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import MiniSearch from "minisearch";
 
-import TopHeader from "../components/TopHeader";
-import LowerHeader from "../components/LowerHeader";
-import JournalFooter from "../components/JournalFooter";
+import TopHeader from "../../components/TopHeader";
+import LowerHeader from "../../components/LowerHeader";
+import JournalFooter from "../../components/JournalFooter";
 
-import "../styles/articles-index.css";
+import "../../styles/articles-index.css";
 
 export default function ArticlesIndex() {
     const [searchIndex, setSearchIndex] = useState(null);

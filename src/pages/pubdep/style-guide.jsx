@@ -2,11 +2,11 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Tooltip } from "react-tooltip";
 
-import TopHeader from "../components/TopHeader";
-import LowerHeader from "../components/LowerHeader";
-import JournalFooter from "../components/JournalFooter";
+import TopHeader from "../../components/TopHeader";
+import LowerHeader from "../../components/LowerHeader";
+import JournalFooter from "../../components/JournalFooter";
 
-import "../styles/style-guide.css";
+import "../../styles/style-guide.css";
 
 export default function StyleGuide() {
     return (
@@ -228,7 +228,7 @@ export default function StyleGuide() {
                             www.discord.com/...
                             <br />
                             <br />
-                            e.g. [5] John Article. 2026. “Minecon 2026 is real?” www.example.com/...
+                            e.g. [5] John Article. 2026. “Minecon 2026 is real?”. www.example.com/...
                         </div>
                         <ul>
                             <li>For real-life works, e.g. academic papers:</li>

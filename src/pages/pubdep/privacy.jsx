@@ -1,11 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import TopHeader from "../components/TopHeader";
-import LowerHeader from "../components/LowerHeader";
-import JournalFooter from "../components/JournalFooter";
+import TopHeader from "../../components/TopHeader";
+import LowerHeader from "../../components/LowerHeader";
+import JournalFooter from "../../components/JournalFooter";
 
-import "../styles/privacy.css";
+import "../../styles/privacy.css";
 
 export default function YourRights() {
     return (

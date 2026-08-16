@@ -22,56 +22,7 @@ export default function Main() {
 		<LowerHeader/>
 
 		{/*latest content box*/}
-		<section className="systems-box">
-			<div className="systems-box-title">
-				<h1 className="systems-title">
-					The Systems Experiment has closed
-				</h1>
-			</div>
-			{/* desktop SVGs
-			<div className="svgs desktop-only">
-			<svg viewBox="0 0 217 217" className="hex green">
-				<polygon points="108,5 212,108 108,212 5,108" />
-				<text x="108" y="108">Two teams</text>
-			</svg>
-
-			<svg viewBox="0 0 217 217" className="hex gold">
-				<polygon points="108,5 212,108 108,212 5,108" />
-				<text x="108" y="108">Make systems</text>
-			</svg>
-
-			<svg viewBox="0 0 217 217" className="hex blue">
-				<polygon points="108,5 212,108 108,212 5,108" />
-				<text x="108" y="108">Interact</text>
-			</svg>
-
-			<svg viewBox="0 0 217 217" className="hex purple">
-				<polygon points="108,5 212,108 108,212 5,108" />
-				<text x="108" y="108">Theorise</text>
-			</svg>
-			</div> */}
-
-			{/* mobile SVGs
-			<div className="svgs mobile-only">
-				<svg viewBox="0 0 217 217" className="hex green small">
-					<polygon points="108,5 212,108 108,212 5,108" />
-					<text x="108" y="108">Two teams</text>
-				</svg>
-				<svg viewBox="0 0 217 217" className="hex gold small">
-					<polygon points="108,5 212,108 108,212 5,108" />
-					<text x="108" y="108">Make systems</text>
-				</svg>
-				<svg viewBox="0 0 217 217" className="hex blue small">
-					<polygon points="108,5 212,108 108,212 5,108" />
-					<text x="108" y="108">Interact</text>
-				</svg>
-				<svg viewBox="0 0 217 217" className="hex purple small">
-					<polygon points="108,5 212,108 108,212 5,108" />
-					<text x="108" y="108">Theorise</text>
-				</svg>
-			</div> */}
-
-			<a className="link-box read-more" href="/systems-event">Read the announcement ⇛</a>
+		<section className="latest-box">
 		</section>
 
 		{/*video embed*/}

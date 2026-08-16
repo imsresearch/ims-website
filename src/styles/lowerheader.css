@@ -35,7 +35,7 @@ hr {
     text-decoration: none;
 }
 
-@keyframes TSE {
+@keyframes important {
     0% {
         border: 0.2rem red dashed;
     }
@@ -47,8 +47,8 @@ hr {
     }
 }
 
-.lowerheader_event {
-    animation-name: TSE;
+.lowerheader_important {
+    animation-name: important;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
@@ -123,8 +123,6 @@ hr {
 .rolling-content {
     display: flex;
     align-items: center;
-    
-    padding-right: 3rem; 
 }
 
 .rolling span {
@@ -157,5 +155,9 @@ hr {
     .dropdown_trigger,
     .dropdown_menu a {
         font-size: 0.8rem;
+    }
+
+    .rolling span{
+        font-size: 0.5rem;
     }
 }

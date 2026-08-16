@@ -2,11 +2,11 @@ import React from "react";
 import {Helmet} from "react-helmet";
 import {Tooltip} from "react-tooltip";
 
-import TopHeader from "../components/TopHeader";
-import LowerHeader from "../components/LowerHeader";
-import JournalFooter from "../components/JournalFooter";
+import TopHeader from "../../components/TopHeader";
+import LowerHeader from "../../components/LowerHeader";
+import JournalFooter from "../../components/JournalFooter";
 
-import "../styles/publish-with-us.css";
+import "../../styles/publish-with-us.css";
 
 export default function PublishWithUs() {
     return (

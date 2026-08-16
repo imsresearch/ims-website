@@ -1,11 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import TopHeader from "../components/TopHeader";
-import LowerHeader from "../components/LowerHeader";
-import JournalFooter from "../components/JournalFooter";
+import TopHeader from "../../components/TopHeader";
+import LowerHeader from "../../components/LowerHeader";
+import JournalFooter from "../../components/JournalFooter";
 
-import "../styles/publishing-dept.css";
+import "../../styles/publishing-dept.css";
 
 export default function PubDep() {
     return (

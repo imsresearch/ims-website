@@ -11,15 +11,19 @@ import { createGlobalStyle } from "styled-components";
 
 import Index from "./pages/main.jsx";
 import AboutUs from "./pages/about-us.jsx";
-import PubDep from "./pages/publishing-dept.jsx";
-import LatestIssue from "./pages/latest-issue.jsx";
-import PublishWithUs from "./pages/publish-with-us.jsx";
-import StyleGuide from "./pages/style-guide.jsx";
-import SystemsEvent from "./pages/systems-event.jsx";
+
+import PubDep from "./pages/pubdep/publishing-dept.jsx";
+import LatestIssue from "./pages/pubdep/latest-issue.jsx";
+import PublishWithUs from "./pages/pubdep/publish-with-us.jsx";
+import StyleGuide from "./pages/pubdep/style-guide.jsx";
+import PubDepApplications from "./pages/pubdep/pubdep-applications.jsx";
+import ArticlesIndex from "./pages/pubdep/articles-index.jsx";
+import GDPR from "./pages/pubdep/privacy.jsx";
+
+import Events from "./pages/events/events.jsx";
+import TSE from "./pages/events/systems-experiment.jsx";
+
 import NotFound from "./pages/404.jsx";
-import ArticlesIndex from "./pages/articles-index.jsx";
-import GDPR from "./pages/privacy.jsx";
-import PubDepApplications from "./pages/pubdep-applications.jsx";
 
 const GlobalStyles = createGlobalStyle`
     body {
@@ -88,7 +92,8 @@ export default function App() {
                 <Route exact path="/publish-with-us/style-guide" component={StyleGuide}/>
                 <Route exact path="/publish-with-us/your-rights" component={GDPR}/>
 
-                <Route exact path="/systems-event" component={SystemsEvent}/>
+                <Route exact path="/events" component={Events}/>
+                <Route exact path="/events/past/systems-experiment" component={TSE}/>
 
                 <Route component={NotFound}/>
             </Switch>

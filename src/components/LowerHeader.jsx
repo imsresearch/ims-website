@@ -14,8 +14,8 @@ export default function LowerHeader() {
                         About us
                     </a>
 
-                    <a className="lowerheader_event lowerheader_link" href="/systems-event">
-                        IMS: The Systems Experiment
+                    <a className="lowerheader_link" href="/events">
+                        Events
                     </a>
                 </div>
 
@@ -75,16 +75,16 @@ export default function LowerHeader() {
                 <div className="rolling-container">
                     <div className="rolling-content">
                         <span>
-                            || Important announcement about the <mark>Systems Experiment</mark>, server to remain as SMP • <mark>New article</mark> by Harlow examines the failures of TSE • New department "IMS LABS" mentioned • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted ||
+                            || Important announcement about the <mark>Systems Experiment</mark>, server to remain as SMP • <mark>New article</mark> by Harlow examines the failures of TSE • New department "IMS LABS" mentioned • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted &nbsp;
                         </span>
                         <span>
-                            || Important announcement about the <mark>Systems Experiment</mark>, server to remain as SMP • <mark>New article</mark> by Harlow examines the failures of TSE • New department "IMS LABS" mentioned • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted ||
+                            || Important announcement about the <mark>Systems Experiment</mark>, server to remain as SMP • <mark>New article</mark> by Harlow examines the failures of TSE • New department "IMS LABS" mentioned • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted &nbsp;
                         </span>
                         <span>
-                            || Important announcement about the <mark>Systems Experiment</mark>, server to remain as SMP • <mark>New article</mark> by Harlow examines the failures of TSE • New department "IMS LABS" mentioned • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted ||
+                            || Important announcement about the <mark>Systems Experiment</mark>, server to remain as SMP • <mark>New article</mark> by Harlow examines the failures of TSE • New department "IMS LABS" mentioned • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted &nbsp;
                         </span>
                         <span>
-                            || Important announcement about the <mark>Systems Experiment</mark>, server to remain as SMP • <mark>New article</mark> by Harlow examines the failures of TSE • New department "IMS LABS" mentioned • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted ||
+                            || Important announcement about the <mark>Systems Experiment</mark>, server to remain as SMP • <mark>New article</mark> by Harlow examines the failures of TSE • New department "IMS LABS" mentioned • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted &nbsp;
                         </span>
                     </div>
                 </div>

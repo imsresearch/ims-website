@@ -1,0 +1,25 @@
+.events-page main{
+    padding: 0 5vw 5rem 8vw;
+}
+
+.events-page h1{
+    text-align: center;
+    margin: 0;
+
+    font-size: 3rem;
+
+    padding: 4rem 8vw 0 8vw;
+}
+
+.events-page h3 p small{
+    padding-left: 2rem;
+}
+
+.small-hr{
+    border: 1px solid gray;
+}
+
+.big-hr{
+    border: 1.5px solid black;
+    margin: 2rem 5vw;
+}
