@@ -58,6 +58,9 @@ export default function TSE() {
                             Read the <a href="https://docs.google.com/document/d/18KUAgjcDkQVlGLTT9_TZik-zs9RWcLk-aU-NYupP49g/edit?usp=sharing">Full Manual</a> and the{" "}
                             <a href="https://docs.google.com/document/d/1-WgaVhwVaEWqpg6LddzPUTV2BaAbW-wqNwxGgni5UNI/edit?usp=sharing">Staff Handbook</a> to learn more.
                         </p>
+                        <p>
+                            Also join the <a href="https://discord.gg/mjdy4uH5xB">archived Discord server</a> for more insight.
+                        </p>
                     </div>
                     <div className="TSE-media">
                         <a href="/assets/IMS_The_Systems_Event_Flyer.png">
