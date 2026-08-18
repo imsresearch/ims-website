@@ -124,7 +124,7 @@ export default function PubDep() {
                     <h3>
                         Policies
                     </h3>
-                    <p><a href="/database/non-published/pubdep/ethics.pdf">Publishing Policy</a></p>
+                    <p><a href="/database/non-published/pubdep/ethics.pdf">Ethics Policy</a></p>
                     <p><a href="/database/non-published/pubdep/inter-departmental.pdf">Inter-departmental Relations Policy</a></p>
                     <p><a href="/database/non-published/pubdep/publishing.pdf">Publishing Policy</a></p>
                     <p><a href="/database/non-published/pubdep/staff-activity.pdf">Staff Activity Requirements Policy</a></p>
