@@ -65,6 +65,8 @@ export default function TSE() {
                     <div className="TSE-media">
                         <a href="/assets/IMS_The_Systems_Event_Flyer.png">
                             <img src="/assets/IMS_The_Systems_Event_Flyer.png"></img>
+                        </a>
+                        <a href="https://www.reddit.com/r/MinecraftServer/s/X5Np3hrzof">
                             <img src="https://preview.redd.it/institute-of-minecraft-studies-the-systems-event-java-1-21-v0-a4t6b9jzf89h1.png?width=1080&crop=smart&auto=webp&s=85e484af9b908c9b9fc908657e7a34d0bc54b0b9"></img>
                         </a>
                     </div>
