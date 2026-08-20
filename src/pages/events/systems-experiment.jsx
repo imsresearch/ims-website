@@ -63,7 +63,7 @@ export default function TSE() {
                         </p>
                     </div>
                     <div className="TSE-media">
-                        <a href="/assets/IMS_The_Systems_Event_Flyer.png">
+                        <a href="https://www.reddit.com/r/MinecraftServer/s/X5Np3hrzof">
                             <img src="/assets/IMS_The_Systems_Event_Flyer.png"></img>
                         </a>
                         <a href="https://www.reddit.com/r/MinecraftServer/s/X5Np3hrzof">
