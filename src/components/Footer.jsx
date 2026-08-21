@@ -27,7 +27,7 @@ export default function Footer() {
                     <p className="footer__credit">
                         <strong>Website built by @matcha._.tea</strong>
                         <br/>
-                        <strong>Credit to @harlowbot for the Journal and IMS logos</strong>
+                        <strong>Credit to @harlowbot for the PubDep and IMS logos</strong>
                         <br/>
                         <strong>Thank you to all the various contributing authors for making this project possible</strong>
                     </p>

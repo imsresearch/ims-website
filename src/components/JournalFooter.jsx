@@ -10,8 +10,8 @@ export default function Footer() {
                     </p>
                     <a href="/#header" className="footer__logo-link">
                         <img
-                            src="/assets/journal_logo.png"
-                            alt="IMS Journal Logo"
+                            src="/assets/pubdep_logo.png"
+                            alt="IMS Publishing Department Logo"
                             className="footer__logo"
                         />
                     </a>
@@ -21,7 +21,7 @@ export default function Footer() {
                     <p className="footer__credit">
                         <strong>Website built by @matcha._.tea</strong>
                         <br/>
-                        <strong>Credit to @harlowbot for the Journal and IMS logos</strong>
+                        <strong>Credit to @harlowbot for the PubDep and IMS logos</strong>
                         <br/>
                         <strong>Thank you to all the various contributing authors for making this project possible</strong>
                     </p>
