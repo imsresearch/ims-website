@@ -61,28 +61,34 @@ export default function StyleGuide() {
                         </span>
                     </h2>
                     <Tooltip id="layout-tooltip" />
+                    <ul>
+                        <li>The below structure should be used for journal articles: (ignoring irrelevant items)</li>
+                        <li><a href="https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pcbi.1005830/1/pcbi.1005830.g001.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20260821%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260821T204351Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=42898b30cf9747f7cea0d13a847fa094496332b0e5addb910dfb59a74d68d05bbddf1c48dfa627b2f8372cef85e01f3ba32ba2adfbef867f86e3065b8c5c5f8a5550a170e538580a9054071a2457a4abf5ffa8eef7cf65a4438b12b603152a29333b722d368427a4fe33edc66933ce692d107ee5c69ddd6688ec3afdccfd099c4172fb98196eaa405def4fa6ca6438b9fb1a0efcc2da8a6ca24f6cea5cd1425d3f277457cd94f0073fe0641d2db9a3438090aa8ce8a9f0a175077c1dd1a06987168beefbf074b8a8c5590bf7e7a0e8eb3648f0144e1f47c364d253360533eb54f8950199dd033f63dbf44a1f4ac11b6671ce988e1e956186eef189c76138ac43">This image</a> explains the role of each section</li>
+                    </ul>
                     <p>
                         Title
                         <br />
                         <i>The title should convey the paper’s purpose or key question in 20 words or less</i>
+                        <br/>
                         <br />
-                        <br />
-                        [Author(s)]
+                        [Author(s)]    IMSC: [x-xx-x]
                         <br />
                         <br />
                         Abstract
                         <br />
                         Introduction
                         <br />
-                        I. [Chapter 1 name]
+                        Main text
                         <br />
-                        II. [Chapter 2 name]
-                        <br />
-                        Results (optional)
+                        Results
                         <br />
                         Conclusion or implications for study
                         <br />
-                        Acknowledgements or References (optional)
+                        Acknowledgements
+                        <br/>
+                        Declarations
+                        <br/>
+                        References
                     </p>
                     <br />
 
@@ -93,12 +99,10 @@ export default function StyleGuide() {
                     </h2>
                     <Tooltip id="abstract-tooltip" />
                     <ul>
-                        <li>Must be 200 words or fewer</li>
+                        <li>Must be appropriate in length (~200 words)</li>
                         <li>Should be in plain English and understandable by a layperson</li>
-                        <li>Should summarise the paper’s key question(s) and its conclusions</li>
-                        <li>Acronyms should be avoided</li>
-                        <li>Any technical language should be abstracted to be easily understood</li>
-                        <li>Must not contain citations, references, or quotations</li>
+                        <li>Should summarise the paper’s key question(s), its conclusions, and all information present in the text</li>
+                        <li>Any technical language should be abstracted to be understood by a general audience</li>
                     </ul>
                     <br />
 
@@ -109,9 +113,9 @@ export default function StyleGuide() {
                     </h2>
                     <Tooltip id="introduction-tooltip" />
                     <ul>
-                        <li>Must explain the rationale for the paper</li>
+                        <li>Must explain the rationale for the article</li>
                         <li>Must include important preceding information that the reader should be aware of</li>
-                        <li>Should avoid excessive references, quotations, or statistics for ease of reading. The author may include the above where necessary.</li>
+                        <li>Should reference previous work which the text build upon</li>
                     </ul>
                     <br />
 
@@ -122,8 +126,10 @@ export default function StyleGuide() {
                     </h2>
                     <Tooltip id="body-tooltip" />
                     <ul>
+                        <li>Text must be well written, consistent, and clear</li>
+                        <li>Text must be succinct. Sentences shouldn't meander on or use too many words to say something simple. Authors should avoid redundant words</li>
                         <li>Authors may use American, Commonwealth, or any other formal spelling conventions</li>
-                        <li>Exaggerative language such as “brilliant”, “magnificent”, “groundbreaking”, or “one-of-its-kind” should be avoided</li>
+                        <li>More formal articles should avoid puffery (e.g. best, greatest, groundbreaking), weasel words (e.g. some people say, experts state, science shows, is widely regarded), editorializing (e.g. interestingly, actually, clearly, of course, unfortunately), colloquial language, and vague phrasing</li>
                         <li>
                             Acronyms must be defined upon first use, except if they are in the <a>official glossary</a>
                             <br />
@@ -132,12 +138,14 @@ export default function StyleGuide() {
                         <li>Newly introduced terms should (but do not need to) be italicised</li>
                         <li>Authors should be attentive to a reader’s ease of reading, for example by taking care of excessively long run-on sentences</li>
                         <li>
-                            Footnotes must be inserted using superscripted letters of the alphabet inside square brackets, with the footnote below the margins of the page
+                            Footnotes must be inserted using superscripted letters of the alphabet, with the footnote below the margins of the page
                             <br />
                             e.g. Lorem ipsum
-                            <sup>[a]</sup> dolor sit amet...
+                            <sup>a</sup> dolor sit amet...
                         </li>
                         <li>Abbreviations for phrases (e.g. ASAP, N/A) should be avoided except for academic abbreviations such as e.g., i.e., and et al.</li>
+                        <li>Should include the key question posited by the article and the methods that it uses to answer the question</li>
+                        <li>The text must comply with copyright laws. Instances of fair use must be marked and justified</li>
                     </ul>
                     <br />
 
@@ -148,15 +156,8 @@ export default function StyleGuide() {
                     </h2>
                     <Tooltip id="diagrams-tooltip" />
                     <ul>
-                        <li>Authors using any diagrams, charts, images, or visual aids should label them with numbers for easy referencing</li>
-                        <ul>
-                            <li>
-                                e.g. (Graph)[1]
-                                <br />
-                                Graph 1 shows...
-                            </li>
-                        </ul>
-                        <li>All charts must be labelled and given an appropriate scale</li>
+                        <li>Diagrams must be clear and easy to interpret if presented with the figure and its legend in isolation</li>
+                        <li>Tables and figures should be used effectively, agree with the text, and have appropriate captions</li>
                     </ul>
                     <br />
 
@@ -169,6 +170,7 @@ export default function StyleGuide() {
                     <ul>
                         <li>Must answer the key questions of the paper as described in the abstract or introduction</li>
                         <li>May propose further study and research</li>
+                        <li>May explain limitations of the study condcted</li>
                     </ul>
                     <br />
 
@@ -270,6 +272,18 @@ export default function StyleGuide() {
                             <li>Acknowledgements should be used to state the roles of different people involved with the paper. However, please obtain explicit consent from the people you name.</li>
                         </ul>
                     </div>
+                    <br />
+
+                    <h2 id="declarations">
+                        <span data-tooltip-id="declarations-tooltip" data-tooltip-content="#declarations">
+                            Declarations <a href="#sidebar">(top)</a>
+                        </span>
+                    </h2>
+                    <Tooltip id="declarations-tooltip" />
+                    <ul>
+                        <li>Must include the author, editor, or reviewer's use of AI or LLMs</li>
+                        <li>Must disclose any conflict of interest (COI) or lack thereof</li>
+                    </ul>
                     <br />
 
                     <h2 id="formatting">
