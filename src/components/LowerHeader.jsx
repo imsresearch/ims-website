@@ -75,16 +75,16 @@ export default function LowerHeader() {
                 <div className="rolling-container">
                     <div className="rolling-content">
                         <span>
-                            || New <mark>events hub</mark> created for current, past, and future events. • <mark>New article</mark> by Harlow examines the failures of TSE • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted &nbsp;
+                            || New <mark><a href="/events">events hub</a></mark> created for current, past, and future events. • <mark><a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a></mark> article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as <mark><a href="/pubdep">IMS Publishing Department</a></mark>; Constitution enacted &nbsp;
                         </span>
                         <span>
-                            || New <mark>events hub</mark> created for current, past, and future events. • <mark>New article</mark> by Harlow examines the failures of TSE • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted &nbsp;
+                            || New <mark><a href="/events">events hub</a></mark> created for current, past, and future events. • <mark><a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a></mark> article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as <mark><a href="/pubdep">IMS Publishing Department</a></mark>; Constitution enacted &nbsp;
                         </span>
                         <span>
-                            || New <mark>events hub</mark> created for current, past, and future events. • <mark>New article</mark> by Harlow examines the failures of TSE • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted &nbsp;
+                            || New <mark><a href="/events">events hub</a></mark> created for current, past, and future events. • <mark><a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a></mark> article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as <mark><a href="/pubdep">IMS Publishing Department</a></mark>; Constitution enacted &nbsp;
                         </span>
                         <span>
-                            || New <mark>events hub</mark> created for current, past, and future events. • <mark>New article</mark> by Harlow examines the failures of TSE • IMSJ to rename as <mark>IMS Publishing Department</mark>; Constitution enacted &nbsp;
+                            || New <mark><a href="/events">events hub</a></mark> created for current, past, and future events. • <mark><a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a></mark> article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as <mark><a href="/pubdep">IMS Publishing Department</a></mark>; Constitution enacted &nbsp;
                         </span>
                     </div>
                 </div>
