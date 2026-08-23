@@ -120,6 +120,10 @@ hr {
     animation: headlines 15s linear infinite;
 }
 
+.rolling-container:hover{
+    animation-play-state: paused;
+}
+
 .rolling-content {
     display: flex;
     align-items: center;
