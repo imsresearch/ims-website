@@ -240,7 +240,10 @@ export default function StyleGuide() {
                             e.g. [1] Haines, Nicolas. “Philosophy as social philosophy.” Philosophy, vol. 42, no. 159, Jan. 1967, pp. 3–52, https://doi.org/10.1017/s003181910000084x.
                         </div>
                         <br />
-                        <b>Inline citations:</b>
+                        <b>In-text citations:</b>
+                        <ul>
+                            <li>See "In-Text Citation Principles" from APA for guidance on how to use citations in-text: <a href="https://apastyle.apa.org/style-grammar-guidelines/citations">https://apastyle.apa.org/style-grammar-guidelines/citations</a></li>
+                        </ul>
                         <ul>
                             <li>Author-date citations:</li>
                         </ul>
