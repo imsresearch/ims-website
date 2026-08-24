@@ -71,15 +71,15 @@ function ImscRedirect() {
         if (imsc[0] === "j"){
             const editionN = imsc[2]
             window.location.href = `/database/published/journal/${editionN}/${imsc}/${imsc}.pdf`
-            console.log("went to journal article")
         }
         else if (imsc[0] === "s" || imsc[0] === "c") {
             window.location.href = `/database/published/substack/${imsc}/${imsc}.pdf`
-            console.log("went to substack article")
         }
         else {
             window.location.href = "/404"
         }
+
+        window.history.pushState({}, "", `/${imsc}`)
     }, [imsc]);
 
     return null;
