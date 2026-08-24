@@ -22,12 +22,12 @@ export default function LatestIssue() {
             {/* journal viewer */}
             <main className="journal-section">
                 <div className="journal-viewer">
-                    <iframe title="Latest issue of the IMS Journal" src="/database/published/journal/first-edition/First-Edition.pdf" />
+                    <iframe title="Latest issue of the IMS Journal" src="/database/published/journal/1/First-Edition.pdf" />
                 </div>
 
                 <div className="journal-download">
                     <a
-                        href="https://raw.githubusercontent.com/imsresearch/imsresearch.github.io/a0a684c439dff7cb95b43c168883b250527722c8/public/database/published/journal/first-edition/First-Edition.pdf"
+                        href="https://raw.githubusercontent.com/imsresearch/imsresearch.github.io/a0a684c439dff7cb95b43c168883b250527722c8/public/database/published/journal/1/First-Edition.pdf"
                         target="_blank"
                         rel="noreferrer"
                     >

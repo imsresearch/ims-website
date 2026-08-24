@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import {
     BrowserRouter as Router,
     Route,
@@ -64,6 +64,24 @@ function Debug() {
     return null;
 }
 
+function ImscRedirect() {
+    const {imsc} = useParams();
+
+    useEffect (() => {
+        if (imsc[0] == "j"){
+            const editionN = imsc[2]
+            window.location.href = `/database/published/journal/${editionN}/${imsc}/${imsc}.pdf`
+            console.log("went to journal article")
+        }
+        else {
+            window.location.href = `/database/published/substack/${imsc}/${imsc}.pdf`
+            console.log("went to substack article")
+        }
+    }, [imsc]);
+
+    return null;
+}
+
 export default function App() {
 
     const redirect = sessionStorage.getItem("redirect");
@@ -94,6 +112,8 @@ export default function App() {
 
                 <Route exact path="/events" component={Events}/>
                 <Route exact path="/events/past/systems-experiment" component={TSE}/>
+
+                <Route path="/:imsc" component={ImscRedirect}/>
 
                 <Route component={NotFound}/>
             </Switch>
