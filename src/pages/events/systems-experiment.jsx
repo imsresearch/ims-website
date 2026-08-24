@@ -71,6 +71,7 @@ export default function TSE() {
                         </a>
                     </div>
                 </div>
+                <hr className="big-hr" />
                 <div className="TSE-lower-media">
                     <a href="https://imsresearch.substack.com/p/two-teams-two-theories-of-power">
                         <img src="https://imsresearch.substack.com/api/v1/press_kit/asset/201377632/solid/composed?aspectRatio=grid&mode=light"></img>

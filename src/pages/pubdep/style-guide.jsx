@@ -331,8 +331,9 @@ export default function StyleGuide() {
                     <Tooltip id="imsc-tooltip" />
                     <ul>
                         <li>
-                            <i>Institute of Minecraft Studies Codes</i> are short codes used to reference <b>papers</b> written by Institute members
+                            <i>Institute of Minecraft Studies Codes</i> are short codes used to reference published articles
                         </li>
+                        <li>Articles can be accessed directly by visiting <a href="#imsc">https://imsresearch.pages.dev/[IMSC]</a></li>
                         <li>The below format is for internal reference only</li>
                     </ul>
                     <img src="/assets/IMSC-format.png" class="imsc-png"></img>
