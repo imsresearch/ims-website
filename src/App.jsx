@@ -78,7 +78,7 @@ function ImscRedirect() {
             console.log("went to substack article")
         }
         else {
-            return <NotFound/>;
+            window.location.href = "/404"
         }
     }, [imsc]);
 
@@ -115,6 +115,8 @@ export default function App() {
 
                 <Route exact path="/events" component={Events}/>
                 <Route exact path="/events/past/systems-experiment" component={TSE}/>
+
+                <Route exact path="/404" component={NotFound}/>
 
                 <Route path="/:imsc" component={ImscRedirect}/>
 
