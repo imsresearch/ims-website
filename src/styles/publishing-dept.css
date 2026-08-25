@@ -1,8 +1,8 @@
-.journal-page main{
+.journal-page main {
     padding: 0 5vw 5rem 8vw;
 }
 
-.journal-page h1{
+.journal-page h1 {
     text-align: center;
     margin: 0;
 
@@ -11,15 +11,62 @@
     padding: 4rem 8vw 0 8vw;
 }
 
-.journal-page h3 p small{
+.journal-page h3 p small {
     padding-left: 2rem;
 }
 
-.small-hr{
+.journal-page p {
+    font-size: 1rem;
+}
+
+.pubdep-introduction {
+    grid-column: span 9;
+    text-align: right;
+    margin-left: auto;
+}
+
+.pubdep-intro-img img{
+    width: 100%
+}
+
+.pubdep-intro-img{
+    grid-column: span 1;
+}
+
+.pubdep-intro-div{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+    margin: 2rem 0
+}
+
+.small-hr {
     border: 1px solid gray;
 }
 
-.big-hr{
+.big-hr {
     border: 1.5px solid black;
     margin: 2rem 5vw;
+}
+
+@media (max-width: 850px) {
+    .pubdep-intro-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pubdep-intro-img{
+        width: 20vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pubdep-introduction{
+        text-align: justify;
+        width: 100%
+    }
+
+    .journal-page h1 {
+        font-size: 2rem;
+    }
 }
