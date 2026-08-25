@@ -40,7 +40,7 @@ export default function YourRights() {
                         details to be censored when publishing.
                         <br />
                         You will be asked for your consent for the above things,
-                        which you may deny for whatever reason, and the journal
+                        which you may deny for whatever reason, and the department
                         will do our best to accommodate your requests.
                     </p>
 
@@ -59,10 +59,9 @@ export default function YourRights() {
 
                     <p>
                         <a href="https://discord.gg/yzfQzaqyPR">
-                            Contact us
+                            Contact
                         </a>{" "}
-                        if you have any questions by pinging or DMing the
-                        @Editor-in-chief.
+                        the Editor-in-chief, the relevant co-ordinator, or your editor if you have any questions.
                     </p>
                 </div>
             </main>
