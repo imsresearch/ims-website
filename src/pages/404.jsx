@@ -23,6 +23,7 @@ export default function NotFound() {
                 <div className="nf-content">
                     <h1>Page not found</h1>
                     <p>The page you requested may be broken, moved, or no longer exist.</p>
+                    <p>If you tried to look up an IMSC, try the <a href="/pubdep/imspd-index?IMSC=true">index</a> to find the article.</p>
                     <p>If you believe this is a mistake, contact us on <a href="https://discord.gg/vHnMhwdZA3">Discord</a> (vHnMhwdZA3)</p>
                 </div>
             </main>
