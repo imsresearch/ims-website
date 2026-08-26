@@ -4,7 +4,7 @@
 
     font-size: 2.8rem;
 
-    padding: 4rem 8vw 0 8vw;
+    padding: 2rem 8vw 0 8vw;
 }
 
 .TSE-page h3 p small{
@@ -35,8 +35,7 @@
     font-size: 1.2rem;
     text-justify: auto;
 
-    padding: 3vw;
-    padding-bottom: 0;
+    padding: 3vw 0;
 }
 
 .TSE-media{
@@ -76,7 +75,8 @@
     }
 
     .TSE-description{
-        padding: 2vw;
+        width: 80%;
+        
     }
 
     .TSE-media{
@@ -86,6 +86,7 @@
     .TSE-grid{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .TSE-media img{
