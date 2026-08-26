@@ -1,6 +1,6 @@
 .about-section{
     border-bottom: 0.2rem solid black;
-    padding: 2rem 0;
+    padding: 4rem 5vw;
 }
 
 .about-container{
@@ -17,7 +17,6 @@
 }
 
 .about-container p{
-    width: 80%;
     margin: 1rem 0 0 0;
     text-align: justify;
     font-family: "DejaVu Sans", sans-serif;

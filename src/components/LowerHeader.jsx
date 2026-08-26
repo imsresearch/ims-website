@@ -5,18 +5,33 @@ export default function LowerHeader() {
     const [journalOpen, setJournalOpen] = useState(false);
     const [substackOpen, setSubstackOpen] = useState(false);
     const [publishingOpen, setPublishingOpen] = useState(false);
+    const [eventsOpen, setEventsOpen] = useState(false);
 
     return (
         <>
             <nav className="lowerheader">
-                <div className="lowerheader_group">
-                    <a className="lowerheader_link" href="/about-us">
-                        About us
-                    </a>
+                <a className="lowerheader_link" href="/about-us">
+                    About us
+                </a>
 
-                    <a className="lowerheader_link" href="/events">
-                        Events
-                    </a>
+                <div className="dropdown" onMouseEnter={() => setEventsOpen(true)} onMouseLeave={() => setEventsOpen(false)}>
+                    <button className="dropdown_trigger">
+                        <a href="/events" className="section_link">
+                            Events ▾
+                        </a>
+                    </button>
+
+                    {eventsOpen && (
+                        <div className="dropdown_menu">
+                            <a href="/events">Home</a>
+
+                            <a href="/events/current">Current events</a>
+
+                            <a href="/events/future">Future events</a>
+
+                            <a href="/events/past">Past events</a>
+                        </div>
+                    )}
                 </div>
 
                 <div className="dropdown" onMouseEnter={() => setJournalOpen(true)} onMouseLeave={() => setJournalOpen(false)}>
@@ -28,6 +43,8 @@ export default function LowerHeader() {
 
                     {journalOpen && (
                         <div className="dropdown_menu">
+                            <a href="/pubdep">Home</a>
+                            
                             <a href="/pubdep/latest-issue">Latest issue</a>
 
                             <a href="/pubdep/imspd-index">Articles index</a>

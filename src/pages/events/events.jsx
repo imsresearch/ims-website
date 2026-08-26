@@ -13,7 +13,7 @@ export default function Events() {
             <Helmet>
                 <title>Events | IMS</title>
                 <meta name="application-name" content="Events | IMS" />
-                <meta name="description" content="Find out future, past, and current events hosted by the IMS." />
+                <meta name="description" content="Find out about future, past, and current events hosted by the IMS." />
             </Helmet>
 
             <TopHeader />
@@ -25,28 +25,29 @@ export default function Events() {
                 </h1>
             </div>
 
-            <main className="content-box">
-                <div className="past-events" id="past">
+            <main className="event-content-box">
+                <div id="past">
                     <h2>
-                        Current Events
+                        <a href="/events/current">Current Events</a>
                     </h2>
                     <hr className="small-hr"/>
                     <h3>
                         <i>There are no current events.</i>
                     </h3>
                 </div>
-                <div className="past-events" id="past">
+                <div id="past">
                     <h2>
-                        Future Events
+                        <a href="/events/future">Future Events</a>
+                        
                     </h2>
                     <hr className="small-hr"/>
                     <h3>
                         <i>There are no planned events.</i>
                     </h3>
                 </div>
-                <div className="past-events" id="past">
+                <div id="past">
                     <h2>
-                        Past Events
+                        <a href="/events/past">Past Events</a>
                     </h2>
                     <hr className="small-hr"/>
                     <h3>

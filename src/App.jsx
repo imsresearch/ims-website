@@ -21,6 +21,9 @@ import ArticlesIndex from "./pages/pubdep/articles-index.jsx";
 import GDPR from "./pages/pubdep/privacy.jsx";
 
 import Events from "./pages/events/events.jsx";
+import CurrentEvent from "./pages/events/current.jsx";
+import PastEvent from "./pages/events/past.jsx";
+import FutureEvent from "./pages/events/future.jsx";
 import TSE from "./pages/events/systems-experiment.jsx";
 
 import NotFound from "./pages/404.jsx";
@@ -114,6 +117,11 @@ export default function App() {
                 <Route exact path="/publish-with-us/your-rights" component={GDPR}/>
 
                 <Route exact path="/events" component={Events}/>
+
+                <Route exact path="/events/current" component={CurrentEvent}/>
+                <Route exact path="/events/future" component={FutureEvent}/>
+                <Route exact path="/events/past" component={PastEvent}/>
+
                 <Route exact path="/events/past/systems-experiment" component={TSE}/>
 
                 <Route exact path="/404" component={NotFound}/>

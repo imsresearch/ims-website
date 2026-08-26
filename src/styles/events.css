@@ -1,14 +1,15 @@
 .events-page main{
-    padding: 0 5vw 5rem 8vw;
+    padding: 0 5vw 4rem 5vw;
 }
 
 .events-page h1{
-    text-align: center;
     margin: 0;
+    height: 100%;
 
     font-size: 3rem;
 
-    padding: 4rem 8vw 0 8vw;
+    display: flex;
+    align-items: center;
 }
 
 .events-page h3 p small{
@@ -22,4 +23,55 @@
 .big-hr{
     border: 1.5px solid black;
     margin: 2rem 5vw;
+}
+
+.events-intro{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.return-to-events{
+    width: 50%;
+    border: 2px gray solid;
+
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 2rem;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding-top: 4rem;
+}
+
+.events-past-arrow{
+    height: 6vw;
+    transform: rotate(-45deg) scale(-1, 1);
+}
+
+.events-current-arrow{
+    height: 6vw;
+}
+
+.events-future-arrow{
+    height: 6vw;
+    transform: rotate(45deg);
+}
+
+@media (max-width: 850px){
+    .events-current-arrow, .events-past-arrow, .events-future-arrow{
+        height: 12vw;
+    }
+
+    .title-box{
+        flex-direction: column;
+    }
 }

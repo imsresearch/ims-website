@@ -83,6 +83,11 @@ export default function TSE() {
                         <img src="https://imsresearch.substack.com/api/v1/press_kit/asset/207800476/solid/composed?aspectRatio=grid&mode=light"></img>
                     </a>
                 </div>
+                <div className="return-to-events">
+                    <p>
+                        <a href="/events/past">Return to the Past Events homepage</a>
+                    </p>
+                </div>
             </main>
 
             <Footer />
