@@ -24,7 +24,7 @@ export default function LowerHeader() {
                     {eventsOpen && (
                         <div className="dropdown_menu">
                             <a href="/events">Home</a>
-
+                            <hr className="dropdown-hr" />
                             <a href="/events/current">Current events</a>
 
                             <a href="/events/future">Future events</a>
@@ -44,12 +44,16 @@ export default function LowerHeader() {
                     {journalOpen && (
                         <div className="dropdown_menu">
                             <a href="/pubdep">Home</a>
-                            
+
+                            <hr className="dropdown-hr" />
+
                             <a href="/pubdep/latest-issue">Latest issue</a>
 
                             <a href="/pubdep/imspd-index">Articles index</a>
 
                             <a href="/pubdep/applications">Apply for a job</a>
+
+                            <hr className="dropdown-hr" />
 
                             <div className="dropdown" onMouseEnter={() => setPublishingOpen(true)} onMouseLeave={() => setPublishingOpen(false)}>
                                 <button className="dropdown_trigger dropdown_trigger_small">Publishing ▾</button>
@@ -92,21 +96,69 @@ export default function LowerHeader() {
                 <div className="rolling-container">
                     <div className="rolling-content">
                         <span>
-                            || New <mark><a href="/events">events hub</a></mark> created for current, past, and future events. • <mark><a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a></mark> article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as <mark><a href="/pubdep">IMS Publishing Department</a></mark>; Constitution enacted &nbsp;
+                            || New{" "}
+                            <mark>
+                                <a href="/events">events hub</a>
+                            </mark>{" "}
+                            created for current, past, and future events. •{" "}
+                            <mark>
+                                <a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a>
+                            </mark>{" "}
+                            article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as{" "}
+                            <mark>
+                                <a href="/pubdep">IMS Publishing Department</a>
+                            </mark>
+                            ; Constitution enacted &nbsp;
                         </span>
                         <span>
-                            || New <mark><a href="/events">events hub</a></mark> created for current, past, and future events. • <mark><a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a></mark> article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as <mark><a href="/pubdep">IMS Publishing Department</a></mark>; Constitution enacted &nbsp;
+                            || New{" "}
+                            <mark>
+                                <a href="/events">events hub</a>
+                            </mark>{" "}
+                            created for current, past, and future events. •{" "}
+                            <mark>
+                                <a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a>
+                            </mark>{" "}
+                            article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as{" "}
+                            <mark>
+                                <a href="/pubdep">IMS Publishing Department</a>
+                            </mark>
+                            ; Constitution enacted &nbsp;
                         </span>
                         <span>
-                            || New <mark><a href="/events">events hub</a></mark> created for current, past, and future events. • <mark><a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a></mark> article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as <mark><a href="/pubdep">IMS Publishing Department</a></mark>; Constitution enacted &nbsp;
+                            || New{" "}
+                            <mark>
+                                <a href="/events">events hub</a>
+                            </mark>{" "}
+                            created for current, past, and future events. •{" "}
+                            <mark>
+                                <a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a>
+                            </mark>{" "}
+                            article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as{" "}
+                            <mark>
+                                <a href="/pubdep">IMS Publishing Department</a>
+                            </mark>
+                            ; Constitution enacted &nbsp;
                         </span>
                         <span>
-                            || New <mark><a href="/events">events hub</a></mark> created for current, past, and future events. • <mark><a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a></mark> article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as <mark><a href="/pubdep">IMS Publishing Department</a></mark>; Constitution enacted &nbsp;
+                            || New{" "}
+                            <mark>
+                                <a href="/events">events hub</a>
+                            </mark>{" "}
+                            created for current, past, and future events. •{" "}
+                            <mark>
+                                <a href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">New opinion</a>
+                            </mark>{" "}
+                            article by Turtle discusses the toxic nature of "overly gamified" communities • IMSJ to rename as{" "}
+                            <mark>
+                                <a href="/pubdep">IMS Publishing Department</a>
+                            </mark>
+                            ; Constitution enacted &nbsp;
                         </span>
                     </div>
                 </div>
             </div>
-            <hr/>
+            <hr />
         </>
     );
 }

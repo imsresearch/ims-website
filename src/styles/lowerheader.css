@@ -104,6 +104,11 @@ hr {
     background: #f3f3f3;
 }
 
+.dropdown-hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .rolling {
     display: block;
     overflow: hidden;
