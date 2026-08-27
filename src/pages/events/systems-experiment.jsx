@@ -84,7 +84,7 @@ export default function TSE() {
                     </a>
                 </div>
                 <div className="return-to-events">
-                    <p>
+                    <p className="return-to-events-text">
                         <a href="/events/past">Return to the Past Events homepage</a>
                     </p>
                 </div>

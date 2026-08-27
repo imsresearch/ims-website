@@ -70,6 +70,10 @@
     width: 100%
 }
 
+.TSE-lower-media a{
+    height: fit-content;
+}
+
 @media (max-width: 850px){
     .TSE-page h1{
         font-size: 2rem;

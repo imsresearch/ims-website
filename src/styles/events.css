@@ -38,8 +38,11 @@
     
     margin-left: auto;
     margin-right: auto;
-
     margin-top: 2rem;
+}
+
+.TSE-page .return-to-events-text{
+    text-align: center;
 }
 
 .title-box{
