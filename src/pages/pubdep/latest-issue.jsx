@@ -23,7 +23,7 @@ export default function LatestIssue() {
             https://git-rawify.vercel.app/ for raw link*/}
             <main className="journal-section">
                 <div className="journal-viewer">
-                    <iframe title="Latest issue of the IMS Journal" src="/database/published/journal/1/First-Edition.pdf" />
+                    <iframe alt="Latest issue of the IMS Journal" src="/database/published/journal/1/First-Edition.pdf" />
                 </div>
 
                 <div className="journal-download">

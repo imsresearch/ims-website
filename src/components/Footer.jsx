@@ -15,7 +15,7 @@ export default function Footer() {
                     >
                         <img
                             src="/assets/main_logo.png"
-                            alt="IMS Logo"
+                            alt="IMS logo"
                             className="footer__logo"
                         />
                     </a>
@@ -40,7 +40,7 @@ export default function Footer() {
                         >
                             <img
                                 src="/assets/substack_icon.png"
-                                alt="Substack"
+                                alt="Substack logo"
                             />
                         </a>
 
@@ -51,7 +51,7 @@ export default function Footer() {
                         >
                             <img
                                 src="/assets/discord_icon.png"
-                                alt="Discord"
+                                alt="Discord logo"
                             />
                         </a>
 
@@ -62,7 +62,7 @@ export default function Footer() {
                         >
                             <img
                                 src="/assets/youtube_icon.png"
-                                alt="YouTube"
+                                alt="YouTube logo"
                             />
                         </a>
                     </div>

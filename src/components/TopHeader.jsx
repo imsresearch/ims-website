@@ -8,7 +8,7 @@ export default function TopHeader() {
                 <a className="topheader__logo" href="/">
                     <img
                         src="/assets/ims_banner.png"
-                        alt="IMS Logo"
+                        alt="IMS text logo"
                         className="topheader__logo-img"
                     />
                 </a>
@@ -17,11 +17,10 @@ export default function TopHeader() {
                     <a
                         href="https://imsresearch.substack.com"
                         target="_blank"
-                        rel="noreferrer"
                     >
                         <img
                             src="/assets/substack_icon.png"
-                            alt="Substack"
+                            alt="Substack logo"
                             className="topheader__icon"
                         />
                     </a>
@@ -29,11 +28,10 @@ export default function TopHeader() {
                     <a
                         href="https://discord.gg/vHnMhwdZA3"
                         target="_blank"
-                        rel="noreferrer"
                     >
                         <img
-                            src="/assets/discord_icon.png"
-                            alt="Discord"
+                            src="/assets/discord_icon_alt.png"
+                            alt="Discord logo"
                             className="topheader__icon"
                         />
                     </a>
@@ -41,11 +39,10 @@ export default function TopHeader() {
                     <a
                         href="https://www.youtube.com/playlist?list=PLJmTEYXxCKpnL_hVZCVMU4OP77dU5Q6IH"
                         target="_blank"
-                        rel="noreferrer"
                     >
                         <img
                             src="/assets/youtube_icon.png"
-                            alt="YouTube"
+                            alt="YouTube logo"
                             className="topheader__icon"
                         />
                     </a>

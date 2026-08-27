@@ -63,23 +63,23 @@ export default function TSE() {
                     </div>
                     <div className="TSE-media">
                         <a href="https://www.reddit.com/r/MinecraftServer/s/X5Np3hrzof">
-                            <img src="/assets/IMS_The_Systems_Event_Flyer.png"></img>
+                            <img src="/assets/IMS_The_Systems_Event_Flyer.png" alt="IMS: TSE promotional flyer"></img>
                         </a>
                         <a href="https://www.reddit.com/r/MinecraftServer/s/X5Np3hrzof">
-                            <img src="https://preview.redd.it/institute-of-minecraft-studies-the-systems-event-java-1-21-v0-a4t6b9jzf89h1.png?width=1080&crop=smart&auto=webp&s=85e484af9b908c9b9fc908657e7a34d0bc54b0b9"></img>
+                            <img src="https://preview.redd.it/institute-of-minecraft-studies-the-systems-event-java-1-21-v0-a4t6b9jzf89h1.png?width=1080&crop=smart&auto=webp&s=85e484af9b908c9b9fc908657e7a34d0bc54b0b9" alt="Globe style map of TSE map"></img>
                         </a>
                     </div>
                 </div>
                 <hr className="big-hr" />
                 <div className="TSE-lower-media">
                     <a href="https://imsresearch.substack.com/p/two-teams-two-theories-of-power">
-                        <img src="https://imsresearch.substack.com/api/v1/press_kit/asset/201377632/solid/composed?aspectRatio=grid&mode=light"></img>
+                        <img src="https://imsresearch.substack.com/api/v1/press_kit/asset/201377632/solid/composed?aspectRatio=grid&mode=light" alt="Text poster of article"></img>
                     </a>
                     <a href="https://www.youtube.com/watch?v=PY9uaRYYRtg">
-                        <video autoPlay muted loop src="/assets/TSE_shorts_ad.mp4"></video>
+                        <video autoPlay muted loop src="/assets/TSE_shorts_ad.mp4" alt="Promotional vertical video for TSE"></video>
                     </a>
                     <a href="https://imsresearch.substack.com/p/the-consequences-of-poor-design-a">
-                        <img src="https://imsresearch.substack.com/api/v1/press_kit/asset/207800476/solid/composed?aspectRatio=grid&mode=light"></img>
+                        <img src="https://imsresearch.substack.com/api/v1/press_kit/asset/207800476/solid/composed?aspectRatio=grid&mode=light" alt="Text poster of article"></img>
                     </a>
                 </div>
                 <div className="return-to-events">

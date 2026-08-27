@@ -21,7 +21,7 @@ export default function PubDepApplications() {
 
             <main className="pubdep-apps-section">
                 <div className="pubdep-apps-viewer">
-                    <iframe title="Google Form for the IMS Publishing Department Combined Applications" src="https://docs.google.com/forms/d/e/1FAIpQLSd53n5ShQgYEF2lHBlRLZJSfqfPNKYwTrg8r2JG69JJLA_IXQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0"/>
+                    <iframe alt="Google Form for the IMS Publishing Department Combined Applications" src="https://docs.google.com/forms/d/e/1FAIpQLSd53n5ShQgYEF2lHBlRLZJSfqfPNKYwTrg8r2JG69JJLA_IXQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0"/>
                 </div>
             </main>
 

@@ -26,7 +26,7 @@ export default function PubDep() {
             <main className="content-box">
                 <div className="pubdep-intro-div">
                     <div className="pubdep-intro-img">
-                        <img src="/assets/pubdep_logo.png"/>
+                        <img src="/assets/pubdep_logo.png" alt="Publishing Department logo"/>
                     </div> 
                     <p className="pubdep-introduction">
                         <i>

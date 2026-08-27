@@ -45,6 +45,7 @@ export default function AboutUs() {
 
                 <div className="mission-viewer">
                     <iframe
+                        alt="IMS Mission Statement pdf"
                         title="IMS Mission Statement"
                         src="/database/non-published/IMS-mission.pdf"
                         style={{

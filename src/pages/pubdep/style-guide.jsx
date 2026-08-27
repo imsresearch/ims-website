@@ -44,15 +44,11 @@ export default function StyleGuide() {
                         <br />
                         Manuscripts and drafts do not need to be formatted as such, but it is highly encouraged authors adhere to the guide as much as possible to ensure efficient review.
                         <br />
-                        If there is any ambiguity in any of the instructions, first see examples from <a href="/pubdep">the latest journal</a>, then contact your editor, a sub-department co-ordinator, or the editor-in-chief in the{" "}
-                        <a href="/pubdep#contact-us">
-                            IMS Publishing Department Discord server
-                        </a>
-                        .
+                        If there is any ambiguity in any of the instructions, first see examples from <a href="/pubdep">the latest journal</a>, then contact your editor, a sub-department co-ordinator, or the editor-in-chief in the <a href="/pubdep#contact-us">IMS Publishing Department Discord server</a>.
                     </p>
                 </div>
             </section>
-
+            {/* prettier-ignore */}
             <section className="main-section">
                 <main className="main-inner">
                     <h2 id="layout">
@@ -270,7 +266,7 @@ export default function StyleGuide() {
                         <ul>
                             <li>Papers are not required to have a numbered bibliography, but if numeric citations were used, all citations must be numbered</li>
                             <li>
-                                For citations citing drafts in the #draft-manuscripts channel, cite the journal as <i>IMS Draft Manuscript</i>.
+                                For citations citing drafts in the <u>#draft-manuscripts</u> channel, cite the journal as <i>IMS Draft Manuscript</i>.
                             </li>
                             <li>Acknowledgements should be used to state the roles of different people involved with the paper. However, please obtain explicit consent from the people you name.</li>
                         </ul>
@@ -336,7 +332,7 @@ export default function StyleGuide() {
                         <li>Articles can be accessed directly by visiting <a href="#imsc">https://imsresearch.pages.dev/[IMSC]</a></li>
                         <li>The below format is for internal reference only</li>
                     </ul>
-                    <img src="/assets/IMSC-format.png" class="imsc-png"></img>
+                    <img src="/assets/IMSC-format.png" alt="Explainer diagram of the IMSC format" class="imsc-png"></img>
                 </main>
             </section>
 

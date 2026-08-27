@@ -108,7 +108,7 @@ export default function SystemsEvent() {
 
                         <p>
                             This is not the end of the server, and we are planning on continuing it as long as we have funds available as a SMP. We believe people are still having fun, so why stop
-                            now. The end of all non-SMP event functions will be right after we release the end (we will decide on the date for that in #voting momentarily). We will also have other
+                            now. The end of all non-SMP event functions will be right after we release the end (we will decide on the date for that in <u>#voting</u> momentarily). We will also have other
                             votes on how the SMP will work.
                         </p>
 

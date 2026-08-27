@@ -11,7 +11,7 @@ export default function Footer() {
                     <a href="/#header" className="footer__logo-link">
                         <img
                             src="/assets/pubdep_logo.png"
-                            alt="IMS Publishing Department Logo"
+                            alt="IMS Publishing Department logo"
                             className="footer__logo"
                         />
                     </a>
@@ -33,7 +33,7 @@ export default function Footer() {
                         >
                             <img
                                 src="/assets/substack_icon.png"
-                                alt="Substack"
+                                alt="Substack logo"
                             />
                         </a>
                         <a
@@ -41,14 +41,14 @@ export default function Footer() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="/assets/discord_icon.png" alt="Discord" />
+                            <img src="/assets/discord_icon.png" alt="Discord logo" />
                         </a>
                         <a
                             href="https://www.youtube.com/playlist?list=PLJmTEYXxCKpnL_hVZCVMU4OP77dU5Q6IH"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="/assets/youtube_icon.png" alt="YouTube" />
+                            <img src="/assets/youtube_icon.png" alt="YouTube logo" />
                         </a>
                     </div>
                 </div>
