@@ -35,24 +35,23 @@ export default function TSE() {
                         <p>
                             The experiment aimed to "combine the benefits" of "traditional civilization experiment[s]" and "SMPs like Hermitcraft [which] offer high trust and intellect system
                             building". Turtle, the event's manager, disliked that winner of traditional SMP events were those with the best military, and thus wanted the goal of IMS: TSE to be to
-                            create "a group of carefully created impactful, stable, and innovative systems working together for a well functioning team".{" "}
-                            <small>
-                                Turtle2770. July 2026. "Handbook: IMS Systems Event".{" "}
-                                <a href="https://docs.google.com/document/d/1-WgaVhwVaEWqpg6LddzPUTV2BaAbW-wqNwxGgni5UNI/edit?usp=sharing">
-                                    https://docs.google.com/document/d/1-WgaVhwVaEWqpg6LddzPUTV2BaAbW-wqNwxGgni5UNI/edit?usp=sharing
-                                </a>
-                            </small>
+                            create "a group of carefully created impactful, stable, and innovative systems working together for a well functioning team". (Turtle2770. 2026a)
                         </p>
                         <p>
-                            Per the "Full Manual: IMS Systems Event" by the event's organiser, there was meant to be an "unannounced stress phase" near the end of the experiment to test the structural
-                            integrity and strength of the two teams' systems. However, due to the experiment being cut short, this did not happen.{" "}
-                            <small>
-                                Turtle2770. July 2026. "Full Manual: IMS Systems Event".{" "}
-                                <a href="https://docs.google.com/document/d/18KUAgjcDkQVlGLTT9_TZik-zs9RWcLk-aU-NYupP49g/edit?usp=sharing">
-                                    https://docs.google.com/document/d/18KUAgjcDkQVlGLTT9_TZik-zs9RWcLk-aU-NYupP49g/edit?usp=sharing
-                                </a>
-                            </small>
+                            Per the "Full Manual" by the event's organiser, there was meant to be an "unannounced stress phase" near the end of the experiment to test the structural integrity and
+                            strength of the two teams' systems. However, due to the experiment being cut short, this did not happen. (Turtle2770. 2026b)
                         </p>
+                        <small>
+                            Turtle2770. July 2026a. "Handbook: IMS Systems Event".{" "}
+                            <a href="https://docs.google.com/document/d/1-WgaVhwVaEWqpg6LddzPUTV2BaAbW-wqNwxGgni5UNI/edit?usp=sharing">
+                                https://docs.google.com/document/d/1-WgaVhwVaEWqpg6LddzPUTV2BaAbW-wqNwxGgni5UNI/edit?usp=sharing
+                            </a>
+                            <br />
+                            Turtle2770. July 2026b. "Full Manual: IMS Systems Event".{" "}
+                            <a href="https://docs.google.com/document/d/18KUAgjcDkQVlGLTT9_TZik-zs9RWcLk-aU-NYupP49g/edit?usp=sharing">
+                                https://docs.google.com/document/d/18KUAgjcDkQVlGLTT9_TZik-zs9RWcLk-aU-NYupP49g/edit?usp=sharing
+                            </a>
+                        </small>
                         <hr className="big-hr" />
                         <p>
                             Read the <a href="https://docs.google.com/document/d/18KUAgjcDkQVlGLTT9_TZik-zs9RWcLk-aU-NYupP49g/edit?usp=sharing">Full Manual</a> and the{" "}
