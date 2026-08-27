@@ -1,6 +1,6 @@
 import fitz, os, json, re
 
-PDF_PATHS = "./public/database" #get path
+PDF_PATHS = "./public/database/published" #get path
 OUT_PATH = "public/assets/search_index.json"
 
 docs = []

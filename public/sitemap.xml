@@ -4,39 +4,59 @@
 
   <url>
     <loc>https://imsresearch.pages.dev/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://imsresearch.pages.dev/about-us</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.pages.dev/journal</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://imsresearch.pages.dev/pubdep</loc>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.pages.dev/journal/latest-issue</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://imsresearch.pages.dev/pubdep/latest-issue</loc>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.pages.dev/journal/imsj-index</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://imsresearch.pages.dev/pubdep/imspd-index</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://imsresearch.pages.dev/pubdep/applications</loc>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://imsresearch.pages.dev/publish-with-us</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://imsresearch.pages.dev/publish-with-us/style-guide</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://imsresearch.pages.dev/publish-with-us/your-rights</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
-    <loc>https://imsresearch.pages.dev/systems-event</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://imsresearch.pages.dev/events</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://imsresearch.pages.dev/events/current</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://imsresearch.pages.dev/events/future</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://imsresearch.pages.dev/events/past</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://imsresearch.pages.dev/events/past/systems-experiment</loc>
+    <lastmod>2026-08-27</lastmod>
   </url>
 
 </urlset>

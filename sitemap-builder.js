@@ -5,16 +5,22 @@ const baseUrl = "https://imsresearch.pages.dev";
 const routes = [
     "/",
     "/about-us",
-    "/journal",
+    "/pubdep",
 
-    "/journal/latest-issue",
-    "/journal/imsj-index",
+    "/pubdep/latest-issue",
+    "/pubdep/imspd-index",
+    "/pubdep/applications",
 
     "/publish-with-us",
     "/publish-with-us/style-guide",
     "/publish-with-us/your-rights",
 
-    "/systems-event",
+    "/events",
+    "/events/current",
+    "/events/future",
+    "/events/past",
+    
+    "/events/past/systems-experiment",
 ];
 
 const today = new Date().toISOString().split("T")[0];

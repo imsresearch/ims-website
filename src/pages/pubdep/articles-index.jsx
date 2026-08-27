@@ -187,7 +187,7 @@ export default function ArticlesIndex() {
                         Search for IMSC
                     </button>
 
-                    <a href="https://github.com/imsresearch/imsresearch.github.io/tree/main/public/database" target="_blank">
+                    <a href="https://github.com/imsresearch/imsresearch.github.io/tree/main/public/database/published" target="_blank">
                         <button className="accessButton">View all indexed articles</button>
                     </a>
                 </div>
@@ -209,7 +209,7 @@ export default function ArticlesIndex() {
                 {displayedResults.map((item, index) => (
                     <div className="result" key={index}>
                         <p className="result-title">
-                            <a href={`/database/${item.path}#page=${item.page}`} target="_blank">
+                            <a href={`/database/published/${item.path}#page=${item.page}`} target="_blank">
                                 {item.file.slice(0, -4)}, Page {item.page}
                             </a>
                         </p>
