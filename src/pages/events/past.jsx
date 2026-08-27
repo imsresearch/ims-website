@@ -20,7 +20,7 @@ export default function PastEvent() {
             <LowerHeader />
 
             <div className="title-box">
-                <img src="/assets/MC_arrow.png" className="events-past-arrow"/>
+                <img src="/assets/MC_arrow.png" alt="Minecraft arrow pointing left" className="events-past-arrow"/>
                 <h1>Past IMS Events</h1>
             </div>
 

@@ -20,7 +20,7 @@ export default function FutureEvent() {
             <LowerHeader />
 
             <div className="title-box">
-                <img src="/assets/MC_arrow.png" className="events-future-arrow"/>
+                <img src="/assets/MC_arrow.png" alt="Minecraft arrow pointing right" className="events-future-arrow"/>
                 <h1>Planned IMS Events</h1>
             </div>
 

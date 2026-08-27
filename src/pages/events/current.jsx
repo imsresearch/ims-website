@@ -20,7 +20,7 @@ export default function CurrentEvent() {
             <LowerHeader />
 
             <div className="title-box">
-                <img src="/assets/MC_redstone_lamp.webp" className="events-current-arrow"/>
+                <img src="/assets/MC_redstone_lamp.webp" alt="Lit redstone lamp" className="events-current-arrow"/>
                 <h1>Current IMS Events</h1>
             </div>
 
