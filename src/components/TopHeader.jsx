@@ -30,7 +30,7 @@ export default function TopHeader() {
                         target="_blank"
                     >
                         <img
-                            src="/assets/discord_icon_alt.png"
+                            src="/assets/discord_icon.png"
                             alt="Discord logo"
                             className="topheader__icon"
                         />
