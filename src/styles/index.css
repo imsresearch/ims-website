@@ -165,6 +165,11 @@ small{
         padding: 0;
     }
 
+    .latest-article{
+        padding: 5vw 2vw;
+        width: 50vw;
+    }
+
     .article-linkbox{
         padding: 5vw 2vw;
         width: 50vw;
