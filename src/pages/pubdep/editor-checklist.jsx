@@ -30,7 +30,11 @@ export default function CurrentEvent() {
                         <br />
                         The items below are listed <b>chronologically</b>, so make sure you do the items <i>above</i> before continuing.
                         <br />
-                        This checklist <b><u>does not save</u></b>. Make note of the number checkbox you have completed.
+                        This checklist{" "}
+                        <b>
+                            <u>does not save</u>
+                        </b>
+                        . Make note of the number checkbox you have completed.
                     </p>
                     <p className="checklist-context-box">
                         <b>Dashed</b> boxes indicate extra information or context about a checkbox above or below.
@@ -43,9 +47,6 @@ export default function CurrentEvent() {
                 <h2>Pre-work items:</h2>
                 <input type="checkbox" id="item1" />
                 <label for="item1">(1) I have volunteered to edit a submission</label>
-                <br />
-                <input type="checkbox" id="item2" />
-                <label for="item2">(2) I have declared any conflict of interest (COI) and contacted the relevant co-ordinator - this will be included in the "declarations" section of the article</label>
 
                 <div className="checklist-context-box">
                     <p>
@@ -57,6 +58,9 @@ export default function CurrentEvent() {
                         <b>You must not edit a submission if you have a major COI.</b>
                     </p>
                 </div>
+                <input type="checkbox" id="item2" />
+
+                <label for="item2">(2) I have declared any conflict of interest (COI) and contacted the relevant co-ordinator - this will be included in the "declarations" section of the article</label>
 
                 <h2>Declaration items: (use the private channel to communicate with the author)</h2>
 
@@ -106,14 +110,14 @@ export default function CurrentEvent() {
                 <br />
                 <input type="checkbox" id="item11" />
                 <label for="item11">(11) I believe the article is not outside the scope of the Publishing Department</label>
-                <br />
-                <input type="checkbox" id="item12" />
-                <label for="item12">(12) I believe the article is not unethical</label>
 
                 <div className="checklist-context-box">
                     <p>Unethical practices may include lack of permissions/consent, plagiarism, fabrication, falsification, deception, personal attacks, excessive non-constructive criticism, lack of professionalism, disrespect</p>
                 </div>
 
+                <input type="checkbox" id="item12" />
+                <label for="item12">(12) I believe the article is not unethical</label>
+                <br />
                 <input type="checkbox" id="item13" />
                 <label for="item13">(13) I believe the article is interesting</label>
                 <br />
@@ -139,13 +143,10 @@ export default function CurrentEvent() {
                         </p>
                     </div>
 
-                    <input type="checkbox" id="item16" />
-                    <label for="item16">(16) I belive peer review is required → continue to next section</label>
-                    <br />
-                    <input type="checkbox" id="item17" />
-                    <label for="item17">
-                        (17) I <b>do not</b> belive peer review is required → go to <b>editing items</b> section
-                    </label>
+                    <p>
+                        I belive peer review is required → continue to next section
+                        <br />I <b>do not</b> belive peer review is required → go to <b>editing items</b> section
+                    </p>
                 </div>
 
                 <h2>Review items (ONLY use DMs to communicate with the reviewer):</h2>
@@ -158,34 +159,34 @@ export default function CurrentEvent() {
                     </p>
                 </div>
 
-                <input type="checkbox" id="item18" />
-                <label for="item18">(18) The reviewer has declared any COI and I believe it does not affect their judgement - this will be included in the "declarations" section of the article</label>
+                <input type="checkbox" id="item16" />
+                <label for="item16">(16) The reviewer has declared any COI and I believe it does not affect their judgement - this will be included in the "declarations" section of the article</label>
                 <p>
                     <b>If it does affect them, disregard the review and find another reviewer.</b>
                 </p>
-                <input type="checkbox" id="item19" />
-                <label for="item19">(19) I have asked the reviewer to review the article according to the peer review guide, which I have linked and sent to them</label>
+                <input type="checkbox" id="item17" />
+                <label for="item17">(17) I have asked the reviewer to review the article according to the peer review guide, which I have linked and sent to them</label>
 
-                <div className="checklist-context-box">
-                    <p>If the reviewer has provided feedback or requested changes, continue. If not, skip to the "editing items" section.</p>
+                <div className="checklist-separate-box">
+                    <h3>After receiving the review:</h3>
+                    <p>
+                        If the reviewer has provided feedback or requested changes, continue to the next section.
+                        <br />
+                        If not, skip to the "editing items" section.
+                    </p>
                 </div>
 
-                <input type="checkbox" id="item20" />
-                <label for="item20">(20) The reviewer has declared any AI usage - this will be included in the "declarations" section of the article</label>
+                <input type="checkbox" id="item18" />
+                <label for="item18">(18) The reviewer has declared any AI usage - this will be included in the "declarations" section of the article</label>
 
                 <div class="checklist-separate-box">
                     <h3>If they used AI:</h3>
-                    <input type="checkbox" id="item21" />
-                    <label for="item21">(21) I believe the usage is appropriate</label>
+                    <input type="checkbox" id="item19" />
+                    <label for="item19">(19) I believe the usage is appropriate</label>
                     <p>
                         <b>If the above is not true, consult with the relevant co-ordinator.</b>
                     </p>
                 </div>
-
-                <input type="checkbox" id="item22" />
-                <label for="item22">
-                    (22) Send the parts of the review that are <b>not confidential to myself, the editor</b>, to the author
-                </label>
 
                 <div className="checklist-context-box">
                     <p>
@@ -202,27 +203,32 @@ export default function CurrentEvent() {
                     </p>
                 </div>
 
+                <input type="checkbox" id="item20" />
+                <label for="item20">
+                    (20) Send the parts of the review that are <b>not confidential to myself, the editor</b>, to the author
+                </label>
+
                 <h2>Editing items:</h2>
-                <input type="checkbox" id="item23" />
-                <label for="item23">(23) I have pinged the relevant co-ordinator to let them know I am now at the editing phase.</label>
+                <input type="checkbox" id="item21" />
+                <label for="item21">(21) I have pinged the relevant co-ordinator to let them know I am now at the editing phase.</label>
                 <br />
-                <input type="checkbox" id="item24" />
-                <label for="item24">
-                    (24) I have made edits to the article using feedback from the reviewer and the <a href="/publish-with-us/style-guide">style guide</a>
+                <input type="checkbox" id="item22" />
+                <label for="item22">
+                    (22) I have made edits to the article using feedback from the reviewer and the <a href="/publish-with-us/style-guide">style guide</a>
                 </label>
                 <br />
+                <input type="checkbox" id="item23" />
+                <label for="item23">(23) I have communicated throughout the editing phase with the author about changes I have made to ensure it is in line with their intentions</label>
+                <br />
+                <input type="checkbox" id="item24" />
+                <label for="item24">(24) The author has approved the edited, final version of the article</label>
+                <br />
                 <input type="checkbox" id="item25" />
-                <label for="item25">(25) I have communicated throughout the editing phase with the author about changes I have made to ensure it is in line with their intentions</label>
-                <br />
-                <input type="checkbox" id="item26" />
-                <label for="item26">(26) The author has approved the edited, final version of the article</label>
-                <br />
-                <input type="checkbox" id="item27" />
-                <label for="item27">(27) I have pinged the relevant co-ordinator with the final version, saying that the article is ready to be published.</label>
+                <label for="item25">(25) I have pinged the relevant co-ordinator with the final version, saying that the article is ready to be published.</label>
 
                 <div className="checklist-separate-box checklist-final">
-                    <input type="checkbox" id="item28" />
-                    <label for="item28">Done!</label>
+                    <input type="checkbox" id="item26" />
+                    <label for="item26">Done!</label>
                 </div>
             </main>
 
