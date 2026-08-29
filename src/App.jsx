@@ -20,6 +20,8 @@ import PubDepApplications from "./pages/pubdep/pubdep-applications.jsx";
 import ArticlesIndex from "./pages/pubdep/articles-index.jsx";
 import GDPR from "./pages/pubdep/privacy.jsx";
 
+import EditorChecklist from "./pages/pubdep/editor-checklist.jsx";
+
 import Events from "./pages/events/events.jsx";
 import CurrentEvent from "./pages/events/current.jsx";
 import PastEvent from "./pages/events/past.jsx";
@@ -111,6 +113,7 @@ export default function App() {
                 <Route exact path="/pubdep/latest-issue" component={LatestIssue}/>
                 <Route exact path="/pubdep/imspd-index" component={ArticlesIndex}/>
                 <Route exact path="/pubdep/applications" component={PubDepApplications}/>
+                <Route exact path="/pubdep/editor-checklist" component={EditorChecklist}/>
 
                 <Route exact path="/publish-with-us" component={PublishWithUs}/>
                 <Route exact path="/publish-with-us/style-guide" component={StyleGuide}/>

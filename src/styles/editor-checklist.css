@@ -1,0 +1,36 @@
+.editor-checklist-content-box{
+    text-align: justify;
+    padding: 0 5vw 4rem 5vw;
+    
+    align-content: center;
+}
+
+.checklist-preamble{
+    font-size: 1.2rem;
+}
+
+.checklist-context-box{
+    background-color: #ddd;
+    border: 2px black dashed;
+    padding: 1rem;
+    margin: 2rem;
+    width: 50%
+}
+
+.checklist-separate-box{
+    background-color: #eee;
+    border: 2px black solid;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.checklist-final{
+    text-align: center;
+    font-size: 2rem
+}
+
+.checklist-final input#item28{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: auto 0;
+}
