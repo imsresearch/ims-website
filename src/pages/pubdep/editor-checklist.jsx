@@ -37,7 +37,7 @@ export default function CurrentEvent() {
                         . Make note of the number checkbox you have completed.
                     </p>
                     <p className="checklist-context-box">
-                        <b>Dashed</b> boxes indicate extra information or context about a checkbox above or below.
+                        <b>Dashed</b> boxes indicate extra information or context about the checkbox <b>below</b>.
                     </p>
                     <p className="checklist-separate-box">
                         <b>Solid</b> boxes indicate a special section that requires attention on its own.
