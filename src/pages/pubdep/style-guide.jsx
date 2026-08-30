@@ -45,6 +45,11 @@ export default function StyleGuide() {
                         Manuscripts and drafts do not need to be formatted as such, but it is highly encouraged authors adhere to the guide as much as possible to ensure efficient review.
                         <br />
                         If there is any ambiguity in any of the instructions, first see examples from <a href="/pubdep">the latest journal</a>, then contact your editor, a sub-department co-ordinator, or the editor-in-chief in the <a href="/pubdep#contact-us">IMS Publishing Department Discord server</a>.
+                        <br />
+                        <br />
+                        <small>
+                            Last updated <time dateTime="2026-08-30T20:09" title="2026-08-30T21:09">2026-08-30 20:09 UTC</time>
+                        </small>
                     </p>
                 </div>
             </section>
@@ -189,44 +194,43 @@ export default function StyleGuide() {
                                 and videos:
                             </li>
                         </ul>
-                        <mark>Author name, Author 2 name. Month Year of publication. [“Paper title”, Journal title. | “Video name”.] [Vol. volume number.]</mark>
+                        <mark>Author name, Author 2 name. Month Year of publication. [“Paper title”. Journal title, issue number | “Video name”. Video link.]</mark>
                         <br />
                         <div class="ref-box">
-                            e.g. [1] matcha._.tea. May 2026. “Raid Farms: A symbol of resistance”, IMS Journal. Vol. 1
+                            e.g. [1] matcha._.tea. May 2026. “Raid Farms: A symbol of resistance”. IMS Journal, Issue 1.
                             <br />
-                            e.g. [2] revelegne_, turtle2770. 2026. “The tyranny of the unemployed”, IMS Draft Manuscript.
+                            e.g. [2] revelegne_, turtle2770. May 2026. “The tyranny of the unemployed”. IMS Draft Manuscript.
                             <br />
                             <br />
-                            e.g. [3] kinggame2000. 2026a. “Why Minecraft SMP Server Types DO NOT Exist (Well Kind of)”. www.youtube.com/...
+                            e.g. [3] kinggame2000. June 2026a. “Why Minecraft SMP Server Types DO NOT Exist (Well Kind of)”. www.youtube.com/example.
                             <br />
-                            e.g. [4] kinggame2000. 2026b. “Minecraft Server Theory”. www.youtube.com/...
+                            e.g. [4] kinggame2000. June 2026b. “Minecraft Server Theory”. www.youtube.com/example.
                         </div>
                         <ul>
                             <li>For Discord messages or other online materials:</li>
                         </ul>
                         <mark>
-                            Author name. Month Year of retrieval (with suffixed letter for multiple citations). [“Server title” Discord Server. | “Source title”.] <i>[First 20 words of message.]</i>{" "}
-                            [Link to material | Image of message]
+                            Author name. Month Year of retrieval (with suffixed letter for multiple citations). [“Server title” Discord Server. <i>First 20 words of message.</i> | “Source title”.] [Link to material. <b>and/or</b> Image of message]
                         </mark>
                         <br />
                         <div class="ref-box">
                             e.g. [1] .1ntell. July 2026. “Raid Farms” Discord Server. <i>unironically, if i had the choice between being a 30 year old comfortable in life who doesn't have to work</i>
-                            . www.discord.com/...
+                            . www.discord.com/example.
                             <br />
                             e.g. [2] amxtrnl. July 2026a. “Raid Farms” Discord Server. <i>Servers full of chuds and bums 💔</i>
-                            . www.discord.com/...
+                            . www.discord.com/example.
                             <br />
                             e.g. [3] amxtrnl. July 2026b. “Raid Farms” Discord Server. <i>Biggest larp of the year</i>
-                            . www.discord.com/...
+                            . www.discord.com/example.
                             <br />
                             e.g. [4] duck_t4p3. December 2025. “Raid Farms” Discord Server.
                             <br />
                             (screenshot of message)
                             <br />
-                            www.discord.com/...
+                            www.discord.com/example.
                             <br />
                             <br />
-                            e.g. [5] John Article. 2026. “Minecon 2026 is real?”. www.example.com/...
+                            e.g. [5] John Article. January 2026. “Minecon 2026 is real?”. www.example.com/example.
                         </div>
                         <ul>
                             <li>For real-life works, e.g. academic papers:</li>
