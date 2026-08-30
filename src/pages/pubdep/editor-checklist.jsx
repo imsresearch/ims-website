@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 import TopHeader from "../../components/TopHeader";
 import LowerHeader from "../../components/LowerHeader";
-import Footer from "../../components/Footer";
+import JournalFooter from "../../components/JournalFooter";
 
 import "../../styles/editor-checklist.css";
 
@@ -99,7 +99,7 @@ export default function CurrentEvent() {
                     <b>If it does affect them, consult with the relevant co-ordinator.</b>
                 </p>
                 <input type="checkbox" id="item8" />
-                <label for="item8">(8) The author has decalred whether multiple people contributed to the draft, which will be included in the article</label>
+                <label for="item8">(8) The author has declared whether multiple people contributed to the draft, which will be included in the article</label>
                 <br />
                 <input type="checkbox" id="item9" />
                 <label for="item9">(9) Any raw data will be included in the article</label>
@@ -153,6 +153,9 @@ export default function CurrentEvent() {
 
                 <div className="checklist-context-box">
                     <p>
+                        You should not disclose who you contacted as a potential reviewer unless they say they do not want to remain anonymous.
+                        <br />
+                        <br />
                         When getting consent or asking for declarations, you should ask in a non-accusative way.
                         <br />
                         For example, say "these questions are standard just for the sake of transparency."
@@ -232,7 +235,7 @@ export default function CurrentEvent() {
                 </div>
             </main>
 
-            <Footer />
+            <JournalFooter />
         </div>
     );
 }

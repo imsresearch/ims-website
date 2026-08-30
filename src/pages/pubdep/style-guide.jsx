@@ -192,14 +192,14 @@ export default function StyleGuide() {
                         <mark>Author name, Author 2 name. Month Year of publication. [“Paper title”, Journal title. | “Video name”.] [Vol. volume number.]</mark>
                         <br />
                         <div class="ref-box">
-                            e.g. [1] matcha_tea. May 2026. “Raid Farms: A symbol of resistance”, IMS Journal. Vol. 1
+                            e.g. [1] matcha._.tea. May 2026. “Raid Farms: A symbol of resistance”, IMS Journal. Vol. 1
                             <br />
-                            e.g. [2] Rev, Turtle. 2026. “The tyranny of the unemployed”, IMS Draft Manuscript.
+                            e.g. [2] revelegne_, turtle2770. 2026. “The tyranny of the unemployed”, IMS Draft Manuscript.
                             <br />
                             <br />
-                            e.g. [3] KingGame2000. 2026a. “Why Minecraft SMP Server Types DO NOT Exist (Well Kind of)”. www.youtube.com/...
+                            e.g. [3] kinggame2000. 2026a. “Why Minecraft SMP Server Types DO NOT Exist (Well Kind of)”. www.youtube.com/...
                             <br />
-                            e.g. [4] KingGame2000. 2026b. “Minecraft Server Theory”. www.youtube.com/...
+                            e.g. [4] kinggame2000. 2026b. “Minecraft Server Theory”. www.youtube.com/...
                         </div>
                         <ul>
                             <li>For Discord messages or other online materials:</li>
@@ -210,16 +210,16 @@ export default function StyleGuide() {
                         </mark>
                         <br />
                         <div class="ref-box">
-                            e.g. [1] Intell. July 2026. “Raid Farms” Discord Server. <i>unironically, if i had the choice between being a 30 year old comfortable in life who doesn't have to work</i>
+                            e.g. [1] .1ntell. July 2026. “Raid Farms” Discord Server. <i>unironically, if i had the choice between being a 30 year old comfortable in life who doesn't have to work</i>
                             . www.discord.com/...
                             <br />
-                            e.g. [2] am(amxtrnl). July 2026a. “Raid Farms” Discord Server. <i>Servers full of chuds and bums 💔</i>
+                            e.g. [2] amxtrnl. July 2026a. “Raid Farms” Discord Server. <i>Servers full of chuds and bums 💔</i>
                             . www.discord.com/...
                             <br />
-                            e.g. [3] am(amxtrnl). July 2026b. “Raid Farms” Discord Server. <i>Biggest larp of the year</i>
+                            e.g. [3] amxtrnl. July 2026b. “Raid Farms” Discord Server. <i>Biggest larp of the year</i>
                             . www.discord.com/...
                             <br />
-                            e.g. [4] duck tape. December 2025. “Raid Farms” Discord Server.
+                            e.g. [4] duck_t4p3. December 2025. “Raid Farms” Discord Server.
                             <br />
                             (screenshot of message)
                             <br />
@@ -246,11 +246,11 @@ export default function StyleGuide() {
                         <mark>Author name, author 2 name. Year of publication (with letter if multiple are referenced)</mark>
                         <br />
                         <div class="ref-box">
-                            e.g. (matcha_tea. 2026)
+                            e.g. (matcha._.tea. 2026)
                             <br />
-                            e.g. (matcha_tea. 2026a, 2026b)
+                            e.g. (matcha._.tea. 2026a, 2026b)
                             <br />
-                            e.g. (Rev, Turtle. 2026)
+                            e.g. (revelegne_, turtle2770. 2026)
                         </div>
                         <ul>
                             <li>Numeric citations:</li>
@@ -264,6 +264,12 @@ export default function StyleGuide() {
                         </div>
                         <br />
                         <ul>
+                            <li>The username of authors of Discord messages must be used, not their display name.</li>
+                            <ul>
+                                <li>If deemed necessary, the author's user ID may also be appended in parentheses after their username.</li>
+                                <li>e.g. matcha._.tea (687195193854001179).</li>
+                            </ul>
+                            <li>For citing Discord messages, the server tag or other non-username components of their name must not be included</li>
                             <li>Papers are not required to have a numbered bibliography, but if numeric citations were used, all citations must be numbered</li>
                             <li>
                                 For citations citing drafts in the <u>#draft-manuscripts</u> channel, cite the journal as <i>IMS Draft Manuscript</i>.
