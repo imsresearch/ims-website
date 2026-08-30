@@ -48,7 +48,7 @@ export default function StyleGuide() {
                         <br />
                         <br />
                         <small>
-                            Last updated <time dateTime="2026-08-30T20:09" title="2026-08-30T21:09">2026-08-30 20:09 UTC</time>
+                            Last updated <time dateTime="2026-08-30T20:26" title="2026-08-30T21:26">2026-08-30 20:26 UTC</time>
                         </small>
                     </p>
                 </div>
@@ -187,6 +187,8 @@ export default function StyleGuide() {
                         <small>
                             For items inside square brackets [], authors should only include the items that are applicable. Where there is also a pipe character | separating two items, choose only
                             one.
+                            <br />
+                            Dates, names, and cited information are for reference only; they may not reflect real sources.
                         </small>
                         <ul>
                             <li>
@@ -194,7 +196,7 @@ export default function StyleGuide() {
                                 and videos:
                             </li>
                         </ul>
-                        <mark>Author name, Author 2 name. Month Year of publication. [“Paper title”. Journal title, issue number | “Video name”. Video link.]</mark>
+                        <mark>Author name, Author 2 name. Month year of publication. [“Paper title”. Journal title, issue number | “Video name”. Video link.]</mark>
                         <br />
                         <div class="ref-box">
                             e.g. [1] matcha._.tea. May 2026. “Raid Farms: A symbol of resistance”. IMS Journal, Issue 1.
@@ -210,27 +212,27 @@ export default function StyleGuide() {
                             <li>For Discord messages or other online materials:</li>
                         </ul>
                         <mark>
-                            Author name. Month Year of retrieval (with suffixed letter for multiple citations). [“Server title” Discord Server. <i>First 20 words of message.</i> | “Source title”.] [Link to material. <b>and/or</b> Image of message]
+                            Author name. Posted date posted, retrieved date retrieved (with suffixed letter for multiple citations of the same date). [“Server title” Discord Server. <i>First 20 words of message.</i> | “Source title”.] [Link to material. <b>and/or</b> Image of message]
                         </mark>
                         <br />
                         <div class="ref-box">
-                            e.g. [1] .1ntell. July 2026. “Raid Farms” Discord Server. <i>unironically, if i had the choice between being a 30 year old comfortable in life who doesn't have to work</i>
+                            e.g. [1] .1ntell. Posted 30 July 2026, retrieved 30 August 2026. “Raid Farms” Discord Server. <i>unironically, if i had the choice between being a 30 year old comfortable in life who doesn't have to work</i>
                             . www.discord.com/example.
                             <br />
-                            e.g. [2] amxtrnl. July 2026a. “Raid Farms” Discord Server. <i>Servers full of chuds and bums 💔</i>
+                            e.g. [2] amxtrnl. Posted 12 July 2026a, retrieved 30 August 2026. “Raid Farms” Discord Server. <i>Servers full of chuds and bums 💔</i>
                             . www.discord.com/example.
                             <br />
-                            e.g. [3] amxtrnl. July 2026b. “Raid Farms” Discord Server. <i>Biggest larp of the year</i>
+                            e.g. [3] amxtrnl. Posted 12 July 2026b, retrieved 30 August 2026. “Raid Farms” Discord Server. <i>Biggest larp of the year</i>
                             . www.discord.com/example.
                             <br />
-                            e.g. [4] duck_t4p3. December 2025. “Raid Farms” Discord Server.
+                            e.g. [4] duck_t4p3. Posted 22 December 2025, retrieved 17 July 2026. “Raid Farms” Discord Server.
                             <br />
                             (screenshot of message)
                             <br />
                             www.discord.com/example.
                             <br />
                             <br />
-                            e.g. [5] John Article. January 2026. “Minecon 2026 is real?”. www.example.com/example.
+                            e.g. [5] John Article. Posted 11 November 2025, retrieved 10 August 2026. “Minecon 2026 is real?”. www.example.com/example.
                         </div>
                         <ul>
                             <li>For real-life works, e.g. academic papers:</li>
@@ -247,7 +249,7 @@ export default function StyleGuide() {
                         <ul>
                             <li>Author-date citations:</li>
                         </ul>
-                        <mark>Author name, author 2 name. Year of publication (with letter if multiple are referenced)</mark>
+                        <mark>Author name, author 2 name. Year of publication (with suffixed letter for multiple citations of the same year)</mark>
                         <br />
                         <div class="ref-box">
                             e.g. (matcha._.tea. 2026)
