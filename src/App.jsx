@@ -130,7 +130,7 @@ export default function App() {
 
                 <Route exact path="/events/past/systems-experiment" component={TSE}/>
 
-                <Route exact path="/404" component={NotFound}/>
+                <Route exact path="*" component={NotFound}/>
 
                 <Route path="/:imsc" component={ImscRedirect}/>
 

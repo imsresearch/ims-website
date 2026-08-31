@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import TopHeader from "../components/TopHeader";
@@ -14,6 +14,7 @@ export default function NotFound() {
                 <title>404 | IMS</title>
                 <meta name="application-name" content="404 | IMS" />
                 <meta name="description" content="404 Page not found on the Institute of Minecraft Studies website" />
+                <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
             <TopHeader />
@@ -23,8 +24,12 @@ export default function NotFound() {
                 <div className="nf-content">
                     <h1>Page not found</h1>
                     <p>The page you requested may be broken, moved, or no longer exist.</p>
-                    <p>If you tried to look up an IMSC, try the <a href="/pubdep/imspd-index?IMSC=true">index</a> to find the article.</p>
-                    <p>If you believe this is a mistake, contact us on <a href="https://discord.gg/vHnMhwdZA3">Discord</a> (vHnMhwdZA3)</p>
+                    <p>
+                        If you tried to look up an IMSC, try the <a href="/pubdep/imspd-index?IMSC=true">index</a> to find the article.
+                    </p>
+                    <p>
+                        If you believe this is a mistake, contact us on <a href="https://discord.gg/vHnMhwdZA3">Discord</a> (vHnMhwdZA3)
+                    </p>
                 </div>
             </main>
 
