@@ -122,7 +122,7 @@ export default function TableOfArticles() {
                                 <td>substack</td>
                                 <td>N.A.</td>
                                 <td>matcha_tea</td>
-                                <td>1</td>
+                                <td>5</td>
                                 <td>Flood of messages show frustrations of Raid Farms players</td>
                                 <td>s-ma-5</td>
                             </tr>
