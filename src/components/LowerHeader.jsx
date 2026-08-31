@@ -5,6 +5,7 @@ export default function LowerHeader() {
     const [journalOpen, setJournalOpen] = useState(false);
     const [substackOpen, setSubstackOpen] = useState(false);
     const [publishingOpen, setPublishingOpen] = useState(false);
+    const [publishingInfoOpen, setPublishingInfoOpen] = useState(false);
     const [eventsOpen, setEventsOpen] = useState(false);
 
     return (
@@ -65,6 +66,20 @@ export default function LowerHeader() {
                                         <a href="/publish-with-us/style-guide">Style guide</a>
 
                                         <a href="/publish-with-us/your-rights">Privacy for authors</a>
+                                    </div>
+                                )}
+                            </div>
+
+                            <hr className="dropdown-hr" />
+
+                            <div className="dropdown" onMouseEnter={() => setPublishingInfoOpen(true)} onMouseLeave={() => setPublishingInfoOpen(false)}>
+                                <button className="dropdown_trigger dropdown_trigger_small">Info ▾</button>
+
+                                {publishingInfoOpen && (
+                                    <div className="dropdown_menu">
+                                        <a href="/pubdep/editor-checklist">Editor checklist</a>
+
+                                        <a href="/pubdep/table-of-articles">Table of published articles</a>
                                     </div>
                                 )}
                             </div>

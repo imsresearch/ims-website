@@ -7,7 +7,7 @@ import JournalFooter from "../../components/JournalFooter";
 
 import "../../styles/editor-checklist.css";
 
-export default function CurrentEvent() {
+export default function EditorChecklist() {
     return (
         <div className="events-page">
             <Helmet>
@@ -17,7 +17,6 @@ export default function CurrentEvent() {
             </Helmet>
 
             <TopHeader />
-            <LowerHeader />
 
             <div className="title-box">
                 <h1>Editor guide checklist</h1>

@@ -86,7 +86,7 @@ hr {
     border: 0.1rem solid #000;
     flex-direction: column;
     min-width: 10rem;
-    margin-left: 0.5rem;
+    margin-left: 20%;
     display: flex;
     position: absolute;
     top: 100%;
