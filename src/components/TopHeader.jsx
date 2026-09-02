@@ -17,33 +17,44 @@ export default function TopHeader() {
                     <a
                         href="https://imsresearch.substack.com"
                         target="_blank"
+                        className="topheader__icon"
                     >
                         <img
                             src="/assets/substack_icon.png"
                             alt="Substack logo"
-                            className="topheader__icon"
                         />
                     </a>
 
                     <a
                         href="https://discord.gg/vHnMhwdZA3"
                         target="_blank"
+                        className="topheader__icon"
                     >
                         <img
                             src="/assets/discord_icon.png"
                             alt="Discord logo"
-                            className="topheader__icon"
                         />
                     </a>
 
                     <a
                         href="https://www.youtube.com/playlist?list=PLJmTEYXxCKpnL_hVZCVMU4OP77dU5Q6IH"
                         target="_blank"
+                        className="topheader__icon"
                     >
                         <img
-                            src="/assets/youtube_icon.png"
+                            src="/assets/youtube_logo.png"
                             alt="YouTube logo"
-                            className="topheader__icon"
+                        />
+                    </a>
+
+                    <a
+                        href="https://x.com/InstMCStudies"
+                        target="_blank"
+                        className="topheader__icon"
+                    >
+                        <img
+                            src="/assets/twitter_logo.png"
+                            alt="Twitter(X) logo"
                         />
                     </a>
                 </div>

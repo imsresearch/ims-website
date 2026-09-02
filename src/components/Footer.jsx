@@ -61,7 +61,7 @@ export default function Footer() {
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="/assets/youtube_icon.png"
+                                src="/assets/youtube_logo.png"
                                 alt="YouTube logo"
                             />
                         </a>

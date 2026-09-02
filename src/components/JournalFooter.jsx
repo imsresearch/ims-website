@@ -9,46 +9,33 @@ export default function Footer() {
                         <a href="#header">(Top)</a>
                     </p>
                     <a href="/#header" className="footer__logo-link">
-                        <img
-                            src="/assets/pubdep_logo.png"
-                            alt="IMS Publishing Department logo"
-                            className="footer__logo"
-                        />
+                        <img src="/assets/pubdep_logo.png" alt="IMS Publishing Department logo" className="footer__logo" />
                     </a>
                     <p className="footer__copyright">
                         <strong>©</strong> 2026 Institute of Minecraft Studies
                     </p>
                     <p className="footer__credit">
                         <strong>Website built by @matcha._.tea</strong>
-                        <br/>
+                        <br />
                         <strong>Credit to @harlowbot for the PubDep and IMS logos</strong>
-                        <br/>
+                        <br />
                         <strong>Thank you to all the various contributing authors for making this project possible</strong>
                     </p>
                     <div className="footer__socials">
-                        <a
-                            href="https://imsresearch.substack.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img
-                                src="/assets/substack_icon.png"
-                                alt="Substack logo"
-                            />
+                        <a href="https://imsresearch.substack.com" target="_blank" className="footer__icon">
+                            <img src="/assets/substack_icon.png" alt="Substack logo" />
                         </a>
-                        <a
-                            href="https://discord.gg/vHnMhwdZA3"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
+
+                        <a href="https://discord.gg/vHnMhwdZA3" target="_blank" className="footer__icon">
                             <img src="/assets/discord_icon.png" alt="Discord logo" />
                         </a>
-                        <a
-                            href="https://www.youtube.com/playlist?list=PLJmTEYXxCKpnL_hVZCVMU4OP77dU5Q6IH"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img src="/assets/youtube_icon.png" alt="YouTube logo" />
+
+                        <a href="https://www.youtube.com/playlist?list=PLJmTEYXxCKpnL_hVZCVMU4OP77dU5Q6IH" target="_blank" className="footer__icon">
+                            <img src="/assets/youtube_logo.png" alt="YouTube logo" />
+                        </a>
+
+                        <a href="https://x.com/InstMCStudies" target="_blank" className="footer__icon">
+                            <img src="/assets/twitter_logo.png" alt="Twitter(X) logo" />
                         </a>
                     </div>
                 </div>

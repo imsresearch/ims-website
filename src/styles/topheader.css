@@ -26,14 +26,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    height: 100%;
+
     gap: 1.5rem;
+    padding: 1rem 0;
 }
 
 .topheader__icon {
-    width: 40px;
-    height: 40px;
+    height: 100%;
     object-fit: contain;
     transition: transform 0.15s ease;
+}
+
+.topheader__icon img{
+    height: 100%;
 }
 
 .topheader__icon:hover {

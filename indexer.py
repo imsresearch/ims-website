@@ -8,7 +8,7 @@ doc_id = 0
 
 for root, dirs, files in os.walk(PDF_PATHS):
     for filename in files:
-        if not filename.lower().endswith(".pdf"):
+        if (not filename.lower().endswith(".pdf")) or (filename.lower().startswith("j")):
             continue
         
         filepath = os.path.join(root, filename)
