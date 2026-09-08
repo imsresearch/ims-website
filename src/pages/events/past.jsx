@@ -44,7 +44,7 @@ export default function PastEvent() {
                             </li>
                         </ul>
                         <i>
-                            <small>Last updated <time dateTime="2026-08-27" title="2026-08-27">27 August, 2026</time> - information is first released on the IMS Discord server.</small>
+                            <small>Last updated <time dateTime="2026-09-08" title="2026-09-08">08 September, 2026</time> - information is first released on the IMS Discord server.</small>
                         </i>
                     </h3>
                 </div>

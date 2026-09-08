@@ -28,6 +28,9 @@ import CurrentEvent from "./pages/events/current.jsx";
 import PastEvent from "./pages/events/past.jsx";
 import FutureEvent from "./pages/events/future.jsx";
 import TSE from "./pages/events/systems-experiment.jsx";
+import CIV from "./pages/events/civ.jsx";
+
+import ARCHIVETSE from "./pages/archive/systems-event.jsx";
 
 import NotFound from "./pages/404.jsx";
 
@@ -129,6 +132,9 @@ export default function App() {
                 <Route exact path="/events/past" component={PastEvent}/>
 
                 <Route exact path="/events/past/systems-experiment" component={TSE}/>
+                <Route exact path="/events/current/civ" component={CIV}/>
+
+                <Route exact path="/archive/tse" component={ARCHIVETSE}/>
 
                 <Route exact path="*" component={NotFound}/>
 

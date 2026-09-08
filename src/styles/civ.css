@@ -1,0 +1,129 @@
+.civ-content-box{
+    padding: 0 5vw;
+
+    background: #dfdfd5;
+}
+
+.civ-title{
+    text-align: center;
+    padding-top: 4rem;
+    margin-top: 0;
+
+    font-size: 4vw;
+}
+
+.civ-first-p{
+    margin-top: 0;
+}
+
+.civ-title p{
+    color: rgb(132, 43, 98);
+    
+    font-style: italic;
+    text-align: left;
+    font-size: 6vw;
+}
+
+.civ-title h2{
+    background: rgb(0, 189, 180);
+    background: linear-gradient(35deg, rgb(0, 189, 180) 0%, rgb(43, 209, 21) 100%);
+
+    background-clip: text;
+    color: transparent;
+}
+
+.civ-q{
+    padding: 1rem 0;
+    border: solid black;
+    border-width: 2px 0;
+}
+
+.civ-title small{
+    font-size: 3vw;
+}
+
+.civ-description{
+    padding: 0 20%;
+    height: 170vh;
+}
+
+.civ-description span{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    align-items: center;
+}
+
+.civ-description p{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.civ-description .civ-initial{
+    font-size: 3rem;
+    font-style: normal;
+}
+
+.civ-arrow{
+    transform: rotate(45deg);
+    height: 8vw;
+    transition: transform 0.6s ease;
+}
+
+.civ-description span:hover .civ-arrow{
+    transform: rotate(45deg) translate(20px, -20px);
+}
+
+.civ-features li{
+    font-size: 3.5rem;
+    list-style-type: none;
+
+    padding: 1.5rem 0;
+}
+
+.civ-features li::before{
+    content: "⤔";
+    padding-right: 1rem;
+}
+
+.civ-features mark{
+    background-color: rgb(105, 170, 7);
+    transition: all 0.5s ease;
+}
+
+.civ-features mark:hover{
+    background-color: rgb(70, 204, 249);
+    font-size: 3.8rem;
+}
+
+.civ-joining{
+    padding: 10vw;
+    padding-bottom: 4rem;
+    font-size: 5vw;
+
+    text-align: center;
+}
+
+.civ-joining p{
+    background: rgb(0, 189, 180);
+    background: linear-gradient(35deg, rgb(0, 189, 180) 0%, rgb(43, 209, 21) 100%);
+
+    background-clip: text;
+    color: transparent;
+
+    margin: auto;
+}
+
+.civ-joining small{
+    font-size: 2vw;
+}
+
+@media (max-width: 850px){
+    .civ-joining{
+        font-size: 10vw;
+    }
+
+    .civ-joining small{
+        font-size: 4vw;
+    }
+}

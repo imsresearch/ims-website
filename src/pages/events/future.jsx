@@ -37,13 +37,12 @@ export default function FutureEvent() {
                 <div className="past-events" id="past">
                     <hr className="big-hr" />
                     <h3>
-                        <ul>
-                            <li>
-                                The IMS is currently planning an event - see <u>#events-announcements</u> in the main server. More information to come on this page.
-                            </li>
-                        </ul>
                         <i>
-                            <small>Last updated <time dateTime="2026-08-27" title="2026-08-27">27 August, 2026</time> - information is first released on the IMS Discord server.</small>
+                            There are no future events.
+                            <br />
+                        </i>
+                        <i>
+                            <small>Last updated <time dateTime="2026-09-08" title="2026-09-08">08 September, 2026</time> - information is first released on the IMS Discord server.</small>
                         </i>
                     </h3>
                 </div>

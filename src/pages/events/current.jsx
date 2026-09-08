@@ -20,15 +20,14 @@ export default function CurrentEvent() {
             <LowerHeader />
 
             <div className="title-box">
-                <img src="/assets/MC_redstone_lamp.webp" alt="Lit redstone lamp" className="events-current-arrow"/>
+                <img src="/assets/MC_redstone_lamp.webp" alt="Lit redstone lamp" className="events-current-arrow" />
                 <h1>Current IMS Events</h1>
             </div>
 
             <main className="event-content-box">
                 <div className="events-intro">
                     <p>
-                        The IMS regularly hosts events, experiments, and other in-game activities. These events are announced in the <a href="https://discord.gg/vHnMhwdZA3">IMS Discord server</a> and
-                        details are first to be posted there.
+                        The IMS regularly hosts events, experiments, and other in-game activities. These events are announced in the <a href="https://discord.gg/vHnMhwdZA3">IMS Discord server</a> and details are first to be posted there.
                         <br />
                         This page will regularly upate with every event that the IMS hosts, with information about how to participate, what it's about, and when it starts/ends.
                     </p>
@@ -36,10 +35,15 @@ export default function CurrentEvent() {
                 <div className="past-events" id="past">
                     <hr className="big-hr" />
                     <h3>
+                        <ul>
+                            <li>
+                                <p>
+                                    <a href="/events/current/CIV">CIV (Co-operation, the IMS, and Ventures)</a>
+                                </p>
+                            </li>
+                        </ul>
                         <i>
-                            There are no current events.
-                            <br />
-                            <small>Last updated <time dateTime="2026-08-27" title="2026-08-27">27 August, 2026</time> - information is first released on the IMS Discord server.</small>
+                            <small>Last updated <time dateTime="2026-09-08" title="2026-09-08">08 September, 2026</time> - information is first released on the IMS Discord server.</small>
                         </i>
                     </h3>
                 </div>

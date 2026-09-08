@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet";
-import TopHeader from "../../components/TopHeader";
-import LowerHeader from "../../components/LowerHeader";
-import Footer from "../../components/Footer";
+import TopHeader from "../../components/TopHeader.jsx";
+import LowerHeader from "../../components/LowerHeader.jsx";
+import Footer from "../../components/Footer.jsx";
 
-import "../styles/systems-event.css";
+import "../../styles/archive/systems-event.css";
 
 export default function SystemsEvent() {
     const hexagons = [
@@ -19,6 +19,7 @@ export default function SystemsEvent() {
                 <title>IMS: The Systems Experiment | IMS</title>
                 <meta name="application-name" content="Systems Experiment | IMS" />
                 <meta name="description" content="The webpage for IMS: The Systems Experiment." />
+                <meta name="robots" content="nofollow noindex" />
             </Helmet>
 
             <TopHeader />
@@ -34,7 +35,7 @@ export default function SystemsEvent() {
                     </div>
                 </section>
 
-                {/*<section className="systems-svgs">
+                <section className="systems-svgs">
                 {hexagons.map(([text, fill, textColor]) => (
                     <svg key={text} viewBox="0 0 245 245">
                         <polygon points="122.5,5 240,122.5 122.5,240 5,122.5" fill={fill} stroke="black" strokeWidth="2" />
@@ -94,7 +95,7 @@ export default function SystemsEvent() {
                         <li>Interact with other systems!</li>
                     </ul>
                 </div>
-            </main>*/}
+            </main>
 
                 <main className="systems-announcement">
                     <h1>Read the announcement by Turtle, Lead Organiser of TSE:</h1>

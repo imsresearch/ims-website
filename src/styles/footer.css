@@ -51,7 +51,7 @@
     line-height: 1.2;
 }
 
-.footer__credit {
+.footer__container .footer__credit{
     margin: 0 0 1rem;
     color: #5a5d64;
     font-size: 0.8rem;

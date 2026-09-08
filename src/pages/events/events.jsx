@@ -32,7 +32,7 @@ export default function Events() {
                     </h2>
                     <hr className="small-hr"/>
                     <h3>
-                        <i>There are no current events.</i>
+                        <a href="/events/current/civ">CIV (Co-operation, the IMS, and Ventures)</a>
                     </h3>
                 </div>
                 <div id="past">
@@ -54,6 +54,9 @@ export default function Events() {
                         <a href="/events/past/systems-experiment">IMS: The Systems Experiment</a>
                     </h3>
                 </div>
+                <i>
+                    <small>Last updated <time dateTime="2026-09-08" title="2026-09-08">08 September, 2026</time> - information is first released on the IMS Discord server.</small>
+                </i>
             </main>
 
             <Footer />

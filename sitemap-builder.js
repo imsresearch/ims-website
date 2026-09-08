@@ -11,16 +11,23 @@ const routes = [
     "/pubdep/imspd-index",
     "/pubdep/applications",
 
+    "/pubdep/editor-checklist",
+    "/pubdep/table-of-articles",
+
     "/publish-with-us",
     "/publish-with-us/style-guide",
     "/publish-with-us/your-rights",
 
     "/events",
+
     "/events/current",
     "/events/future",
     "/events/past",
     
     "/events/past/systems-experiment",
+    "/events/current/civ",
+
+    "/archive/tse",
 ];
 
 const today = new Date().toISOString().split("T")[0];
