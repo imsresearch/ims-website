@@ -127,7 +127,7 @@ export default function StyleGuide() {
                     </h2>
                     <Tooltip id="body-tooltip" />
                     <ul>
-                        <li>Text must be well written, consistent, and clear</li>
+                        <li>Text must be well written, consistent, clear, and have good grammar</li>
                         <li>Text must be succinct. Sentences shouldn't meander on or use too many words to say something simple. Authors should avoid redundant words</li>
                         <li>Authors may use American, Commonwealth, or any other formal spelling conventions</li>
                         <li>More formal articles should avoid puffery (e.g. best, greatest, groundbreaking), weasel words (e.g. some people say, experts state, science shows, is widely regarded), editorializing (e.g. interestingly, actually, clearly, of course, unfortunately), colloquial language, and vague phrasing</li>
@@ -147,6 +147,8 @@ export default function StyleGuide() {
                         <li>Abbreviations for phrases (e.g. ASAP, N/A) should be avoided except for academic abbreviations such as e.g., i.e., and et al.</li>
                         <li>Should include the key question posited by the article and the methods that it uses to answer the question</li>
                         <li>The text must comply with copyright laws. Instances of fair use must be marked and justified</li>
+                        <li>All quotations must use <a href="https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style#Punctuation_inside_or_outside">logical quotation</a> for clarity and consistency</li>
+                        <li>Section titles should use sentence case</li>
                     </ul>
                     <br />
 
@@ -277,6 +279,7 @@ export default function StyleGuide() {
                             </ul>
                             <li>For citing Discord messages, the server tag or other non-username components of their name must not be included</li>
                             <li>Papers are not required to have a numbered bibliography, but if numeric citations were used, all citations must be numbered</li>
+                            <li>When linking to Discord sources, never link to cdn.discordap.com... links, as these expire. Instead, include the attachment in the paper and reference this.</li>
                             <li>
                                 For citations citing drafts in the <u>#draft-manuscripts</u> channel, cite the journal as <i>IMS Draft Manuscript</i>.
                             </li>
