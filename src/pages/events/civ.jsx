@@ -49,7 +49,7 @@ export default function CIV() {
                         <p className="civ-initial">V:</p>
                         <img src="/assets/MC_arrow.png" className="civ-arrow" />
                         <p>
-                            Go on ad<u>v</u>entures!
+                            <u>V</u>enture out in the world!
                         </p>
                     </span>
                 </div>
