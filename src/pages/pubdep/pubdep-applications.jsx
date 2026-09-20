@@ -109,6 +109,7 @@ export default function PubDepApplications() {
                     <div className="job-why-us">
                         <p className="job-why-us-title">Why work with the PubDep?</p>
                         <ul>
+                            <li>Be guided by an experienced mentor to help you with your work</li>
                             <li>Be a part of a growing Minecraft Theorist community</li>
                             <li>Receive the Publishing Department Staff role in the main server</li>
                             <li>Flexible working schedule - take leaves whenever needed and come back when you want to write again</li>
