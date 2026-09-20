@@ -134,11 +134,11 @@ export default function App() {
                 <Route exact path="/events/past/systems-experiment" component={TSE}/>
                 <Route exact path="/events/current/civ" component={CIV}/>
 
-                <Route exact path="/archive/tse" component={ARCHIVETSE}/>
-
-                <Route exact path="*" component={NotFound}/>
+                <Route exact path="/archive/tse" component={ARCHIVETSE}/>           
 
                 <Route path="/:imsc" component={ImscRedirect}/>
+
+                <Route exact path="*" component={NotFound}/>
 
                 <Route component={NotFound}/>
             </Switch>
