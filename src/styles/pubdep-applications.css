@@ -12,3 +12,86 @@
 
     border: 2px solid black;
 }
+
+.pubdep-apps-section h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0;
+    padding-top: 4rem;
+}
+
+.job-descriptions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 5vw;
+}
+
+.job-descriptions h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.job-descriptions p{
+    font-size: 1.5rem;
+}
+
+.job-descriptions .job-responsibilities h2{
+    text-align: left;
+}
+
+.editor-job-description, .reporter-job-description, .columnist-job-description{
+    padding: 0 1rem;
+}
+
+.job-descriptions h2{
+    border: solid black;
+    border-width: 2px 0;
+}
+
+.job-descriptions .job-responsibilities-title, .job-descriptions .job-benefits-title, .job-descriptions .job-apply-title, .job-why-us .job-why-us-title{
+    border: solid black;
+    border-width: 2px 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.job-descriptions ul{
+    font-size: 1.5rem;
+}
+
+.job-descriptions li{
+    margin: 1rem 0;
+}
+
+.job-apply, .job-why-us{
+    grid-column: span 3;
+}
+
+.job-apply p, .job-why-us p{
+    text-align: center;
+}
+
+.editor-job-description, .reporter-job-description, .columnist-job-description{
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 4;
+}
+
+@media (max-width: 850px){
+    .job-descriptions ul{
+        font-size: 1rem;
+    }
+
+    .job-descriptions .job-responsibilities-title, .job-descriptions .job-benefits-title, .job-descriptions .job-apply-title, .job-why-us .job-why-us-title{
+        font-size: 1.2rem;
+    }
+
+    .job-descriptions p{
+        font-size: 1rem;
+    }
+
+    .job-descriptions{
+        display: flex;
+        flex-direction: column;
+    }
+}
