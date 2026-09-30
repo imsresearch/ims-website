@@ -19,6 +19,34 @@
     font-size: 1rem;
 }
 
+.pubdep-news{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pubdep-news-item{
+    border: 2px solid black;
+    padding: 2vw;
+
+    text-align: justify;
+}
+
+.pubdep-news-item p{
+    line-height: 160%;
+}
+
+.pubdep-news-press{
+    background-color: #4058e0;
+    color: orange;
+    padding: 1.5px;
+}
+
+.pubdep-news-journal{
+    background-color: #1abc9c;
+    color: rgb(157, 0, 0);
+    padding: 1.5px;
+}
+
 .pubdep-introduction {
     grid-column: span 9;
     text-align: right;
@@ -66,7 +94,7 @@
         width: 100%
     }
 
-    .journal-page h1 {
+    .journal-page h1{
         font-size: 2rem;
     }
 }

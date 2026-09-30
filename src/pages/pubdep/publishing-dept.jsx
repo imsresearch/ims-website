@@ -20,7 +20,9 @@ export default function PubDep() {
             <LowerHeader />
 
             <div className="title-box">
-                <h1>Institute of Minecraft Studies Publishing Department (IMSPD)</h1>
+                <h1>Institute of Minecraft Studies
+                    <br/>
+                    Publishing Department (IMSPD)</h1>
             </div>
 
             <main className="content-box">
@@ -34,11 +36,33 @@ export default function PubDep() {
                             <br/>
                             We are a pillar of the academic wing of the IMS and help writers in the community refine and publish their work on Minecraft Theory.
                             <br/>
+                            <br/>
                             From server political theory to practical guides to recounts of your experience on a server, we welcome and publish a wide spectrum of topics.
                             <br/>
                             As the only official publishing house of the IMS, only we can put the IMS name behind your work.
                         </i>
                     </p>
+                </div>
+                <div className="pubdep-news" id="news">
+                    <div className="pubdep-news-item">
+                        <mark className="pubdep-news-press">[Press]</mark>
+                        <h2>IMS Week of Journalism: Reporting What Matters</h2>
+                        <p>The IMS Week of Journalism (WoJ) will be one week, from Monday to Sunday, where a news story, opinion article, interview, or other works relevant to the Sub-Department are published in a row.
+                            <br/>
+                            <br/>
+                            This will drive discussion and debate between members, allow for more work created by the IMS to be shared to other communities, and grow the library of the IMS.
+                            <br/>
+                            <br/>
+                            Read more in the WoJ Sub-Department strategy brief <a href="database/non-published/pubdep/IMS-Week-of-Journalism.pdf">here</a>.
+                            <br/>
+                            <small>Feel free to <a href="#contact-us">contact the PCo</a> for any questions.</small>
+                        </p>
+                    </div>
+                    <div className="pubdep-news-item">
+                        <mark className="pubdep-news-journal">[Journal]</mark>
+                        <h2>Second issue work in progress</h2>
+                        <p>Lorem ipsum...... uiah diah qidu wh... jjas adnas nda jdoa ndi a da.</p>
+                    </div>
                 </div>
                 <div className="pages-box" id="pages">
                     <h2>Pages</h2>
@@ -51,6 +75,10 @@ export default function PubDep() {
                         <a href="/pubdep/imspd-index">Articles Index</a> • /pubdep/imspd-index
                     </h3>
                     <p>Use the official IMSPD Index to find articles for research or reading</p>
+                    <h3>
+                        <a href="/pubdep/applications">Apply for a position</a> • /pubdep/apply
+                    </h3>
+                    <p>The IMSPD is currently trialling a "try-out" basis for hiring staff - sign up and try it out!</p>
                     <hr className="small-hr" />
                     <h3>
                         <a href="/publish-with-us">Publish with us</a> • /publish-with-us
@@ -64,6 +92,15 @@ export default function PubDep() {
                         <a href="/publish-with-us/your-rights">Your rights as an author</a> • /publish-with-us/your-rights
                     </h3>
                     <p>Read the author's rights to privacy when publishing with the IMSPD</p>
+                    <hr className="small-hr" />
+                    <h3>
+                        <a href="/pubdep/editor-checklist">Editor guide checklist</a> • /pubdep/editor-checklist
+                    </h3>
+                    <p>A checklist guide for editors while working</p>
+                    <h3>
+                        <a href="/pubdep/table-of-articles">Table of articles</a> • /pubdep/table-of-articles
+                    </h3>
+                    <p>A table of all published articles</p>
                 </div>
 
                 <hr className="big-hr" />
