@@ -33,6 +33,7 @@
 
 .pubdep-news-item p{
     line-height: 160%;
+    margin-bottom: 0;
 }
 
 .pubdep-news-press{
@@ -92,6 +93,10 @@
     .pubdep-introduction{
         text-align: justify;
         width: 100%
+    }
+
+    .pubdep-news{
+        grid-template-columns: 1fr;
     }
 
     .journal-page h1{

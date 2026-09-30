@@ -61,7 +61,13 @@ export default function PubDep() {
                     <div className="pubdep-news-item">
                         <mark className="pubdep-news-journal">[Journal]</mark>
                         <h2>Second issue work in progress</h2>
-                        <p>Lorem ipsum...... uiah diah qidu wh... jjas adnas nda jdoa ndi a da.</p>
+                        <p>The second issue of the IMS Journal, lead by the JCo, is continuing its editorial process.
+                            <br/>
+                            A designed cover will feature on this issue, together with a broader server and TSE theme.
+                            <br/>
+                            <br/>
+                            Details will be announced once all articles have finished editing and the journal is finalised.
+                        </p>
                     </div>
                 </div>
                 <div className="pages-box" id="pages">
