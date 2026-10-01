@@ -79,14 +79,16 @@ function ImscRedirect() {
             return;
         }
 
+        if (imsc[0] != "j" || imsc[0] != "s" || imsc[0] != "c") {
+            setIsIMSC(false);
+            return;
+        }
+
         if (imsc[0] === "j") {
             const editionN = imsc[2];
             window.location.href = `/database/published/journal/${editionN}/${imsc}/${imsc}.pdf`;
         } else if (imsc[0] === "s" || imsc[0] === "c") {
             window.location.href = `/database/published/substack/${imsc}/${imsc}.pdf`;
-        }
-        else {
-            setIsIMSC(false);
         }
         window.history.pushState({}, "", `/${imsc}`);
     }, [imsc]);
