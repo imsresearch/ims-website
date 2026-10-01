@@ -79,7 +79,7 @@ function ImscRedirect() {
             return;
         }
 
-        if (imsc[0] != "j" && imsc[1] != "(" || imsc[0] != "s" && imsc[1] != "-" || imsc[0] != "c" && imsc[1] != "-") {
+        if (!imsc.startsWith("j(") && !imsc.startsWith("s-") && !imsc.startsWith("c-")) {
             setIsIMSC(false);
             return;
         }
