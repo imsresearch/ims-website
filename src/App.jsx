@@ -1,11 +1,7 @@
 import React from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useLocation, useParams } from "react-router-dom";
-import {
-    BrowserRouter as Router,
-    Route,
-    Switch
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import { createGlobalStyle } from "styled-components";
 
@@ -74,35 +70,35 @@ function Debug() {
 }
 
 function ImscRedirect() {
-    const {imsc} = useParams();
+    const { imsc } = useParams();
+    const [isIMSC, setIsIMSC] = useState(true);
 
-    useEffect (() => {
-        if (imsc[0] === "j"){
-            const editionN = imsc[2]
-            window.location.href = `/database/published/journal/${editionN}/${imsc}/${imsc}.pdf`
+    useEffect(() => {
+        if (!imsc) {
+            setIsIMSC(false);
+            return;
         }
-        else if (imsc[0] === "s" || imsc[0] === "c") {
-            window.location.href = `/database/published/substack/${imsc}/${imsc}.pdf`
+
+        if (imsc[0] === "j") {
+            const editionN = imsc[2];
+            window.location.href = `/database/published/journal/${editionN}/${imsc}/${imsc}.pdf`;
+        } else if (imsc[0] === "s" || imsc[0] === "c") {
+            window.location.href = `/database/published/substack/${imsc}/${imsc}.pdf`;
         }
         else {
-            window.location.href = "/404"
+            setIsIMSC(false);
         }
-
-        window.history.pushState({}, "", `/${imsc}`)
+        window.history.pushState({}, "", `/${imsc}`);
     }, [imsc]);
+
+    if (!isIMSC) {
+        return <NotFound />;
+    }
 
     return null;
 }
 
 export default function App() {
-
-    const redirect = sessionStorage.getItem("redirect");
-
-    if (redirect) {
-        sessionStorage.removeItem("redirect");
-        window.history.replaceState(null, "", redirect);
-    }
-
     return (
         <Router>
             <GlobalStyles />
@@ -110,37 +106,35 @@ export default function App() {
             <Debug />
 
             <Switch>
-                <Route exact path="/" component={Index}/>
-                <Route exact path="/about-us" component={AboutUs}/>
-                <Route exact path="/pubdep" component={PubDep}/>
+                <Route exact path="/" component={Index} />
+                <Route exact path="/about-us" component={AboutUs} />
+                <Route exact path="/pubdep" component={PubDep} />
 
-                <Route exact path="/pubdep/latest-issue" component={LatestIssue}/>
-                <Route exact path="/pubdep/imspd-index" component={ArticlesIndex}/>
-                <Route exact path="/pubdep/applications" component={PubDepApplications}/>
+                <Route exact path="/pubdep/latest-issue" component={LatestIssue} />
+                <Route exact path="/pubdep/imspd-index" component={ArticlesIndex} />
+                <Route exact path="/pubdep/applications" component={PubDepApplications} />
 
-                <Route exact path="/pubdep/editor-checklist" component={EditorChecklist}/>
-                <Route exact path="/pubdep/table-of-articles" component={TableOfArticles}/>
+                <Route exact path="/pubdep/editor-checklist" component={EditorChecklist} />
+                <Route exact path="/pubdep/table-of-articles" component={TableOfArticles} />
 
-                <Route exact path="/publish-with-us" component={PublishWithUs}/>
-                <Route exact path="/publish-with-us/style-guide" component={StyleGuide}/>
-                <Route exact path="/publish-with-us/your-rights" component={GDPR}/>
+                <Route exact path="/publish-with-us" component={PublishWithUs} />
+                <Route exact path="/publish-with-us/style-guide" component={StyleGuide} />
+                <Route exact path="/publish-with-us/your-rights" component={GDPR} />
 
-                <Route exact path="/events" component={Events}/>
+                <Route exact path="/events" component={Events} />
 
-                <Route exact path="/events/current" component={CurrentEvent}/>
-                <Route exact path="/events/future" component={FutureEvent}/>
-                <Route exact path="/events/past" component={PastEvent}/>
+                <Route exact path="/events/current" component={CurrentEvent} />
+                <Route exact path="/events/future" component={FutureEvent} />
+                <Route exact path="/events/past" component={PastEvent} />
 
-                <Route exact path="/events/past/systems-experiment" component={TSE}/>
-                <Route exact path="/events/current/civ" component={CIV}/>
+                <Route exact path="/events/past/systems-experiment" component={TSE} />
+                <Route exact path="/events/current/civ" component={CIV} />
 
-                <Route exact path="/archive/tse" component={ARCHIVETSE}/>           
+                <Route exact path="/archive/tse" component={ARCHIVETSE} />
 
-                <Route path="/:imsc" component={ImscRedirect}/>
+                <Route path="/:imsc" component={ImscRedirect} />
 
-                <Route exact path="*" component={NotFound}/>
-
-                <Route component={NotFound}/>
+                <Route path="*" component={NotFound} />
             </Switch>
         </Router>
     );
