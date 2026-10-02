@@ -52,7 +52,7 @@ export default function LowerHeader() {
 
                             <a href="/pubdep/imspd-index">Articles index</a>
 
-                            <a href="/pubdep/applications">Apply for a position</a>
+                            <a href="/pubdep/jobs">Jobs</a>
 
                             <hr className="dropdown-hr" />
 
