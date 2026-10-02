@@ -173,13 +173,16 @@ export default function PubDep() {
 
                     <h3>Transparency reports</h3>
                     <p>
-                        <a href="database\non-published\pubdep\transparency-report-august26.pdf">August 2026</a>
+                        <a href="/public/database/non-published/pubdep/transparency-reports/transparency-report-september26.pdf">September 2026</a>
                     </p>
                     <p>
-                        <a href="database\non-published\pubdep\transparency-report-july26.pdf">July 2026</a>
+                        <a href="/public/database/non-published/pubdep/transparency-reports/transparency-report-august26.pdf">August 2026</a>
                     </p>
                     <p>
-                        <a href="database\non-published\pubdep\transparency-report-june26.pdf">June 2026</a>
+                        <a href="/public/database/non-published/pubdep/transparency-reports/transparency-report-july26.pdf">July 2026</a>
+                    </p>
+                    <p>
+                        <a href="/public/database/non-published/pubdep/transparency-reports/transparency-report-june26.pdf">June 2026</a>
                     </p>
                 </div>
             </main>
