@@ -114,7 +114,7 @@ export default function App() {
 
                 <Route exact path="/pubdep/latest-issue" component={LatestIssue} />
                 <Route exact path="/pubdep/imspd-index" component={ArticlesIndex} />
-                <Route exact path="/pubdep/applications" component={PubDepApplications} />
+                <Route exact path="/pubdep/jobs" component={PubDepApplications} />
 
                 <Route exact path="/pubdep/editor-checklist" component={EditorChecklist} />
                 <Route exact path="/pubdep/table-of-articles" component={TableOfArticles} />
