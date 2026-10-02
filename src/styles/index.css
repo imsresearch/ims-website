@@ -127,6 +127,14 @@ body{
     padding: 1.5rem 2rem;
 }
 
+.article-box .pubdep-news-article-no-border{
+    border: 0;
+}
+
+.article-box .pubdep-news-article{
+    border: 0.3rem solid #522e10;
+}
+
 .article-box{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

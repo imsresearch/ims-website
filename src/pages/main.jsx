@@ -54,6 +54,26 @@ export default function Main() {
 
 		{/*articles box*/}
 		<main className="article-box" id="articles">
+            <a className="pubdep-news-article article-linkbox" href="/pubdep#news">
+                <div className="pubdep-news-article-no-border">
+                    <mark className="pubdep-news-journal">[Journal]</mark>
+                    <h3 className="article-title">Second issue work in progress</h3>
+                    <p>The second issue of the IMS Journal, lead by the JCo, is continuing its editorial process.
+                        <br/>
+                        ...
+                    </p>
+                </div>
+            </a>
+            <a className="pubdep-news-article article-linkbox" href="/pubdep#news">
+                <div className="pubdep-news-article-no-border">
+                    <mark className="pubdep-news-press">[Press]</mark>
+                    <h3 className="article-title">IMS Week of Journalism: Reporting What Matters</h3>
+                    <p>The IMS Week of Journalism (WoJ) will be one week, from Monday to Sunday, where a news story, opinion article, interview, or other works relevant to the Sub-Department are published in a row.
+                        <br/>
+                        ...
+                    </p>
+                </div>
+            </a>
             <a className="latest-article" href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">
 				<h3 className="article-title">The Arena vs. The Idea</h3>
 				<p>The Fundamental Toxicity of Overly Gamified Minecraft Communities - By Turtle2770</p>
