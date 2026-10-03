@@ -56,6 +56,7 @@ export default function PubDep() {
                             Read more in the WoJ Sub-Department strategy brief <a href="database/non-published/pubdep/IMS-Week-of-Journalism.pdf">here</a>.
                             <br/>
                             <small>Feel free to <a href="#contact-us">contact the PCo</a> for any questions.</small>
+                            <small><time dateTime="2026-10-02" title="2026-10-02">02 October</time></small>
                         </p>
                     </div>
                     <div className="pubdep-news-item">
@@ -67,6 +68,7 @@ export default function PubDep() {
                             <br/>
                             <br/>
                             Details will be announced once all articles have finished editing and the journal is finalised.
+                            <small><time dateTime="2026-10-02" title="2026-10-02">02 October</time></small>
                         </p>
                     </div>
                 </div>

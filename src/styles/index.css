@@ -120,19 +120,19 @@ body{
 }
 
 /*article boxees*/
-.latest-article{
+.article-box .latest-article{
     border: 0.3rem orangered ridge;
     text-decoration: none;
     color: black;
     padding: 1.5rem 2rem;
+
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
 }
 
 .article-box .pubdep-news-article-no-border{
     border: 0;
-}
-
-.article-box .pubdep-news-article{
-    border: 0.3rem solid #522e10;
 }
 
 .article-box{
@@ -153,6 +153,10 @@ body{
     text-decoration: none;
     color: black;
     padding: 1.5rem 2rem;
+
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
 }
 
 .article-title{
@@ -161,6 +165,8 @@ body{
     font-weight: 600;
     text-align: left;
     margin: 1rem 0;
+
+    align-self: start;
 }
 
 small{
