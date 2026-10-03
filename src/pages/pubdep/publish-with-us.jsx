@@ -87,8 +87,8 @@ export default function PublishWithUs() {
                     <b>To publish through either publication:</b>
                     <ol>
                         <li>Post your draft manuscript to the <u>#draft-manuscripts</u> channel in the <a href="https://discord.gg/vHnMhwdZA3">main IMS server</a>. This is so that institute members can see initial drafts and the development of ideas.</li>
-                        <li>Ping the Journal co-ordinator (for submissions to the journal) or the Press co-ordinator (for submissions to the Substack), with your manuscript document attached (.pdf or .docx or other text formats is fine) in the <u>#manuscript-submissions</u> channel.</li>
-                        <li>Begin working with your assigned editors in the Feedback Area</li>
+                        <li>Ping the Journal co-ordinator (for submissions to the journal) or the Press co-ordinator (for submissions to the Substack), with your manuscript document attached (.docx or other text formats are fine) in the <u>#manuscript-submissions</u> channel.</li>
+                        <li>Begin working with your assigned editors in the Feedback Area.</li>
                     </ol>
 
                     <br />
