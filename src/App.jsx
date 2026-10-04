@@ -31,10 +31,11 @@ import ARCHIVETSE from "./pages/archive/systems-event.jsx";
 import NotFound from "./pages/404.jsx";
 
 const GlobalStyles = createGlobalStyle`
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: "DejaVu Sans", sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap'); 
+    * {
+        font-family: "PT Serif Caption", serif;
+        font-weight: 400;
+        font-style: normal;
     }
 `;
 

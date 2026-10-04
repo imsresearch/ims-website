@@ -107,6 +107,7 @@ export default function LowerHeader() {
                     )}
                 </div>
             </nav>
+            <small style={{margin: "3px 3px 5px 3px", fontSize: "60%"}}>You're using a new version of our site with a new font - <a href="https://discord.gg/vHnMhwdZA3">tell us</a> if you like it!</small>
             <div className="rolling">
                 <div className="rolling-container">
                     <div className="rolling-content">

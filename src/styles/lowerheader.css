@@ -28,9 +28,6 @@ hr {
     color: black;
     border: 0.2rem;
     padding: 0 1rem;
-    font-family:
-        DejaVu Sans,
-        sans-serif;
     font-size: 1.3rem;
     text-decoration: none;
 }
@@ -69,9 +66,6 @@ hr {
     background: transparent;
     border: none;
     padding: 0 1rem;
-    font-family:
-        DejaVu Sans,
-        sans-serif;
     font-size: 1.3rem;
 }
 

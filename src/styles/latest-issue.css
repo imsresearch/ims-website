@@ -1,7 +1,3 @@
-.latest-issue-page {
-    font-family: DejaVu Sans, sans-serif;
-}
-
 .journal-section {
     display: grid;
     grid-template-columns: 1fr;
@@ -27,7 +23,6 @@
 
 .journal-download a {
     color: #00f;
-    font-family: DejaVu Sans, sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: underline;
