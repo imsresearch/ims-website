@@ -56,6 +56,7 @@ export default function PubDep() {
                             Read more in the WoJ Sub-Department strategy brief <a href="database/non-published/pubdep/IMS-Week-of-Journalism.pdf">here</a>.
                             <br/>
                             <small>Feel free to <a href="#contact-us">contact the PCo</a> for any questions.</small>
+                            <br/>
                             <small><time dateTime="2026-10-02" title="2026-10-02">02 October</time></small>
                         </p>
                     </div>
@@ -68,6 +69,7 @@ export default function PubDep() {
                             <br/>
                             <br/>
                             Details will be announced once all articles have finished editing and the journal is finalised.
+                            <br/>
                             <small><time dateTime="2026-10-02" title="2026-10-02">02 October</time></small>
                         </p>
                     </div>
@@ -175,16 +177,16 @@ export default function PubDep() {
 
                     <h3>Transparency reports</h3>
                     <p>
-                        <a href="/public/database/non-published/pubdep/transparency-reports/transparency-report-september26.pdf">September 2026</a>
+                        <a href="/database/non-published/pubdep/transparency-reports/transparency-report-september26.pdf">September 2026</a>
                     </p>
                     <p>
-                        <a href="/public/database/non-published/pubdep/transparency-reports/transparency-report-august26.pdf">August 2026</a>
+                        <a href="/database/non-published/pubdep/transparency-reports/transparency-report-august26.pdf">August 2026</a>
                     </p>
                     <p>
-                        <a href="/public/database/non-published/pubdep/transparency-reports/transparency-report-july26.pdf">July 2026</a>
+                        <a href="/database/non-published/pubdep/transparency-reports/transparency-report-july26.pdf">July 2026</a>
                     </p>
                     <p>
-                        <a href="/public/database/non-published/pubdep/transparency-reports/transparency-report-june26.pdf">June 2026</a>
+                        <a href="/database/non-published/pubdep/transparency-reports/transparency-report-june26.pdf">June 2026</a>
                     </p>
                 </div>
             </main>
