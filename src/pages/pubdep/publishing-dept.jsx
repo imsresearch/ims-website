@@ -86,7 +86,7 @@ export default function PubDep() {
                     </h3>
                     <p>Use the official IMSPD Index to find articles for research or reading</p>
                     <h3>
-                        <a href="/pubdep/apply">Apply for a position</a> • /pubdep/apply
+                        <a href="/pubdep/jobs">Apply for a position</a> • /pubdep/apply
                     </h3>
                     <p>The IMSPD is currently trialling a "try-out" basis for hiring staff - sign up and try it out!</p>
                     <hr className="small-hr" />
