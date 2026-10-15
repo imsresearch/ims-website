@@ -25,7 +25,7 @@ export default function Footer() {
                     </p>
 
                     <p className="footer__credit">
-                        <a href="/database/non-published/IMS-Constitution.pdf" target="_blank">Constitution</a>
+                        <a href="/database/non-published/IMS-Constitution.pdf" target="_blank">IMS Constitution</a>
                         <hr className="small-hr" style={{margin: "0.5rem 0"}}/>
                         <strong>Website built by @matcha._.tea</strong>
                         <br/>
