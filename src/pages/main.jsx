@@ -54,6 +54,14 @@ export default function Main() {
 
 		{/*articles box*/}
 		<main className="article-box" id="articles">
+            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/metagaming-raiding-and-scientific">
+                <span>
+                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ]</a></mark>
+                    <h3 className="article-title">Metagaming, raiding, and scientific rigour – what does CivLabs do about it?</h3>
+                </span>
+                <p>Exclusive interviews with the IMS Publishing Department reveal what CivLabs players think of the civilisation server.</p>
+                <small><time datetime="2026-10-19T13:55:28.730Z" title="Oct 19 at 2:55 pm">19 October</time> · News</small>
+            </a>
             <a className="article-linkbox" href="/pubdep#news">
                 <span>
                     <mark className="pubdep-news-journal">[Journal]</mark>
@@ -76,7 +84,7 @@ export default function Main() {
                 </p>
                 <small><time dateTime="2026-10-02" title="2026-10-02">02 October</time></small>
             </a>
-            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">
+            <a className="article-linkbox" href="https://imsresearch.substack.com/p/the-arena-vs-the-idea">
 				<h3 className="article-title">The Arena vs. The Idea</h3>
 				<p>The Fundamental Toxicity of Overly Gamified Minecraft Communities - By Turtle2770</p>
 				<small><time dateTime="2026-08-16T16:48:33.883Z" title="2026-08-16T16:48:33.883Z">16 August</time> · Opinion</small>
