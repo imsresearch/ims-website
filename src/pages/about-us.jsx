@@ -41,7 +41,7 @@ export default function AboutUs() {
             </main>
 
             <section className="mission-section">
-                <h2>Read more from our mission statement:</h2>
+                <h2><a href="database\non-published\IMS-mission.pdf">Read more from our mission statement:</a></h2>
 
                 <div className="mission-viewer">
                     <iframe
