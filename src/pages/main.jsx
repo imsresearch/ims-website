@@ -54,7 +54,15 @@ export default function Main() {
 
 		{/*articles box*/}
 		<main className="article-box" id="articles">
-            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/metagaming-raiding-and-scientific">
+            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/running-a-coup-detat-a-look-at-the">
+                <span>
+                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ]</a></mark>
+                    <h3 className="article-title">Running a coup d'etat: a look at the means</h3>
+                </span>
+                <p>By Freeve4: What happens when you take control of a server? What possibilities arise?</p>
+                <small><time datetime="2026-10-20T13:40:19.408Z" title="Oct 20 at 2:40 pm">20 October</time> · Opinion</small>
+            </a>
+            <a className="article-linkbox" href="https://imsresearch.substack.com/p/metagaming-raiding-and-scientific">
                 <span>
                     <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ]</a></mark>
                     <h3 className="article-title">Metagaming, raiding, and scientific rigour – what does CivLabs do about it?</h3>
