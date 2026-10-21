@@ -16,7 +16,7 @@ export default function ArticlesIndex() {
     var [searchIMSC, setSearchIMSC] = useState(false);
     const [visibleCount, setVisibleCount] = useState(20);
 
-    const suggestions = ["raid farms", "server", "player", "behaviour", "people", "solution", "social"];
+    const suggestions = ["raid farms", "server", "player", "behaviour", "people", "solution", "social", "how", "why", "minecraft"];
 
     useEffect(() => {
         fetch("/assets/search_index.json")

@@ -35,7 +35,6 @@ const GlobalStyles = createGlobalStyle`
     * {
         font-family: "PT Serif Caption", serif;
         font-weight: 400;
-        font-style: normal;
     }
 `;
 

@@ -19,6 +19,7 @@ export default function TableOfArticles() {
 
             <main>
                 <h1>Table of all published articles</h1>
+                <h3><i>This table is no longer being updated. See the Zenodo database at <a href="https://zenodo.org/communities/ims-doi">https://zenodo.org/communities/ims-doi</a>.</i></h3>
                 <div className="table-of-articles-div">
                     <div className="table-of-articles-inner-div">
                         <table>

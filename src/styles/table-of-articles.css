@@ -3,6 +3,10 @@
     font-size: 3rem;
 }
 
+.table-of-articles-page h3{
+    text-align: center;
+}
+
 .table-of-articles-page table{
     text-align: left;
     border-collapse: collapse;
