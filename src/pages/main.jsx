@@ -54,7 +54,15 @@ export default function Main() {
 
 		{/*articles box*/}
 		<main className="article-box" id="articles">
-            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/running-a-coup-detat-a-look-at-the">
+            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/wild-or-mild-the-wilderness-bound">
+                <span>
+                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ]</a></mark>
+                    <h3 className="article-title">Wild or Mild? The Wilderness Bound Update</h3>
+                </span>
+                <p>By Llamangus: The brand new Wilderness Bound update has shaken the Minecraft community quite a bit. In what real, material ways has it done this?</p>
+                <small><time datetime="2026-10-21T13:49:07.107Z" title="Oct 21 at 2:49 pm">21 October</time> · Opinion</small>
+            </a>
+            <a className="article-linkbox" href="https://imsresearch.substack.com/p/running-a-coup-detat-a-look-at-the">
                 <span>
                     <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ]</a></mark>
                     <h3 className="article-title">Running a coup d'etat: a look at the means</h3>
