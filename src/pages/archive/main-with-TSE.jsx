@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import { Helmet } from "react-helmet";
 
-import TopHeader from "../components/TopHeader.jsx";
-import LowerHeader from "../components/LowerHeader.jsx";
-import Footer from "../components/Footer.jsx";
+import TopHeader from "../../components/TopHeader";
+import LowerHeader from "../../components/LowerHeader";
+import Footer from "../../components/Footer";
 
-import "../styles/index.css";
+import "../../styles/index.css";
 
-export default function Main() {
+export default function ARCHIVEMainWithTSE() {
   const [fullScreen, setFullScreen] = useState(false);
 
   return (

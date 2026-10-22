@@ -8,21 +8,31 @@ export default function Footer() {
                     <p className="footer__top-link">
                         <a href="#header">(Top)</a>
                     </p>
+
                     <a href="/#header" className="footer__logo-link">
                         <img src="/assets/pubdep_logo.png" alt="IMS Publishing Department logo" className="footer__logo" />
                     </a>
+
                     <p className="footer__copyright">
                         <strong>©</strong> 2026 Institute of Minecraft Studies
                     </p>
+
                     <p className="footer__credit">
-                        <a href="/database/non-published/IMS-Constitution.pdf" target="_blank">IMS Constitution</a>
-                        <hr className="small-hr" style={{margin: "0.5rem 0"}}/>
+                        <a href="/database/non-published/IMS-Constitution.pdf" target="_blank">
+                            IMS Constitution
+                        </a>
+                        <br />
+                        <a href="/archive">Archived pages</a>
+
+                        <hr className="small-hr" style={{ margin: "0.5rem 0" }} />
+
                         <strong>Website built by @matcha._.tea</strong>
-                        <br/>
+                        <br />
                         <strong>Credit to @harlowbot for the PubDep and IMS logos</strong>
-                        <br/>
+                        <br />
                         <strong>Thank you to all the various contributing authors for making this project possible</strong>
                     </p>
+
                     <div className="footer__socials">
                         <a href="https://imsresearch.substack.com" target="_blank" className="footer__icon">
                             <img src="/assets/substack_icon.png" alt="Substack logo" />

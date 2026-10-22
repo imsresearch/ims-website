@@ -32,7 +32,7 @@ export default function Events() {
                     </h2>
                     <hr className="small-hr"/>
                     <h3>
-                        <a href="/events/current/civ">CIV (Co-operation, the IMS, and Ventures)</a>
+                        <i>There are no current events.</i>
                     </h3>
                 </div>
                 <div id="past">
@@ -52,6 +52,8 @@ export default function Events() {
                     <hr className="small-hr"/>
                     <h3>
                         <a href="/events/past/systems-experiment">IMS: The Systems Experiment</a>
+                        <br/>
+                        <a href="/events/current/civ">CIV (Co-operation, the IMS, and Ventures)</a>
                     </h3>
                 </div>
                 <i>

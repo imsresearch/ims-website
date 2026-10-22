@@ -42,6 +42,11 @@ export default function PastEvent() {
                                     <a href="/events/past/systems-experiment">IMS: The Systems Experiment</a>
                                 </p>
                             </li>
+                            <li>
+                                <p>
+                                    <a href="/events/past/civ">CIV (Co-operation, the IMS, and Ventures)</a>
+                                </p>
+                            </li>
                         </ul>
                         <i>
                             <small>Last updated <time dateTime="2026-09-08" title="2026-09-08">08 September, 2026</time> - information is first released on the IMS Discord server.</small>

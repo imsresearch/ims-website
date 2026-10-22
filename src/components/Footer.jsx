@@ -1,4 +1,4 @@
-import "../styles/footer.css"
+import "../styles/footer.css";
 
 export default function Footer() {
     return (
@@ -9,15 +9,8 @@ export default function Footer() {
                         <a href="#header">(Top)</a>
                     </p>
 
-                    <a
-                        href="/#header"
-                        className="footer__logo-link"
-                    >
-                        <img
-                            src="/assets/main_logo.png"
-                            alt="IMS logo"
-                            className="footer__logo"
-                        />
+                    <a href="/#header" className="footer__logo-link">
+                        <img src="/assets/main_logo.png" alt="IMS logo" className="footer__logo" />
                     </a>
 
                     <p className="footer__copyright">
@@ -25,12 +18,18 @@ export default function Footer() {
                     </p>
 
                     <p className="footer__credit">
-                        <a href="/database/non-published/IMS-Constitution.pdf" target="_blank">IMS Constitution</a>
-                        <hr className="small-hr" style={{margin: "0.5rem 0"}}/>
+                        <a href="/database/non-published/IMS-Constitution.pdf" target="_blank">
+                            IMS Constitution
+                        </a>
+                        <br />
+                        <a href="/archive">Archived pages</a>
+
+                        <hr className="small-hr" style={{ margin: "0.5rem 0" }} />
+
                         <strong>Website built by @matcha._.tea</strong>
-                        <br/>
+                        <br />
                         <strong>Credit to @harlowbot for the PubDep and IMS logos</strong>
-                        <br/>
+                        <br />
                         <strong>Thank you to all the various contributing authors for making this project possible</strong>
                     </p>
 

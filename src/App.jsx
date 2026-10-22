@@ -23,9 +23,16 @@ import Events from "./pages/events/events.jsx";
 import CurrentEvent from "./pages/events/current.jsx";
 import PastEvent from "./pages/events/past.jsx";
 import FutureEvent from "./pages/events/future.jsx";
-import TSE from "./pages/events/systems-experiment.jsx";
-import CIV from "./pages/events/civ.jsx";
 
+// past events
+import TSE from "./pages/events/systems-experiment.jsx";
+import CIV from "./pages/events/civ-past.jsx";
+
+// archived pages
+import ArchivePages from "./pages/archive-pages.jsx";
+
+import ARCHIVEMainWithTSE from "./pages/archive/main-with-TSE.jsx";
+import ARCHIVECIV from "./pages/archive/civ.jsx";
 import ARCHIVETSE from "./pages/archive/systems-event.jsx";
 
 import NotFound from "./pages/404.jsx";
@@ -130,9 +137,12 @@ export default function App() {
                 <Route exact path="/events/past" component={PastEvent} />
 
                 <Route exact path="/events/past/systems-experiment" component={TSE} />
-                <Route exact path="/events/current/civ" component={CIV} />
+                <Route exact path="/events/past/civ" component={CIV} />
 
+                <Route exact path="/archive" component={ArchivePages} />
                 <Route exact path="/archive/tse" component={ARCHIVETSE} />
+                <Route exact path="/archive/civ" component={ARCHIVECIV} />
+                <Route exact path="/archive/tse-main" component={ARCHIVEMainWithTSE} />
 
                 <Route path="/:imsc" component={ImscRedirect} />
 
