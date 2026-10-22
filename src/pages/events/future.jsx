@@ -42,7 +42,7 @@ export default function FutureEvent() {
                             <br />
                         </i>
                         <i>
-                            <small>Last updated <time dateTime="2026-09-08" title="2026-09-08">08 September, 2026</time> - information is first released on the IMS Discord server.</small>
+                            <small>Last updated <time dateTime="2026-10-22" title="2026-10-22">22 October, 2026</time> - information is first released on the IMS Discord server.</small>
                         </i>
                     </h3>
                 </div>

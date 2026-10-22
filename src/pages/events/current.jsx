@@ -35,15 +35,12 @@ export default function CurrentEvent() {
                 <div className="past-events" id="past">
                     <hr className="big-hr" />
                     <h3>
-                        <ul>
-                            <li>
-                                <p>
-                                    <a href="/events/current/CIV">CIV (Co-operation, the IMS, and Ventures)</a>
-                                </p>
-                            </li>
-                        </ul>
                         <i>
-                            <small>Last updated <time dateTime="2026-09-08" title="2026-09-08">08 September, 2026</time> - information is first released on the IMS Discord server.</small>
+                            There are no current events.
+                            <br />
+                        </i>
+                        <i>
+                            <small>Last updated <time dateTime="2026-10-22" title="2026-10-22">22 October, 2026</time> - information is first released on the IMS Discord server.</small>
                         </i>
                     </h3>
                 </div>
