@@ -53,7 +53,7 @@ export default function Events() {
                     <h3>
                         <a href="/events/past/systems-experiment">IMS: The Systems Experiment</a>
                         <br/>
-                        <a href="/events/current/civ">CIV (Co-operation, the IMS, and Ventures)</a>
+                        <a href="/events/past/civ">CIV (Co-operation, the IMS, and Ventures)</a>
                     </h3>
                 </div>
                 <i>
