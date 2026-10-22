@@ -54,9 +54,17 @@ export default function Main() {
 
 		{/*articles box*/}
 		<main className="article-box" id="articles">
-            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/wild-or-mild-the-wilderness-bound">
+            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/ims-members-are-dissatisfied-with">
                 <span>
-                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ]</a></mark>
+                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ - Day 4]</a></mark>
+                    <h3 className="article-title">IMS members are dissatisfied with rule 3</h3>
+                </span>
+                <p>On October 8, 2026, IMS administrator Harlow (harlowbot) posted a poll in the IMS Discord server's announcements channel.</p>
+                <small><time datetime="2026-10-22T13:26:35.507Z" title="Oct 22 at 2:26 pm">22 October</time> · News</small>
+            </a>
+            <a className="article-linkbox" href="https://imsresearch.substack.com/p/wild-or-mild-the-wilderness-bound">
+                <span>
+                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ - Day 3]</a></mark>
                     <h3 className="article-title">Wild or Mild? The Wilderness Bound Update</h3>
                 </span>
                 <p>By Llamangus: The brand new Wilderness Bound update has shaken the Minecraft community quite a bit. In what real, material ways has it done this?</p>
@@ -64,7 +72,7 @@ export default function Main() {
             </a>
             <a className="article-linkbox" href="https://imsresearch.substack.com/p/running-a-coup-detat-a-look-at-the">
                 <span>
-                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ]</a></mark>
+                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ - Day 2]</a></mark>
                     <h3 className="article-title">Running a coup d'etat: a look at the means</h3>
                 </span>
                 <p>By Freeve4: What happens when you take control of a server? What possibilities arise?</p>
@@ -72,7 +80,7 @@ export default function Main() {
             </a>
             <a className="article-linkbox" href="https://imsresearch.substack.com/p/metagaming-raiding-and-scientific">
                 <span>
-                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ]</a></mark>
+                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ - Day 1]</a></mark>
                     <h3 className="article-title">Metagaming, raiding, and scientific rigour – what does CivLabs do about it?</h3>
                 </span>
                 <p>Exclusive interviews with the IMS Publishing Department reveal what CivLabs players think of the civilisation server.</p>
