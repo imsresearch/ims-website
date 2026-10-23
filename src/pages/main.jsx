@@ -54,7 +54,15 @@ export default function Main() {
 
 		{/*articles box*/}
 		<main className="article-box" id="articles">
-            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/ims-members-are-dissatisfied-with">
+            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/what-the-sift-tells-us-about-dimensions">
+                <span>
+                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ - Day 5]</a></mark>
+                    <h3 className="article-title">What The Sift tells us about Dimensions</h3>
+                </span>
+                <p>By Llamangus: No End update just yet - the emptiness will have to continue. However, The Sift might just tell us what Mojang is steering Minecraft as a game towards.</p>
+                <small><time datetime="2026-10-23T12:53:43.735Z" title="Oct 23 at 1:53 pm">23 October</time> · Opinion</small>
+            </a>
+            <a className="article-linkbox" href="https://imsresearch.substack.com/p/ims-members-are-dissatisfied-with">
                 <span>
                     <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ - Day 4]</a></mark>
                     <h3 className="article-title">IMS members are dissatisfied with rule 3</h3>
