@@ -54,7 +54,15 @@ export default function Main() {
 
 		{/*articles box*/}
 		<main className="article-box" id="articles">
-            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/what-the-sift-tells-us-about-dimensions">
+            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/the-institute-view-on-the-systems">
+                <span>
+                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ - Day 6]</a></mark>
+                    <h3 className="article-title">The Institute View on The Systems Experiment</h3>
+                </span>
+                <p>Editorial: What lessons can the IMS learn from its Summer event, TSE?</p>
+                <small><time datetime="2026-10-24T14:58:54.337Z" title="Oct 24 at 3:58 pm">24 October</time> · Opinion</small>
+            </a>
+            <a className="article-linkbox" href="https://imsresearch.substack.com/p/what-the-sift-tells-us-about-dimensions">
                 <span>
                     <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ - Day 5]</a></mark>
                     <h3 className="article-title">What The Sift tells us about Dimensions</h3>
