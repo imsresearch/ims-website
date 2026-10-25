@@ -15,6 +15,21 @@ export default function ArticlesIndex() {
     const [suggestion, setSuggestion] = useState("");
     var [searchIMSC, setSearchIMSC] = useState(false);
     const [visibleCount, setVisibleCount] = useState(20);
+    const [indexArticleInfoOpen, setindexArticleInfoOpen] = useState(false);
+
+    const [openIds, setOpenIds] = useState([]);
+
+    const toggleArticle = (id) => {
+        setOpenIds(prevOpenIds => {
+        if (prevOpenIds.includes(id)) {
+            // If already open, filter it out (close it)
+            return prevOpenIds.filter(itemid => itemid !== id);
+        } else {
+            // Otherwise, add it to the open list
+            return [...prevOpenIds, id];
+        }
+        });
+    };
 
     const suggestions = ["raid farms", "server", "player", "behaviour", "people", "solution", "social", "how", "why", "minecraft"];
 
@@ -24,7 +39,7 @@ export default function ArticlesIndex() {
             .then((data) => {
                 const miniSearch = new MiniSearch({
                     fields: ["imsc", "content"],
-                    storeFields: ["imsc", "file", "page", "content", "path"],
+                    storeFields: ["id", "file", "path", "page", "content", "imsc", "authorCode", "nPublished", "publicationUsed", "wordCount", "title"],
                     searchOptions: {
                         boost: searchIMSC ? { content: 1000, fuzzy: 0 } : { content: 5 },
                         prefix: !searchIMSC,
@@ -49,7 +64,7 @@ export default function ArticlesIndex() {
         }
 
         const found = searchIndex.search(query, {
-            boost: searchIMSC ? { content: 9999, fuzzy: 0 } : { content: 5 },
+            boost: searchIMSC ? { imsc: 9999, fuzzy: 0 } : { content: 5 },
             prefix: !searchIMSC,
         });
 
@@ -104,8 +119,6 @@ export default function ArticlesIndex() {
             params.set("IMSC", searchIMSC);
 
             window.history.replaceState({}, "", `?${params.toString()}`);
-
-            console.log("run this code!");
         }, 500);
 
         return () => clearTimeout(timeout);
@@ -206,24 +219,55 @@ export default function ArticlesIndex() {
             </div>
 
             <div className="results-div">
-                {displayedResults.map((item, index) => (
-                    <div className="result" key={index}>
-                        <p className="result-title">
-                            <a href={`/database/published/${item.path}#page=${item.page}`} target="_blank">
-                                {item.file.slice(0, -4)}, Page {item.page}
-                            </a>
-                        </p>
+                {displayedResults.map((item, index) => {
+                    const isOpen = openIds.includes(item.id);
 
-                        <div
-                            className="result-context"
-                            dangerouslySetInnerHTML={{
-                                __html: "..." + highlight(item.snippet, query) + "...",
-                            }}
-                        />
-                    </div>
-                ))}
+                    return(
+                        <div className="result" key={index}>
+                            <p className="result-title">
+                                <a href={`/database/published/${item.path}#page=${item.page}`} target="_blank">
+                                    {item.title}
+                                </a>
+                            </p>
+                            <div style={{display: "flex", flexDirection: "row"}}>
+                                <div style={{width: "20%"}}>
+                                    <div style={{margin: "5px 0", padding: "0 2rem"}}>
+                                        <div onClick={() => toggleArticle(item.id)}>
+                                            {isOpen
+                                            ?
+                                                <button>Hide article info</button>
+                                            :
+                                                <button>Show article info</button>
+                                            }
+                                        </div>
+                                        {isOpen && (
+                                            <>
+                                                <div style={{margin: "5px 0"}}>
+                                                    <p>IMSC: {item.imsc}</p>
+                                                    <hr className="small-hr"/>
+                                                    <p>Published through: {item.publicationUsed}</p>
+                                                    <p>Author code: {item.authorCode}</p>
+                                                    <p>Number article published by author: {item.nPublished}</p>
+                                                    <hr className="small-hr"/>
+                                                    <p>Word Count: {item.wordCount}</p>
+                                                </div>
+                                                <hr style={{border: "2px solid gray"}}/>
+                                            </>
+                                        )}
+                                    </div>
+                                </div>
+                                <div
+                                    style={{width: "80%", alignSelf: "center", padding: "0 2rem"}}
+                                    className="result-context"
+                                    dangerouslySetInnerHTML={{
+                                        __html: "..." + highlight(item.snippet, query) + "...",
+                                    }}
+                                />
+                            </div>
+                        </div>
+                    );
+                })}
             </div>
-
             <JournalFooter />
         </>
     );
