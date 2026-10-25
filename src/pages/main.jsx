@@ -54,7 +54,15 @@ export default function Main() {
 
 		{/*articles box*/}
 		<main className="article-box" id="articles">
-            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/the-institute-view-on-the-systems">
+            <a className="article-linkbox latest-article" href="https://imsresearch.substack.com/p/minecraft-dungeons-2-thoughts-and">
+                <span>
+                    <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ - Day 7 (final)]</a></mark>
+                    <h3 className="article-title">Minecraft Dungeons 2: thoughts and future possibilities</h3>
+                </span>
+                <p>By Turtle2770: What does MD2 bring to the Minecraft scene? What does it offer in its story?</p>
+                <small><time datetime="2026-10-25T16:11:07.010Z" title="Oct 25 at 4:11 pm">25 October</time> · Opinion</small>
+            </a>
+            <a className="article-linkbox" href="https://imsresearch.substack.com/p/the-institute-view-on-the-systems">
                 <span>
                     <mark className="pubdep-news-press"><a href="https://imsresearch.pages.dev/pubdep#news" className="pubdep-news-press">[WoJ - Day 6]</a></mark>
                     <h3 className="article-title">The Institute View on The Systems Experiment</h3>

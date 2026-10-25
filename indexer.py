@@ -14,8 +14,15 @@ for root, dirs, files in os.walk(PDF_PATHS):
         filepath = os.path.join(root, filename)
         relative_path = os.path.relpath(filepath, PDF_PATHS)
         relative_path = relative_path.replace("\\", "/")
-        
+    
         pdf = fitz.open(filepath)
+        
+        firstPageText = pdf[0].get_text()
+        imscIndex = firstPageText.find("IMSC: ")
+        
+        imsc = firstPageText[(imscIndex+6):(imscIndex+20)]
+        newLineIndex = imsc.find("\n")
+        imsc = imsc[0:newLineIndex]
         
         for page in range(len(pdf)):
             pageText = pdf[page].get_text()
@@ -25,7 +32,8 @@ for root, dirs, files in os.walk(PDF_PATHS):
                 "file": filename,
                 "path": relative_path,
                 "page": page + 1,
-                "content": pageText
+                "content": pageText,
+                "imsc": imsc
             })
             
             doc_id += 1 #++ doc id
