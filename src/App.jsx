@@ -43,6 +43,9 @@ const GlobalStyles = createGlobalStyle`
         font-family: "PT Serif Caption", serif;
         font-weight: 400;
     }
+    b {
+        font-weight: 600;
+    }
 `;
 
 function ScrollToHash() {
