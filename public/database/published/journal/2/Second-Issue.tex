@@ -1,0 +1,77 @@
+\documentclass[a4paper,11pt,oneside]{book} % the style guide says 12pt, but that would make Discord urls stick out of the margin :,(
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{xpatch}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{lipsum}
+\usepackage[perpage]{footmisc}
+\usepackage{natbib}
+\usepackage{pdfpages}
+\widowpenalty=99999
+\clubpenalty=99999
+% \hyphenpenalty=9999
+\hyphenation{Microsoft Mojang} % don't hyphenate these words
+\usepackage[a4paper]{geometry}
+% \usepackage{sectsty}
+% \chapterfont{\fontsize{16}{18}\selectfont}
+% \sectionfont{\fontsize{16}{18}\selectfont}
+% \subsectionfont{\fontsize{16}{18}\selectfont}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} % clear all headers
+\fancyfoot{} % clear all footers
+\fancyhead[LE,RO]{\thepage} % page number only
+\definecolor{colortheme}{HTML}{6d7b6d} % set color theme
+\renewcommand\headrule{
+\nointerlineskip
+\smash{\color{colortheme}\rule{\headwidth}{2pt}}%
+}
+
+\usepackage[hidelinks]{hyperref}
+
+\newcommand\link[2]{\textcolor{blue}{\href{#1}{#2}}} % use \link{URL}{TEXT} for url links
+\newcommand\doilink[1]{\link{https://doi.org/#1}{#1}} % use \doilink{DOI}
+\newcommand\horizontalrule{\rule{\textwidth}{1pt}} % use \horizontalrule{}
+\renewcommand{\thefootnote}{[\alph{footnote}]}
+\renewcommand{\bibsection}{\section{References}}
+\addto\captionsenglish{\renewcommand{\chaptername}{Article}}
+
+\title{Institute of Minecraft Studies Journal\\Volume 1 Issue 2}
+
+\begin{document}
+
+\frontmatter
+\includepdf{IMSJ A2 Cover}
+% \maketitle
+% \newgeometry{inner=4cm,outer=2.5cm}
+\tableofcontents
+
+\
+
+The Institute of Minecraft Studies Database for this journal issue can be accessed \link{https://github.com/imsresearch/ims-website/tree/main/public/database/published/journal/2}{here}.
+
+Published by the Institute of Minecraft Studies Publishing Department. Not an official Minecraft product; not approved by or associated with Mojang or Microsoft. Neither Mojang nor Microsoft are not responsible for the Journal.
+
+The views expressed in each article are those of the individual authors and do not necessarily reflect those of the editors, reviewers, or other staff members. Authors are responsible for accuracy, originality, permissions, consent, and proper citation. The Journal does not endorse or take responsibility or liability for any content, advertising, products, or other materials on linked sites, and does not take responsibility for the sites' availability.
+
+Usage of artificial intelligence and relevant conflicts of interest must be disclosed by authors, editors, and reviewers. Errata and corrections are issued in future issues of the Journal. Journal issues are published on the \link{https://imsresearch.pages.dev/pubdep}{Institute of Minecraft Studies website}. We are \link{https://imsresearch.pages.dev/publish-with-us}{open to article submissions} for future Journal issues.
+
+Copyright \copyright 2026 Authors; front cover by Turtle2770. This issue is published open access under \link{https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en}{CC BY-NC-SA 4.0}. Errors, questions, and feedback should be directed at the Journal coordinator.
+
+\paragraph{Editors:} Harlow, retrooper
+\paragraph{Journal coordinator:} \link{mailto:koviubi56@duck.com}{koviubi}
+\paragraph{Editor-in-chief:} matcha\_tea (before October 26), koviubi (after October 26)
+
+\mainmatter
+\include{note}
+\include{j(2)-ls-1/j(2)-ls-1}
+\include{j(2)-mia-1/j(2)-mia-1}
+\include{j(2)-ml-2/j(2)-ml-2}
+\include{j(2)-ma-8/j(2)-ma-8}
+
+\end{document}
