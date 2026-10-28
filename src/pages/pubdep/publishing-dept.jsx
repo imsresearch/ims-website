@@ -45,6 +45,21 @@ export default function PubDep() {
                 </div>
                 <div className="pubdep-news" id="news">
                     <div className="pubdep-news-item">
+                        <mark className="pubdep-news-journal">[Journal]</mark>
+                        <h2>Second issue <b>published</b>!</h2>
+                        <p>Volume 1, issue 2 of the IMS Journal has been published.
+                            <br/>
+                            This is the first issue of the IMSJ lead by a dedicated journal co-ordinator, koviubi.
+                            <br/>
+                            <br/>
+                            Read the journal <a href="/latest-issue">here.</a>
+                            <br/>
+                            All issues, including previous issues, can now be found on the <a href="/pubdep#issues">PubDep's home page</a>.
+                            <br/>
+                            <small><time dateTime="2026-10-28" title="2026-10-28">28 October</time></small>
+                        </p>
+                    </div>
+                    <div className="pubdep-news-item">
                         <mark className="pubdep-news-press">[Press]</mark>
                         <h2>IMS Week of Journalism: Reporting What Matters</h2>
                         <p>The IMS Week of Journalism (WoJ) will be one week, from Monday to Sunday, where a news story, opinion article, interview, or other works relevant to the Sub-Department are published in a row.
@@ -74,6 +89,38 @@ export default function PubDep() {
                         </p>
                     </div>
                 </div>
+                <div className="previous-issues" id="issues">
+                    <h2>Previous issues</h2>
+
+                    <hr className="small-hr" />
+
+                    <h2>Latest issue</h2>
+                    <span className="latest-issue-box" id="latest-issue">
+                        <h3>Volume 1, issue 2</h3>
+                        <a href="https://raw.githubusercontent.com/imsresearch/ims-website/main/public/database/published/journal/2/Second-Issue.pdf"><img src="/database/published/journal/2/second_issue_cover.png" alt="Cover of the second issue."/></a>
+                    </span>
+
+                    <hr className="small-hr" />
+
+                    <h2 style={{marginBottom: "0"}}>Volume 1</h2>
+                    <div className="issues-box">
+                        <span id="v1i1">
+                            <h3>Volume 1, issue 1</h3>
+                            <a href="https://raw.githubusercontent.com/imsresearch/ims-website/main/public/database/published/journal/1/First-Issue.pdf"><img src="/database/published/journal/1/first_issue_cover.png" alt="Cover of the first issue."/></a>
+                            <p><a href="https://raw.githubusercontent.com/imsresearch/ims-website/main/public/database/published/journal/1/First-Issue.pdf">Read here</a></p>
+                            <p>No print version for this issue.</p>
+                        </span>
+                        <span id="v1i2">
+                            <h3>Volume 1, issue 2</h3>
+                            <a href="https://raw.githubusercontent.com/imsresearch/ims-website/main/public/database/published/journal/2/Second-Issue.pdf"><img src="/database/published/journal/2/second_issue_cover.png" alt="Cover of the second issue."/></a>
+                            <p><a href="https://raw.githubusercontent.com/imsresearch/ims-website/main/public/database/published/journal/2/Second-Issue.pdf">Read here</a></p>
+                            <p><a href="https://raw.githubusercontent.com/imsresearch/ims-website/main/public/database/published/journal/2/Second-Issue-printable.pdf">Print version</a></p>
+                        </span>
+                    </div>
+                </div>
+
+                <hr className="big-hr" />
+
                 <div className="pages-box" id="pages">
                     <h2>Pages</h2>
                     <hr className="small-hr" />

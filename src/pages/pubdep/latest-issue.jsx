@@ -17,18 +17,17 @@ export default function LatestIssue() {
             </Helmet>
 
             <TopHeader />
-            <LowerHeader />
 
             {/* journal viewer
             https://git-rawify.vercel.app/ for raw link*/}
             <main className="journal-section">
                 <div className="journal-viewer">
-                    <iframe alt="Latest issue of the IMS Journal" src="/database/published/journal/1/First-Issue.pdf" />
+                    <iframe alt="Latest issue of the IMS Journal" src="/database/published/journal/2/Second-Issue.pdf" />
                 </div>
 
                 <div className="journal-download">
                     <a
-                        href="https://raw.githubusercontent.com/imsresearch/ims-website/main/public/database/published/journal/1/First-Issue.pdf"
+                        href="https://raw.githubusercontent.com/imsresearch/ims-website/main/public/database/published/journal/2/Second-Issue.pdf"
                         target="_blank"
                         rel="noreferrer"
                     >

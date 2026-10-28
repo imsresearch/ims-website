@@ -69,6 +69,21 @@
     margin: 2rem 0
 }
 
+.issues-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.issues-box img{
+    width: 60%;
+    border: 1px solid black;
+}
+
+.latest-issue-box img{
+    width: 20vw;
+    border: 2px solid #4f2721;
+}
+
 .small-hr {
     border: 1px solid gray;
 }

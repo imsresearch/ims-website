@@ -61,7 +61,7 @@ for root, dirs, files in os.walk(PDF_PATHS):
         #find authorCode
         firstDashIndex = imsc.find("-")
         secondDashIndex = imsc.find("-", firstDashIndex+1, len(imsc))
-        authorCode = imsc[firstDashIndex+1:secondDashIndex]
+        authorCode = imsc[firstDashIndex+1:secondDashIndex].upper()
         
         #n publication
         nPublished = imsc[len(imsc)-1:]
