@@ -185,6 +185,7 @@ export default function ArticlesIndex() {
                 </h1>
 
                 <p>This is an index of all articles published by the IMS Publishing Department.</p>
+                <p><small><i>Note: Article titles may be cut off or incorrect. We are fixing this issue.</i></small></p>
             </div>
 
             <div className="search-box">
@@ -240,6 +241,7 @@ export default function ArticlesIndex() {
                                                 <button>Show article info</button>
                                             }
                                         </div>
+                                        
                                         {isOpen && (
                                             <>
                                                 <div style={{margin: "5px 0"}}>
@@ -251,11 +253,11 @@ export default function ArticlesIndex() {
                                                     <hr className="small-hr"/>
                                                     <p>Word Count: {item.wordCount}</p>
                                                 </div>
-                                                <hr style={{border: "2px solid gray"}}/>
                                             </>
                                         )}
                                     </div>
                                 </div>
+                                <hr style={{border: "2px solid gray"}}/>
                                 <div
                                     style={{width: "80%", alignSelf: "center", padding: "0 2rem"}}
                                     className="result-context"
