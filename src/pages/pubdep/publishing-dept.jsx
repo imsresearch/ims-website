@@ -177,12 +177,12 @@ export default function PubDep() {
                     <h2>Contact us</h2>
                     <hr className="small-hr" />
                     <h3>Editor-in-chief:</h3>
-                    <p>matcha._.tea • 687195193854001179</p>
+                    <p>koviubi1 • 510548663496474660</p>
                     <h3>Journal Co-ordinator:</h3>
                     <p>koviubi1 • 510548663496474660</p>
                     <h3>Press Co-ordinator:</h3>
                     <p>matcha._.tea • 687195193854001179</p>
-                    <small>Usernames via Discord. Up to date as of August 2026</small>
+                    <small>Usernames via Discord. Up to date as of 28 October 2026</small>
 
                     <h3>Publishing Department Discord:</h3>
                     <p>
