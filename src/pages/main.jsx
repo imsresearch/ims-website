@@ -22,7 +22,40 @@ export default function Main() {
 		<LowerHeader/>
 
 		{/*latest content box*/}
-		<section className="latest-box">
+		<section className="latest-box" style={{background: "#deded5"}}>
+            <div style={{columns: "2"}}>
+                <div>
+                    <a href="/pubdep/latest-issue">
+                        <img style={{width: "100%"}} src="/database/published/journal/2/second_issue_cover.png" alt="Cover of the second issue."/>
+                    </a>
+                </div>
+                <div style={{textAlign: "left", padding: "1rem"}}>
+                    <h2 style={{textAlign: "center", color: "#549852", fontSize: "4rem"}}>Read the latest IMSJ issue!</h2>
+                    <ul style={{fontSize: "1.5rem"}}>
+                        <li>
+                            Article 1:
+                            <br/>
+                            <a href="/j(2)-ls-1">The Ordonian Calculus and the IMS</a>
+                        </li>
+                        <li>
+                            Article 2:
+                            <br/>
+                            <a href="/j(2)-mia-1">Society and Governance Parallels in Minecraft</a>
+                        </li>
+                        <li>
+                            Article 3:
+                            <br/>
+                            <a href="/j(2)-ml-2">Political Philosophy Is Useless for the Study of Servers</a>
+                        </li>
+                        <li>
+                            Article 4:
+                            <br/>
+                            <a href="/j(2)-ma-8">The removal of agency by server owners and reclaiming player power</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
 		</section>
 
 		{/*video embed*/}
