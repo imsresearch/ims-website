@@ -22,7 +22,16 @@ export default function LatestIssue() {
             https://git-rawify.vercel.app/ for raw link*/}
             <main className="journal-section">
                 <div className="journal-viewer">
-                    <iframe alt="Latest issue of the IMS Journal" src="/database/published/journal/2/Second-Issue.pdf" />
+                    <object
+                        alt="Latest issue of the IMS Journal"
+                        title="Latest issue of the IMS Journal"
+                        data="/database/published/journal/2/Second-Issue.pdf"
+                        type="application/pdf"
+                    >
+                        <p style={{margin: "5vw"}}>
+                            Your browser does not support PDFs. Read it using the link below.
+                        </p>
+                    </object>
                 </div>
 
                 <div className="journal-download">

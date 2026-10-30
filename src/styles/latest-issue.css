@@ -10,7 +10,7 @@
     border-bottom: 0.2rem solid #000;
 }
 
-.journal-viewer iframe {
+.journal-viewer object {
     width: 100%;
     height: 100vh;
     border: none;
@@ -18,7 +18,7 @@
 
 .journal-download {
     text-align: center;
-    margin: 0.5rem 0;
+    margin: 0.5rem 5vw;
 }
 
 .journal-download a {
@@ -31,5 +31,9 @@
 @media (max-width: 850px){
     .journal-download a {
         font-size: 1.2rem;
+    }
+
+    .journal-viewer object {
+        height: auto;
     }
 }
