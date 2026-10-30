@@ -23,15 +23,15 @@ export default function Main() {
 
 		{/*latest content box*/}
 		<section className="latest-box" style={{background: "#deded5"}}>
-            <div style={{columns: "2"}}>
+            <div style={{display: "grid", gridTemplateColumns: "1fr 1fr"}}>
                 <div>
                     <a href="/pubdep/latest-issue">
                         <img style={{width: "100%"}} src="/database/published/journal/2/second_issue_cover.png" alt="Cover of the second issue."/>
                     </a>
                 </div>
-                <div style={{textAlign: "left", padding: "1rem"}}>
-                    <h2 style={{textAlign: "center", color: "#549852", fontSize: "4rem"}}>Read the latest IMSJ issue!</h2>
-                    <ul style={{fontSize: "1.5rem"}}>
+                <div style={{textAlign: "left", padding: "1rem"}} className="latest-journal-info">
+                    <h2 style={{textAlign: "center", color: "#549852"}}>Read the latest IMSJ issue!</h2>
+                    <ul>
                         <li>
                             Article 1:
                             <br/>

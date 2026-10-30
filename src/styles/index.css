@@ -59,6 +59,15 @@ body{
     color: black;
 }
 
+/*latest*/
+.latest-box ul{
+    font-size: 1.5rem;
+}
+
+.latest-article h2{
+    font-size: 4rem;
+}
+
 /*video embed*/
 .video-section{
     background: #202264;
@@ -168,6 +177,19 @@ small{
 }
 
 @media (max-width: 850px){
+    .latest-box ul{
+        display: none;
+    }
+
+    .latest-journal-info{
+        display: flex;
+        align-items: center;
+    }
+
+    .latest-box h2{
+        font-size: 2rem;
+    }
+
     .article-box{
         grid-template-columns: 1fr 1fr;
         padding: 0;
