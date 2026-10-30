@@ -6,65 +6,43 @@ OUT_PATH = "public/assets/search_index.json"
 docs = []
 doc_id = 0
 
+def get_imsc(metadata):
+    kwrds = metadata["keywords"]
+    imscIndex = kwrds.find("IMSC: ") + len("IMSC: ")
+    return kwrds[imscIndex:]
+
+def get_title(file):
+    return metadata["title"]
+
 for root, dirs, files in os.walk(PDF_PATHS):
     for filename in files:
-        if (filename.lower().endswith(".pdf")) and (filename.lower().startswith("j") or filename.lower().startswith("s")):
+        if (filename.lower().endswith(".pdf")) and (filename.lower().startswith("j(") or filename.lower().startswith("s-")):
             pass # DO this file
         else:
             continue
         
+        # open file and get clean path
         filepath = os.path.join(root, filename)
         relative_path = os.path.relpath(filepath, PDF_PATHS)
         relative_path = relative_path.replace("\\", "/")
     
         pdf = fitz.open(filepath)
         
-        #find imsc
-        firstPageText = pdf[0].get_text()
-        imscIndex = firstPageText.find("IMSC: ")
+        metadata = pdf.metadata
         
-        imsc = firstPageText[(imscIndex+6):(imscIndex+20)]
-        newLineIndex = imsc.find("\n")
-        imsc = imsc[0:newLineIndex]
-        imsc = imsc.replace(" ", "")
+        #get imsc
+        imsc = get_imsc(metadata)
+        if not imsc:
+            raise Exception(f"File at location = {filepath}\nwith name = {filename}\nhas no imsc.")
         
-        if "-" not in imsc:
-            imsc = ""
-            
         #find title
-        header_text = firstPageText[:imscIndex] if imscIndex != -1 else firstPageText
-        
-        # Split into lines and filter out empty lines
-        lines = [line.strip() for line in header_text.split("\n") if line.strip()]
-        
-        valid_title_lines = []
-        for line in lines:
-            line_lower = line.lower()
-            
-            # Skip lines that look like a byline, publisher header, or author metadata
-            if line_lower.startswith("by") or "by:" in line_lower or line_lower.startswith("ims "):
-                continue
-                
-            # Skip if the line is just a person's name right after a "by" line (optional safety check)
-            if len(line) > 3: 
-                valid_title_lines.append(line)
-        
-        # Take the top valid lines as the title (usually the first 1 or 2 lines)
-        raw_title = " ".join(valid_title_lines[:2]) if valid_title_lines else (lines[0] if lines else filename)
-        
-        # Clean title using your custom punctuation rules
-        custom_punct = string.punctuation.replace("[", "").replace("]", "")
-        punct = re.escape(custom_punct)
-        pattern = f"[^a-zA-Z0-9{punct} ]"
-        title = re.sub(pattern, "", raw_title).strip()
+        title = get_title(metadata)
         
         #find authorCode
-        firstDashIndex = imsc.find("-")
-        secondDashIndex = imsc.find("-", firstDashIndex+1, len(imsc))
-        authorCode = imsc[firstDashIndex+1:secondDashIndex].upper()
+        authorCode = imsc[imsc.find("-")+1:imsc.find("-", imsc.find("-")+1)]
         
         #n publication
-        nPublished = imsc[len(imsc)-1:]
+        nPublished = imsc[-1]
         
         #publication used
         publicationUsed = ""
@@ -96,12 +74,12 @@ for root, dirs, files in os.walk(PDF_PATHS):
                 "page": page + 1,
                 "content": pageText,
                 
+                "title": title,
                 "imsc": imsc,
                 "authorCode": authorCode,
                 "nPublished": nPublished,
                 "publicationUsed": publicationUsed,
                 "wordCount": str(wordCount),
-                "title": title,
             })
             
             doc_id += 1 #++ doc id

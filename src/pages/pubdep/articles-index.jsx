@@ -13,11 +13,12 @@ export default function ArticlesIndex() {
     const [results, setResults] = useState([]);
     var [query, setQuery] = useState("");
     const [suggestion, setSuggestion] = useState("");
-    var [searchIMSC, setSearchIMSC] = useState(false);
+    
     const [visibleCount, setVisibleCount] = useState(20);
-    const [indexArticleInfoOpen, setindexArticleInfoOpen] = useState(false);
-
     const [openIds, setOpenIds] = useState([]);
+
+    var [searchIMSC, setSearchIMSC] = useState(false);
+    var [searchAuthor, setSearchAuthor] = useState(false);
 
     const toggleArticle = (id) => {
         setOpenIds(prevOpenIds => {
@@ -38,12 +39,9 @@ export default function ArticlesIndex() {
             .then((res) => res.json())
             .then((data) => {
                 const miniSearch = new MiniSearch({
-                    fields: ["imsc", "content"],
+                    fields: ["imsc", "content", "authorCode"],
                     storeFields: ["id", "file", "path", "page", "content", "imsc", "authorCode", "nPublished", "publicationUsed", "wordCount", "title"],
-                    searchOptions: {
-                        boost: searchIMSC ? { content: 1000, fuzzy: 0 } : { content: 5 },
-                        prefix: !searchIMSC,
-                    },
+                    searchOptions: {},
                 });
 
                 miniSearch.addAll(data);
@@ -63,10 +61,33 @@ export default function ArticlesIndex() {
             return;
         }
 
-        const found = searchIndex.search(query, {
-            boost: searchIMSC ? { imsc: 9999, fuzzy: 0 } : { content: 5 },
-            prefix: !searchIMSC,
-        });
+        let searchOptions = {}
+        if (searchIMSC) {
+            searchOptions = {
+                fields: ["imsc"],
+                boost: {imsc: 1000},
+                fuzzy: 0,
+                prefix: false
+            }
+        }
+        else if (searchAuthor) {
+            searchOptions = {
+                fields: ["authorCode"],
+                boost: {authorCode: 1000},
+                fuzzy: 0,
+                prefix: false
+            }
+        }
+        else {
+            searchOptions = {
+                fields: ["content"],
+                boost: {content: 50},
+                prefix: true,
+                fuzzy: 5
+            }
+        }
+
+        const found = searchIndex.search(query, searchOptions);
 
         const exact = found.filter((x) => x.imsc?.toLowerCase() === query.toLowerCase());
 
@@ -75,12 +96,17 @@ export default function ArticlesIndex() {
         setResults(
             [...exact, ...others].map((item) => ({
                 ...item,
-                snippet: makeSnippet(item.content, query),
+                snippet
+                    : searchAuthor
+                    ? `Author Code Match: ${item.authorCode}<br/>Number article published by author: ${item.nPublished}`
+                    : searchIMSC
+                    ? `IMSC Match: ${item.imsc}`
+                    : makeSnippet(item.content, query),
             }))
         );
 
         setVisibleCount(20);
-    }, [query, searchIndex, searchIMSC]);
+    }, [query, searchIndex, searchIMSC, searchAuthor]);
 
     useEffect(() => {
         function handleScroll() {
@@ -101,9 +127,11 @@ export default function ArticlesIndex() {
 
         const search = params.get("search") || "";
         const withIMSC = params.get("IMSC") === "true";
+        const withAuthor = params.get("author") === "true";
 
         setQuery(search);
         setSearchIMSC(withIMSC);
+        setSearchAuthor(withAuthor);
     }, []);
 
     useEffect(() => {
@@ -117,12 +145,21 @@ export default function ArticlesIndex() {
             }
 
             params.set("IMSC", searchIMSC);
+            params.set("author", searchAuthor);
 
             window.history.replaceState({}, "", `?${params.toString()}`);
         }, 500);
 
         return () => clearTimeout(timeout);
-    }, [query, searchIMSC]);
+    }, [query, searchIMSC, searchAuthor]);
+
+    function copySearch() {
+        const urlToCopy = window.location.href;
+        navigator.clipboard.writeText(urlToCopy)
+            .then(() => {
+                alert("Copied search link to clipboard: " + urlToCopy);
+            })
+    }
 
     function makeSnippet(text, query, distance = 15) {
         const words = text.split(" ");
@@ -148,11 +185,14 @@ export default function ArticlesIndex() {
             }
         }
 
-        if (positions.length === 0) return text.slice(0, 200);
+        if (positions.length === 0){
+            return "..." + text.slice(0, 200) + "...";
+        }
 
         const centre = positions[Math.floor(positions.length / 2)];
 
-        return words.slice(Math.max(0, centre - distance), Math.min(words.length, centre + distance + 1)).join(" ");
+        const snippet = words.slice(Math.max(0, centre - distance), Math.min(words.length, centre + distance + 1)).join(" ");
+        return "..." + snippet + "..."
     }
 
     function highlight(text, query) {
@@ -185,7 +225,7 @@ export default function ArticlesIndex() {
                 </h1>
 
                 <p>This is an index of all articles published by the IMS Publishing Department.</p>
-                <p><small><i>Note: Article titles may be cut off or incorrect. We are fixing this issue.</i></small></p>
+                <p><small><i>Article metadata has been fully corrected. All information is up to date and correct.</i></small></p>
             </div>
 
             <div className="search-box">
@@ -197,22 +237,42 @@ export default function ArticlesIndex() {
                 />
 
                 <div className="underButtons">
-                    <button className={searchIMSC ? "searchIMSCButton pressedIMSC" : "searchIMSCButton unpressedIMSC"} onClick={() => setSearchIMSC(!searchIMSC)}>
+                    <button
+                        className={searchIMSC ? "search-filter-button pressed-filter" : "search-filter-button unpressed-filter"} onClick={() => {
+                        setSearchIMSC(!searchIMSC);
+                        if (!searchIMSC) setSearchAuthor(false);}}
+                    >
                         Search for IMSC
                     </button>
+                    <button
+                        className={searchAuthor ? "search-filter-button pressed-filter" : "search-filter-button unpressed-filter"}
+                        onClick={() => {
+                        setSearchAuthor(!searchAuthor);
+                        if (!searchAuthor) setSearchIMSC(false);}}
+                    >
+                        Search by IMSC author code
+                    </button>
+                </div>
 
-                    <a href="https://github.com/imsresearch/imsresearch.github.io/tree/main/public/database/published" target="_blank">
-                        <button className="accessButton">View all indexed articles</button>
-                    </a>
+                <form style={{display: "flex", justifyContent: "center", paddingTop: "0.5rem"}} action="https://github.com/imsresearch/imsresearch.github.io/tree/main/public/database/published" target="_blank">
+                    <input className="accessButton" type="submit" value="View all indexed articles" title="View all indexed articles (opens in new tab)"/>
+                </form>
+
+                <div style={{display: "flex", justifyContent: "center", paddingTop: "0.5rem"}}>
+                    <button onClick={() => copySearch()} className="shareButton">
+                        Share this search
+                    </button>
                 </div>
 
                 <div className="number-results">
-                    {!query && !searchIMSC ? (
+                    {!query && !searchIMSC && !searchAuthor ? (
                         <>
                             Why not try searching for <i>{suggestion}</i>
                         </>
                     ) : searchIMSC && !query ? (
                         <>Searching for IMSCs...</>
+                    ) : searchAuthor && !query ? (
+                        <>Searching by author code...</>
                     ) : (
                         `${results.length} results for ${query}`
                     )}
@@ -262,7 +322,9 @@ export default function ArticlesIndex() {
                                     style={{width: "80%", alignSelf: "center", padding: "0 2rem"}}
                                     className="result-context"
                                     dangerouslySetInnerHTML={{
-                                        __html: "..." + highlight(item.snippet, query) + "...",
+                                        __html: (!searchAuthor && !searchIMSC)
+                                                ? highlight(item.snippet, query)
+                                                : item.snippet
                                     }}
                                 />
                             </div>

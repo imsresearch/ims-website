@@ -45,26 +45,29 @@
     padding-top: 0.5rem;
 }
 
-.searchIMSCButton {
+.search-filter-button {
     width: auto;
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
 }
 
-.pressedIMSC {
+.pressed-filter {
     color: #fff;
     background-color: green;
 }
 
-.unpressedIMSC {
+.unpressed-filter {
     color: #000;
     background-color: auto;
 }
 
-.accessButton {
-    width: auto;
+.accessButton, .shareButton {
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
+}
+
+.accessButton:hover{
+    cursor: pointer;
 }
 
 .number-results {
