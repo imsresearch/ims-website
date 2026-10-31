@@ -64,7 +64,7 @@ body{
     font-size: 1.5rem;
 }
 
-.latest-article h2{
+.latest-box h2{
     font-size: 4rem;
 }
 
@@ -195,12 +195,7 @@ small{
         padding: 0;
     }
 
-    .latest-article{
-        padding: 5vw 2vw;
-        width: 50vw;
-    }
-
-    .article-box .article-linkbox{
+    .article-box .article-linkbox, .latest-article{
         padding: 5vw 2vw;
         width: 50vw;
     }
