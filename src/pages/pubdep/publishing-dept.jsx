@@ -224,6 +224,9 @@ export default function PubDep() {
 
                     <h3>Transparency reports</h3>
                     <p>
+                        <a href="/database/non-published/pubdep/transparency-reports/transparency-report-october26.pdf">October 2026</a>
+                    </p>
+                    <p>
                         <a href="/database/non-published/pubdep/transparency-reports/transparency-report-september26.pdf">September 2026</a>
                     </p>
                     <p>
