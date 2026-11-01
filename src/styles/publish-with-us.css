@@ -27,7 +27,7 @@
 
 .publish-content {
   width: 80%;
-  text-align: justify;
+  text-align: left;
   text-justify: auto;
   font-size: 1.2rem;
 }
@@ -44,7 +44,7 @@
 }
 
 .publish-content ol {
-  text-align: justify;
+  text-align: left;
   text-justify: auto;
   list-style-type: decimal;
 }

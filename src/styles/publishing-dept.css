@@ -28,7 +28,7 @@
     border: 2px solid black;
     padding: 2vw;
 
-    text-align: justify;
+    text-align: left;
 }
 
 .pubdep-news-item p{
@@ -106,7 +106,7 @@
     }
 
     .pubdep-introduction{
-        text-align: justify;
+        text-align: left;
         width: 100%
     }
 
