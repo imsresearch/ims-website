@@ -111,7 +111,7 @@ export default function LowerHeader() {
             <div className="rolling">
                 <div className="rolling-container">
                     <div className="rolling-content">
-                        {/* prettier-ignore */}
+                        <></>
                         <span>
                             ||&nbsp;<mark><a href="/events/past/civ">CIV event</a></mark> closed • <mark><a href="https://substack.com/@instituteofminecraftstudies/note/c-365352736">BREAKING:</a></mark> Era of Civilisation owner hacked; Discord wiped • <mark><a href="/latest-issue">Second issue</a></mark> of the IMS Journal published! • <mark><a href="/pubdep#news">IMS WoJ</a> concluded</mark>&nbsp;||&nbsp;<mark><a href="/events/past/civ">CIV event</a></mark> closed • <mark><a href="https://substack.com/@instituteofminecraftstudies/note/c-365352736">BREAKING:</a></mark> Era of Civilisation owner hacked; Discord wiped • <mark><a href="/latest-issue">Second issue</a></mark> of the IMS Journal published! • <mark><a href="/pubdep#news">IMS WoJ</a> concluded</mark>&nbsp;
                         </span>
